@@ -1,0 +1,3 @@
+The following is a diff from the previous accessibility tree for Window: "Wokwi Simulator — SunAlign" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~											497 text 00:15.867 100%
+The focused UI element is 431 HTML content Wokwi Embedded, URL: vscode-webview://0u1gqceu4jirvfv3l8361qp4hn7on2u9pqd19t2t1rb1e2fe8fas/index.html?id=1b0c9732-9837-4fbe-9bf2-2ffb603d30c6&parentId=2&origin=2685b5ee-a5ce-45bd-816f-c9b93b3a33d0&swVersion=6&extensionId=Wokwi.wokwi-vscode&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&mountId=45611557-80ff-44e1-aac1-e43050c60a25

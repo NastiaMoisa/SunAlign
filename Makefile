@@ -1,4 +1,4 @@
-IMAGE ?= stm32c0-wokwi-build:local
+IMAGE ?= sunalign-build:local
 
 .PHONY: image build clean
 
@@ -12,3 +12,6 @@ build: image
 
 clean:
 	$(MAKE) -C firmware clean
+
+flash monitor:
+	@echo 'VS Code: F1 -> Wokwi: Start Simulator (UART Monitor opens with the simulation)'

@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-16T11:55:25.487758+00:00",
+  "files": {
+    "elf": {
+      "bytes": 365888,
+      "build1": "c2bb29afbf6477b4017570d1846fde4e55140075e3d6ceec1fbbe62361fb521e",
+      "build2": "c2bb29afbf6477b4017570d1846fde4e55140075e3d6ceec1fbbe62361fb521e",
+      "equal": true
+    },
+    "hex": {
+      "bytes": 37448,
+      "build1": "b357c382f0a5fb474b47a03be0b5973df52a9b5a6f35954984b060c46d8f78f7",
+      "build2": "b357c382f0a5fb474b47a03be0b5973df52a9b5a6f35954984b060c46d8f78f7",
+      "equal": true
+    },
+    "bin": {
+      "bytes": 13284,
+      "build1": "4c6a29556ee4930e1754b21de2c43458c58346f49853934d1a546745729ac87f",
+      "build2": "4c6a29556ee4930e1754b21de2c43458c58346f49853934d1a546745729ac87f",
+      "equal": true
+    }
+  }
+}

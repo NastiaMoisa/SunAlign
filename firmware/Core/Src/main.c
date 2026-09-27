@@ -107,7 +107,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  printf("STM32C031C6 ready\r\n");
+  printf("SunAlign lab1 ready; STM32C031C6; UART=115200 8N1\r\n");
 
   /* USER CODE END 2 */
 
@@ -119,7 +119,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     HAL_GPIO_TogglePin(Led_GPIO_Port, Led_Pin);
-    printf("tick %lu\r\n", (unsigned long)(HAL_GetTick() / 1000U));
+    printf("SunAlign tick=%lu led=%u\r\n", (unsigned long)(HAL_GetTick() / 1000U),
+           HAL_GPIO_ReadPin(Led_GPIO_Port, Led_Pin) == GPIO_PIN_SET);
     HAL_Delay(1000);
   }
   /* USER CODE END 3 */

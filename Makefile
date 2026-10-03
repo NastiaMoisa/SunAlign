@@ -15,3 +15,8 @@ clean:
 
 flash monitor:
 	@echo 'VS Code: F1 -> Wokwi: Start Simulator (UART Monitor opens with the simulation)'
+
+test coverage: image
+	python3 tools/check_architecture.py
+	docker run --rm -v "$(CURDIR):/workspace" -w /workspace \
+		--user "$(shell id -u):$(shell id -g)" $(IMAGE) make -C tests $@

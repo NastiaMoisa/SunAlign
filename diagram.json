@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "template",
+  "author": "NastiaMoisa",
   "editor": "wokwi",
   "parts": [
     {
@@ -9,11 +9,227 @@
       "top": 0,
       "left": 0,
       "attrs": {}
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "imu",
+      "top": 20,
+      "left": 400,
+      "attrs": {
+        "accelZ": "1"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "left",
+      "top": 200,
+      "left": 400,
+      "attrs": {
+        "lux": "400"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "right",
+      "top": 300,
+      "left": 400,
+      "attrs": {
+        "lux": "400"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "zero",
+      "top": 420,
+      "left": 400,
+      "attrs": {
+        "color": "blue",
+        "label": "ZERO"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "pullScl",
+      "top": -60,
+      "left": 300,
+      "attrs": {
+        "value": "4700"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "pullSda",
+      "top": -20,
+      "left": 300,
+      "attrs": {
+        "value": "4700"
+      }
+    },
+    {
+      "type": "wokwi-logic-analyzer",
+      "id": "logic",
+      "top": 530,
+      "left": 370,
+      "attrs": {}
     }
   ],
   "connections": [
-    ["$serialMonitor:TX", "nucleo:PA3", "", []],
-    ["$serialMonitor:RX", "nucleo:PA2", "", []]
+    [
+      "$serialMonitor:TX",
+      "nucleo:PA3",
+      "",
+      []
+    ],
+    [
+      "$serialMonitor:RX",
+      "nucleo:PA2",
+      "",
+      []
+    ],
+    [
+      "nucleo:PB8",
+      "imu:SCL",
+      "green",
+      []
+    ],
+    [
+      "nucleo:PB9",
+      "imu:SDA",
+      "blue",
+      []
+    ],
+    [
+      "nucleo:3V3",
+      "imu:VCC",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "imu:GND",
+      "black",
+      []
+    ],
+    [
+      "imu:AD0",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "nucleo:PB8",
+      "pullScl:1",
+      "green",
+      []
+    ],
+    [
+      "pullScl:2",
+      "nucleo:3V3",
+      "red",
+      []
+    ],
+    [
+      "nucleo:PB9",
+      "pullSda:1",
+      "blue",
+      []
+    ],
+    [
+      "pullSda:2",
+      "nucleo:3V3",
+      "red",
+      []
+    ],
+    [
+      "nucleo:3V3",
+      "left:VCC",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "left:GND",
+      "black",
+      []
+    ],
+    [
+      "left:AO",
+      "nucleo:PA0",
+      "orange",
+      []
+    ],
+    [
+      "nucleo:3V3",
+      "right:VCC",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "right:GND",
+      "black",
+      []
+    ],
+    [
+      "right:AO",
+      "nucleo:PA1",
+      "orange",
+      []
+    ],
+    [
+      "zero:1.l",
+      "nucleo:PB0",
+      "purple",
+      []
+    ],
+    [
+      "zero:2.l",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "logic:D0",
+      "nucleo:PB8",
+      "green",
+      []
+    ],
+    [
+      "logic:D1",
+      "nucleo:PB9",
+      "green",
+      []
+    ],
+    [
+      "logic:D2",
+      "nucleo:PA2",
+      "green",
+      []
+    ],
+    [
+      "logic:D3",
+      "nucleo:PA4",
+      "green",
+      []
+    ],
+    [
+      "logic:D4",
+      "nucleo:PB0",
+      "green",
+      []
+    ],
+    [
+      "logic:D5",
+      "nucleo:PA5",
+      "green",
+      []
+    ],
+    [
+      "logic:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ]
   ],
   "dependencies": {}
 }

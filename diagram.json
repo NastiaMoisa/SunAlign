@@ -12,7 +12,7 @@
     },
     {
       "type": "wokwi-mpu6050",
-      "id": "imu",
+      "id": "mpu",
       "top": 20,
       "left": 400,
       "attrs": {
@@ -21,7 +21,7 @@
     },
     {
       "type": "wokwi-photoresistor-sensor",
-      "id": "left",
+      "id": "ldrLeft",
       "top": 200,
       "left": 400,
       "attrs": {
@@ -30,7 +30,7 @@
     },
     {
       "type": "wokwi-photoresistor-sensor",
-      "id": "right",
+      "id": "ldrRight",
       "top": 300,
       "left": 400,
       "attrs": {
@@ -88,30 +88,30 @@
     ],
     [
       "nucleo:PB8",
-      "imu:SCL",
+      "mpu:SCL",
       "green",
       []
     ],
     [
       "nucleo:PB9",
-      "imu:SDA",
+      "mpu:SDA",
       "blue",
       []
     ],
     [
       "nucleo:3V3",
-      "imu:VCC",
+      "mpu:VCC",
       "red",
       []
     ],
     [
       "nucleo:GND.1",
-      "imu:GND",
+      "mpu:GND",
       "black",
       []
     ],
     [
-      "imu:AD0",
+      "mpu:AD0",
       "nucleo:GND.1",
       "black",
       []
@@ -142,36 +142,36 @@
     ],
     [
       "nucleo:3V3",
-      "left:VCC",
+      "ldrLeft:VCC",
       "red",
       []
     ],
     [
       "nucleo:GND.1",
-      "left:GND",
+      "ldrLeft:GND",
       "black",
       []
     ],
     [
-      "left:AO",
+      "ldrLeft:AO",
       "nucleo:PA0",
       "orange",
       []
     ],
     [
       "nucleo:3V3",
-      "right:VCC",
+      "ldrRight:VCC",
       "red",
       []
     ],
     [
       "nucleo:GND.1",
-      "right:GND",
+      "ldrRight:GND",
       "black",
       []
     ],
     [
-      "right:AO",
+      "ldrRight:AO",
       "nucleo:PA1",
       "orange",
       []

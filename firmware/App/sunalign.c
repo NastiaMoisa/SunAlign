@@ -30,7 +30,7 @@ void sunalign_tick(sunalign_t *a,const panel_input_t *in,uint32_t now) {
     }
     if(!a->healthy) { a->horizontal=0; a->vertical=0; a->filtered=false; return; }
     float sum=a->left+a->right;
-    a->dark=sum<160;
+    a->dark=sum<500;
     a->horizontal=a->dark ? 0 : hysteresis(a->horizontal,(a->left-a->right)*1000/sum,150,80);
     a->vertical=a->zero_set ? hysteresis(a->vertical,a->pitch-a->zero,5,3) : 0;
 }

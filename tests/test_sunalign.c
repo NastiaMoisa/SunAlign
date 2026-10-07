@@ -94,7 +94,9 @@ static void app_light(void) {
     assert(!strcmp(sunalign_horizontal(&a),"RIGHT"));
     in.left=in.right=4095;for(unsigned n=50;n<90;++n) sample(&a,&in,n*100);
     assert(!strcmp(sunalign_horizontal(&a),"DARK"));
-    in.left=in.right=1123;for(unsigned n=90;n<120;++n) sample(&a,&in,n*100);
+    in.left=in.right=3938;for(unsigned n=90;n<120;++n) sample(&a,&in,n*100);
+    assert(!strcmp(sunalign_horizontal(&a),"DARK")); /* About 1 lux in the model. */
+    in.left=in.right=1123;for(unsigned n=120;n<150;++n) sample(&a,&in,n*100);
     assert(!strcmp(sunalign_horizontal(&a),"CENTER"));
 }
 static void app_button_tilt_and_simultaneous(void) {

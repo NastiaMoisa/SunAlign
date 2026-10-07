@@ -6,6 +6,7 @@ image:
 	docker build -t $(IMAGE) docker
 
 build: image
+	python3 tools/check_pinout.py
 	docker run --rm -v "$(CURDIR):/workspace" -w /workspace \
 		--user "$(shell id -u):$(shell id -g)" $(IMAGE) \
 		make -C firmware all

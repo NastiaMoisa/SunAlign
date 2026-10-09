@@ -1,0 +1,15 @@
+digraph SunAlign {
+  graph [rankdir=TB, bgcolor="white", pad=0.25, nodesep=0.35, ranksep=0.45];
+  node [shape=box, style="rounded,filled", fillcolor="#edf4fa", fontname="Arial", fontsize=13];
+  edge [fontname="Arial", fontsize=10];
+  main [label="Core / main\nClock + composition root"];
+  app [label="App / sunalign\nFilter, zero, guidance"];
+  imu [label="Devices / MPU6050\nState machine + decoding"];
+  board [label="Platform / board\nADC, GPIO, UART, I2C adapter"];
+  bus [label="sensor_bus_t\nstart() / poll()",fillcolor="#fff2d6"];
+  hal [label="STM32 HAL 1.0.1\nCMSIS Core 5.3.0"];
+  tests [label="Host tests\nFake bus + captured bytes",fillcolor="#e6f4e7"];
+  main -> app; main -> imu; main -> board;
+  imu -> bus; board -> bus [label="implements",style=dashed];
+  board -> hal; tests -> app; tests -> imu; tests -> bus [style=dashed];
+}

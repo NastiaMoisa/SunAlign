@@ -1,0 +1,7 @@
+BOOT SunAlign lab2 UART=115200 8N1 HSI=48000000 commands=c,n
+SELFTEST t=501 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=DARK v=UNSET zero=0 err=0 code=0
+SELFTEST t=1001 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=DARK v=UNSET zero=0 err=0 code=0
+SELFTEST t=1501 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=DARK v=UNSET zero=0 err=0 code=0

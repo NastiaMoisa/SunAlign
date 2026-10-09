@@ -1,0 +1,1167 @@
+BOOT SunAlign lab2 UART=115200 8N1 HSI=48000000 commands=c,n
+SELFTEST t=501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=1001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=1501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=2001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=2501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=3001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=3501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=4001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=4501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=5001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=5501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=6001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=6501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=7001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=7501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=8001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=8501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=9001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=9501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=10001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=10501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=11001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=11501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=12001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=12501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=13001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=13501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=14001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=14501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=15001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=15501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=16001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=16501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=17001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=17501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=18001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=18501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=19001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=19501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=20001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=20501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=21001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=21501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=22001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=22501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=23001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=23501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=24001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=24501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=25001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=25501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=26001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=26501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=27001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=27501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=28001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=28501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=29001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=29501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=30001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=30501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=31001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=31501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=32001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=32501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=33001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=33501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=34001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=34501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=35001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=35501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=36001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=36501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=37001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=37501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=38001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=38501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=39001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=39501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=40001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=40501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=41001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=41501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=42001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=42501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=43001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=43501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=44001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=44501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=45001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=45501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=46001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=46501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=47001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=47501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=48001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=48501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=49001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=49501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=50001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=50501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=51001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=51501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=52001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=52501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=53001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=53501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=54001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=54501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=55001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=55501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=56001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=56501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=57001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=57501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=58001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=58501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=59001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=59501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=60001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=60501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=61001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=61501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=62001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=62501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=63001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=63501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=64001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=UNSET zero=0 err=0 code=0
+SELFTEST t=64501 id=68 imu=1 adc=1 gpio=1
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=65001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=65501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=66001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=66501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=67001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=67501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=68001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=68501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=69001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=69501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=70001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=70501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=71001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=71501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=72001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=72501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=73001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=73501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=74001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=74501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=75001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=75501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=76001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=76501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=77001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=77501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=78001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=78501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=79001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=79501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=80001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=80501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=0,0,1000 p_cdeg=0 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=81001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=349,0,1000 p_cdeg=480 h=CENTER v=LEVEL zero=1 err=0 code=0
+SELFTEST t=81501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=2428 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=82001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=2902 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=82501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3014 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=83001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3041 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=83501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3047 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=84001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=84501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=85001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=85501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=86001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=86501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=87001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=87501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=88001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=88501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=89001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=89501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=90001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=90501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=91001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=91501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=92001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=92501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=93001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=93501 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=94001 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=94502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=95002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=95502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=96002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=96502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=97002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=97502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=98002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=98502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=99002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=99502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=100002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=100502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=101002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=101502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=102002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=102502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=103002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=103502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=104002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=104502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=105002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=105502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=106002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=106502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=107002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=107502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=108002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=108502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=109002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=109502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=110002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=110502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=111002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=111502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=112002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=112502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=113002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=113502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=114002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=114502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=115002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=115502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=116002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=116502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=117002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=117502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=118002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=118502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=119002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=119502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=120002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=120502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=121002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=121502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=122002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=122502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=123002 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=123502 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=124003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=124503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=125003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=125503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=126003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=126503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=127003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=127503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=128003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=128503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=129003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=129503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=130003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=130503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=131003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=131503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=132003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=132503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=133003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=133503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=134003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=134503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=135003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=135503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=136003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=136503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=137003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=137503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=138003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=138503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=139003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=139503 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=140003 id=68 imu=1 adc=1 gpio=0
+PANEL L=1123 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=140503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=141003 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=141503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=142003 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=142503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=143003 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=143503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=144003 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=144503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=145003 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=145503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=146003 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=146503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=147003 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=147503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=148003 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=148503 id=68 imu=1 adc=1 gpio=0
+PANEL L=795 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=149003 id=68 imu=1 adc=1 gpio=0
+PANEL L=333 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=149503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=1123 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=150003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=1715 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=150503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=2680 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=151003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=151503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=152003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=152503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=153003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=153503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=154003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=154503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=155003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=155503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=156003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=156503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=157003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=157503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=158003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=158503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=159003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=159503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=160003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=160503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=161003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=161503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=162003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=162503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=163003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=163503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=164003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=164503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=165003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=165503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=166003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=166503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=167003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=167503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=168003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=168503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=169003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=169503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=170003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=170503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=171003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=171503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=172003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=172503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=173003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=173503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=174003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=174503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=175003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=175503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=176003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=176503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=177003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=177503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=178003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=178503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=179003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=179503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=180003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=180503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=181003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=181503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=182003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=182503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=183003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=183503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=184003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=184503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=185003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=185503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=186003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=186503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=187003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3411 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=187503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=3090 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=188003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=2401 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=188503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=1316 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=189003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=500 mg=500,0,849 p_cdeg=3049 h=LEFT v=LOWER zero=1 err=0 code=0
+SELFTEST t=189503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=190003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=190503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=191003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=191503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=192003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=192503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=193003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=193503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=194003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=194503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=195003 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=195503 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=196004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=196504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=197004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=197504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=198004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=198504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=199004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=199504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=200004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=200504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=201004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=201504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=202004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=202504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=203004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=203504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=204004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=204504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=205004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=205504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=206004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=206504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=207004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=207504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=208004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=208504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=209004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=209504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=210004 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=210504 id=68 imu=1 adc=1 gpio=0
+PANEL L=156 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=211004 id=68 imu=1 adc=1 gpio=0
+PANEL L=287 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=211504 id=68 imu=1 adc=1 gpio=0
+PANEL L=715 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=212004 id=68 imu=1 adc=1 gpio=0
+PANEL L=1556 R=156 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=212504 id=68 imu=1 adc=1 gpio=0
+PANEL L=2465 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=213004 id=68 imu=1 adc=1 gpio=0
+PANEL L=3334 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=213504 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=214004 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=214504 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=215004 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=215504 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=216004 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=216504 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=217004 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=217504 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=218004 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=218504 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=219004 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=219504 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=220004 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=220504 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=221005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=221505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=222005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=222505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=223005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=223505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=224005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=224505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=225005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=225505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=226005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=226505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=227005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=227505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=228005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=228505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=229005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=229505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=230005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=230505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=231005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=231505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=232005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=232505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=233005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=233505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=234005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=234505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=235005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=235505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=236005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=236505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=237005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=237505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=238005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=238505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=239005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=239505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=240005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=240505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=241005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=241505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=242005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=242505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=243005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=243505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=244005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=244505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=245005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=245505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=246005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=246505 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=247005 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=247506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=248006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=248506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=249006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=249506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=250006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=250506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=251006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=251506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=252006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=252506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=253006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=253506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=254006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=254506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=255006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=255506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=256006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=256506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=257006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=257506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=258006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3411 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=258506 id=68 imu=1 adc=1 gpio=0
+PANEL L=4039 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=259006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=156 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=259506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=4034 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=260006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=260506 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=RIGHT v=LOWER zero=1 err=0 code=0
+SELFTEST t=261006 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=261507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=262007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=262507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=263007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=263507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=264007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=264507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=265007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=265507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=266007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=266507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=267007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=267507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=268007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=268507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=269007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=269507 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=270007 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=270508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=271008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=271508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=272008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=272508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=273008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=273508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=274008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=274508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=275008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=275508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=276008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=276508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=277008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=277508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=278008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=278508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=279008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=279508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=280008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=280508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=281008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=281508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=282008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=282508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=283008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=283508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=284008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=284508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=285008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=285508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=286008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=286508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=287008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=287508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=288008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=288508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=289008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=289508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=290008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=290508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=291008 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0
+SELFTEST t=291508 id=68 imu=1 adc=1 gpio=0
+PANEL L=3938 R=3938 mg=500,0,849 p_cdeg=3049 h=CENTER v=LOWER zero=1 err=0 code=0

@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-10-16T12:34:51.248132+00:00",
+  "purpose": "exact ELF and BIN used for normal, address-nack and dark Wokwi recordings",
+  "sha256": {
+    "firmware.elf": "219b2002760b0a74bc88336a9cdb69bc7bdd770c971b9e74ec12e7870fd6f238",
+    "firmware.bin": "1f0aac564f8b3e63ec9cbfa6940c6e1763a48b666f1de53848616688d5dd71ba"
+  }
+}

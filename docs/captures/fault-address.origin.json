@@ -1,0 +1,7 @@
+{
+  "source": "address-nack.vcd",
+  "sha256": "731f548f7e2c0f80a2e8e1e0046b6df32e797ab3e1e13cf52204cfa74b4d7d2d",
+  "start_ns": 592365500,
+  "end_ns": 592570500,
+  "transform": "exact window; initial levels from source; timestamps shifted to zero"
+}

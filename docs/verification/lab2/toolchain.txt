@@ -1,0 +1,20 @@
+Fri Oct 16 12:33:02 UTC 2026
+arm-none-eabi-gcc (15:13.2.rel1-2) 13.2.1 20231009
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+gcovr 7.0
+
+Copyright (c) 2013-2024 the gcovr authors
+Copyright (c) 2013 Sandia Corporation.
+Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation,
+the U.S. Government retains certain rights in this software.
+gcc-arm-none-eabi	15:13.2.rel1-2
+libc6-dev:arm64	2.39-0ubuntu8.9
+make	4.3-4.1build2

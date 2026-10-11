@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 
 #include <stdio.h>
+#include "board.h"
 
 /* USER CODE END Includes */
 
@@ -63,15 +64,7 @@ static void MX_USART2_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-int __io_putchar(int ch)
-{
-  uint8_t byte = (uint8_t)ch;
-  if (HAL_UART_Transmit(&huart2, &byte, 1, HAL_MAX_DELAY) != HAL_OK)
-  {
-    return EOF;
-  }
-  return ch;
-}
+/* Nonblocking UART transport is owned by Platform/board.c. */
 
 /* USER CODE END 0 */
 
@@ -107,7 +100,13 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  printf("SunAlign lab1 ready; STM32C031C6; UART=115200 8N1\r\n");
+  board_init();
+  mpu6050_t imu;
+  sunalign_t app;
+  mpu6050_init(&imu, board_bus(), HAL_GetTick());
+  sunalign_init(&app);
+  uint32_t last_led=HAL_GetTick(), last_log=last_led;
+  printf("BOOT SunAlign lab2 UART=115200 8N1 HSI=48000000 commands=c,n\r\n");
 
   /* USER CODE END 2 */
 
@@ -118,10 +117,26 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    HAL_GPIO_TogglePin(Led_GPIO_Port, Led_Pin);
-    printf("SunAlign tick=%lu led=%u\r\n", (unsigned long)(HAL_GetTick() / 1000U),
-           HAL_GPIO_ReadPin(Led_GPIO_Port, Led_Pin) == GPIO_PIN_SET);
-    HAL_Delay(1000);
+    uint32_t now=HAL_GetTick();
+    board_tick(now);
+    char cmd=board_command();
+    if(cmd=='n'||cmd=='c') {
+      mpu6050_request(&imu,cmd=='n');
+      printf("CMD t=%lu op=%c\r\n",(unsigned long)now,cmd);
+    }
+    mpu6050_tick(&imu,now);
+    panel_input_t in=board_inputs(&imu);
+    sunalign_tick(&app,&in,now);
+    if(now-last_led>=500) { last_led=now; HAL_GPIO_TogglePin(Led_GPIO_Port,Led_Pin); }
+    if(now-last_log>=500) {
+      last_log=now;
+      printf("SELFTEST t=%lu id=%02x imu=%u adc=%u gpio=%u\r\n",
+             (unsigned long)now,imu.id,in.imu_ok,in.adc_ok,in.pressed);
+      printf("PANEL L=%u R=%u mg=%ld,%ld,%ld p_cdeg=%d h=%s v=%s zero=%lu err=%lu code=%u\r\n",
+             in.left,in.right,(long)in.mg[0],(long)in.mg[1],(long)in.mg[2],
+             (int)(app.pitch*100),sunalign_horizontal(&app),sunalign_vertical(&app),
+             (unsigned long)app.calibrations,(unsigned long)imu.errors,imu.last_error);
+    }
   }
   /* USER CODE END 3 */
 }
@@ -266,22 +281,12 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(Led_GPIO_Port, Led_Pin, GPIO_PIN_SET);
 
-  /*Configure GPIO pin : User_Button_Pin */
-  GPIO_InitStruct.Pin = User_Button_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(User_Button_GPIO_Port, &GPIO_InitStruct);
-
   /*Configure GPIO pin : Led_Pin */
   GPIO_InitStruct.Pin = Led_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(Led_GPIO_Port, &GPIO_InitStruct);
-
-  /* EXTI interrupt init*/
-  HAL_NVIC_SetPriority(EXTI4_15_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */

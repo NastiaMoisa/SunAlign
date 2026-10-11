@@ -1,0 +1,7 @@
+{
+  "source": "normal.vcd",
+  "sha256": "23f2d27c3979135a889e22613219345001661ba77e8ceb2566a0954910bdf69a",
+  "start_ns": 90000000,
+  "end_ns": 315000000,
+  "transform": "exact window; initial levels from source; timestamps shifted to zero"
+}

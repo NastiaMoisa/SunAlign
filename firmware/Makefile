@@ -22,7 +22,7 @@ TARGET = firmware
 # debug build?
 DEBUG = 1
 # optimization
-OPT = -Og
+OPT = -Os
 
 
 #######################################
@@ -36,6 +36,11 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
+App/sunalign.c \
+Devices/mpu6050.c \
+Platform/board.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc_ex.c \
 Core/Src/main.c \
 Core/Src/stm32c0xx_it.c \
 Core/Src/stm32c0xx_hal_msp.c \
@@ -52,7 +57,6 @@ Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma_ex.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.c \
-Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_exti.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c_ex.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c \
@@ -114,6 +118,7 @@ AS_INCLUDES =
 
 # C includes
 C_INCLUDES =  \
+-IApp -IDevices -IPlatform \
 -ICore/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy \
@@ -133,6 +138,9 @@ endif
 
 # Generate dependency information
 CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
+
+# Diagnostics are strict for project-owned code, without muting vendor diagnostics globally.
+$(BUILD_DIR)/main.o $(BUILD_DIR)/board.o $(BUILD_DIR)/sunalign.o $(BUILD_DIR)/mpu6050.o: CFLAGS += -Wextra -Werror
 
 
 #######################################

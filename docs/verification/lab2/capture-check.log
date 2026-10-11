@@ -1,0 +1,55 @@
+{
+  "source": "Wokwi VCD, 1 ns event timestamps; SR downsampled to 2 MHz",
+  "scl_period_ns_median": 10000.0,
+  "scl_hz": 100000.0,
+  "adc_period_ms_median": 100.1348,
+  "led_edge_period_ms_median": 499.9129625,
+  "manual_bits": {
+    "address_and_ack": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "register_and_ack": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "captured_accel_bytes": [
+    0,
+    0,
+    0,
+    0,
+    64,
+    0
+  ],
+  "decoded_mg": [
+    0,
+    0,
+    1000
+  ],
+  "files": {
+    "adc-period.vcd": "7489809f2c900c377a2a30b1197f338f4da98d3e3b78580a8d5fd48e9126e24c",
+    "normal-data.vcd": "48a88062c1a73c78ede2499fc604fb4b9389a51f3430e4428f47c9325bcb764a",
+    "address-nack.vcd": "731f548f7e2c0f80a2e8e1e0046b6df32e797ab3e1e13cf52204cfa74b4d7d2d",
+    "dark.vcd": "1795f5bf63b2d505225241739943331d1550dfa0f508689b54f97324fa3b3ec6",
+    "normal-id.vcd": "a258e068ec7f4bca434ef0742a4415166ae1d4691c677b41d9b26988fc16aaa1",
+    "fault-address.vcd": "18604a46dc886311346bc32d5a1949d4c06e08e7231bc0ecdbb1af1f9a9344c6",
+    "initial-failure.vcd": "3100cba73c5cf0c500eae281f900f98ccec1953018af855c08bd37e9b4956a31",
+    "normal.vcd": "23f2d27c3979135a889e22613219345001661ba77e8ceb2566a0954910bdf69a",
+    "uart-boot.vcd": "5b7fa7dd86d1035b08818956454944f7f0f2624e918a2e96a98c01548da406dc"
+  }
+}

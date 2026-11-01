@@ -22,8 +22,15 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-#include <stdio.h>
+#include "serial_text.h"
 #include "board.h"
+#include "observe.h"
+#include "build_id.h"
+#ifdef SUNALIGN_FLASH_DIAGNOSTIC
+#include "flash_probe.h"
+#endif
+#include <string.h>
+extern uint32_t sunalign_heap_peak(void);
 
 /* USER CODE END Includes */
 
@@ -81,6 +88,7 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  observe_stack_paint();
   HAL_Init();
 
   /* USER CODE BEGIN Init */
@@ -100,13 +108,31 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
+  observe_init();
+#ifdef SUNALIGN_FLASH_DIAGNOSTIC
+  flash_diagnostic_run();
+#endif
   board_init();
-  mpu6050_t imu;
-  sunalign_t app;
-  mpu6050_init(&imu, board_bus(), HAL_GetTick());
+  static mpu6050_t imu;
+  static sunalign_t app;
+  static measure_t stats[15];
+  static const char *names[]={"board","imu","panel","led","log","loop","command","button","save","imu_dt","adc_dt","panel_dt","led_dt","log_dt","dump_wire"};
+  static cadence_t panel={.period=1}, led={.period=500}, log={.period=500};
+  typedef struct { uint32_t at; uint16_t l,r; int16_t pitch; } point_t;
+  static point_t history[32], snapshot[32];
+  unsigned hist_head=0, hist_count=0, export_left=0, export_total=0, stat_left=0;
+  uint32_t button_edge=0, prev_cal=0, export_at=0;
+  bool first_adc=false, first_imu=false,button_previous=false,exporting=false;
+  uint32_t dump_start=0;
+  uint32_t prev_period[5]={0}, adc_seq=0, imu_seq=0;
+  uint32_t panel_end_miss=0,led_end_miss=0,log_end_miss=0,command_miss=0;
+  mpu6050_init(&imu, board_bus(), observe_ms());
   sunalign_init(&app);
-  uint32_t last_led=HAL_GetTick(), last_log=last_led;
-  printf("BOOT SunAlign lab2 UART=115200 8N1 HSI=48000000 commands=c,n\r\n");
+  calibration_t saved;
+  if(calibration_load(&saved)) { app.zero=saved.zero_cdeg/100.0f; app.zero_set=true; }
+  serial_text("BOOT SunAlign lab3 %s systick_1ms 48MHz 115200\r\n",BUILD_ID);
+  serial_text("STORE valid=%u zero=%d\r\n",app.zero_set,(int)(app.zero*100));
+  uint32_t prev_loop=0;
 
   /* USER CODE END 2 */
 
@@ -117,26 +143,106 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    uint32_t now=HAL_GetTick();
-    board_tick(now);
+    uint32_t loop_start=observe_us(), t=loop_start, now=observe_ms();
+    if(prev_loop) measure_add(&stats[5],loop_start-prev_loop);
+    prev_loop=loop_start;
+    bool board_work=board_tick(now);
+    uint32_t end=observe_us(); measure_add(&stats[0],end-t); (void)board_work;
     char cmd=board_command();
-    if(cmd=='n'||cmd=='c') {
-      mpu6050_request(&imu,cmd=='n');
-      printf("CMD t=%lu op=%c\r\n",(unsigned long)now,cmd);
+    if(cmd) {
+      uint32_t latency=observe_us()-board_command_at;
+      measure_add(&stats[6],latency); if(latency>10000u) command_miss++;
+      if(cmd=='n'||cmd=='c') mpu6050_request(&imu,cmd=='n');
+      if(cmd=='t') stat_left=19;
+      if(cmd=='v') observe_clock_report();
+      if(cmd=='r') NVIC_SystemReset();
+      if(cmd=='d') {
+        export_total=export_left=hist_count; export_at=observe_us();
+        if(hist_count && !exporting) { exporting=true; dump_start=export_at; GPIOA->BSRR=GPIO_PIN_6; }
+        for(unsigned i=0;i<hist_count;i++) snapshot[i]=history[(hist_head+32-hist_count+i)%32];
+      }
+      if(cmd=='s') {
+        t=observe_us(); GPIOA->BSRR=GPIO_PIN_6;
+        bool ok=app.zero_set && calibration_save((int32_t)(app.zero*100));
+        if(!exporting) GPIOA->BRR=GPIO_PIN_6;
+        uint32_t elapsed=observe_us()-t;
+        measure_add(&stats[8],elapsed);
+        serial_text("SAVE %lu %lu %u\r\n",(unsigned long)t,(unsigned long)elapsed,ok);
+      }
     }
-    mpu6050_tick(&imu,now);
-    panel_input_t in=board_inputs(&imu);
-    sunalign_tick(&app,&in,now);
-    if(now-last_led>=500) { last_led=now; HAL_GPIO_TogglePin(Led_GPIO_Port,Led_Pin); }
-    if(now-last_log>=500) {
-      last_log=now;
-      printf("SELFTEST t=%lu id=%02x imu=%u adc=%u gpio=%u\r\n",
-             (unsigned long)now,imu.id,in.imu_ok,in.adc_ok,in.pressed);
-      printf("PANEL L=%u R=%u mg=%ld,%ld,%ld p_cdeg=%d h=%s v=%s zero=%lu err=%lu code=%u\r\n",
-             in.left,in.right,(long)in.mg[0],(long)in.mg[1],(long)in.mg[2],
-             (int)(app.pitch*100),sunalign_horizontal(&app),sunalign_vertical(&app),
-             (unsigned long)app.calibrations,(unsigned long)imu.errors,imu.last_error);
+    now=observe_ms();
+    t=observe_us(); unsigned old_state=imu.state; bool old_wait=imu.waiting;
+    mpu6050_tick(&imu,now); end=observe_us();
+    measure_add(&stats[1],end-t); (void)old_state; (void)old_wait;
+    if(imu.sequence!=imu_seq) {
+      if(imu_seq) measure_add(&stats[9],end-prev_period[0]);
+      imu_seq=imu.sequence; prev_period[0]=end;
     }
+    if(board_adc_sequence!=adc_seq) {
+      if(adc_seq) measure_add(&stats[10],board_adc_us-prev_period[1]);
+      adc_seq=board_adc_sequence; prev_period[1]=board_adc_us;
+    }
+    if(cadence_take(&panel,now)) {
+      t=observe_us(); panel_input_t in=board_inputs(&imu);
+      if(prev_period[2]) measure_add(&stats[11],t-prev_period[2]);
+      prev_period[2]=t;
+      if(in.pressed && !button_previous) button_edge=t;
+      button_previous=in.pressed;
+      sunalign_tick(&app,&in,now);
+      if(app.calibrations!=prev_cal) {
+        uint32_t accepted=observe_us(); measure_add(&stats[7],accepted-button_edge);
+        GPIOA->ODR^=GPIO_PIN_7; prev_cal=app.calibrations;
+        serial_text("ZERO %lu %lu %lu src=poll\r\n",(unsigned long)button_edge,(unsigned long)accepted,(unsigned long)prev_cal);
+      }
+      if(!first_adc && in.adc_ok) { first_adc=true; serial_text("FIRST adc %lu\r\n",(unsigned long)observe_us()); }
+      if(!first_imu && in.imu_ok) { first_imu=true; serial_text("FIRST imu %lu\r\n",(unsigned long)observe_us()); }
+      end=observe_us(); measure_add(&stats[2],end-t);
+      if((int32_t)(observe_ms()-panel.next)>0) panel_end_miss++;
+    }
+    if(cadence_take(&led,now)) {
+      t=observe_us();
+      if(prev_period[3]) measure_add(&stats[12],t-prev_period[3]);
+      prev_period[3]=t;
+      HAL_GPIO_TogglePin(Led_GPIO_Port,Led_Pin);
+      end=observe_us(); measure_add(&stats[3],end-t);
+      if((uint32_t)(observe_ms()-(led.next-led.period))>5) led_end_miss++;
+    }
+    if(cadence_take(&log,now)) {
+      t=observe_us(); panel_input_t in=board_inputs(&imu);
+      if(prev_period[4]) measure_add(&stats[13],t-prev_period[4]);
+      prev_period[4]=t;
+      history[hist_head].at=now; history[hist_head].l=in.left; history[hist_head].r=in.right;
+      history[hist_head].pitch=(int16_t)(app.pitch*100);
+      hist_head=(hist_head+1)%32; if(hist_count<32) hist_count++;
+      serial_text("PANEL %lu %u %u %d %s %s %lu %lu\r\n",
+          (unsigned long)now,in.left,in.right,(int)(app.pitch*100),sunalign_horizontal(&app),sunalign_vertical(&app),
+          (unsigned long)app.calibrations,(unsigned long)imu.errors);
+      end=observe_us(); measure_add(&stats[4],end-t);
+      if((uint32_t)(observe_ms()-(log.next-log.period))>20) log_end_miss++;
+    }
+    t=observe_us();
+    if(export_left && (uint32_t)(t-export_at)>=1000) {
+      unsigned i=export_total-export_left;
+      serial_text("POINT %lu %u %u %d\r\n",(unsigned long)snapshot[i].at,snapshot[i].l,snapshot[i].r,snapshot[i].pitch);
+      export_left--; export_at=t;
+    } else if(stat_left) {
+      unsigned i=19-stat_left--;
+      if(i<15) observe_stat(names[i],&stats[i]);
+      if(i==15) serial_text("SCHED %lu %lu %lu %lu\r\n",
+        (unsigned long)panel.late_max,(unsigned long)panel.missed,(unsigned long)led.late_max,(unsigned long)log.late_max);
+      if(i==16) serial_text("RES %u %lu %lu %lu %lu NA\r\n",
+        observe_stack_used(),(unsigned long)sunalign_heap_peak(),(unsigned long)board_rx_lost,(unsigned long)board_rx_errors,(unsigned long)board_tx_lost);
+      if(i==17) serial_text("DEADLINE %lu %lu %lu %lu\r\n",(unsigned long)panel_end_miss,
+        (unsigned long)led_end_miss,(unsigned long)log_end_miss,(unsigned long)command_miss);
+      if(i==18) observe_clock_report();
+    }
+    if(stat_left==0 && exporting && !export_left && board_tx_idle()) {
+      uint32_t elapsed=observe_us()-dump_start;
+      measure_add(&stats[14],elapsed); exporting=false; GPIOA->BRR=GPIO_PIN_6;
+      serial_text("EXPORT_DONE %lu %lu\r\n",(unsigned long)dump_start,(unsigned long)elapsed);
+    }
+
+
   }
   /* USER CODE END 3 */
 }
@@ -323,7 +429,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 {
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line number,
-     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+     ex: serial_text("Wrong parameters value: file %s on line %d\r\n", file, line) */
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */

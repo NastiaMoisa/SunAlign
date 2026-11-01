@@ -70,7 +70,9 @@
       "id": "logic",
       "top": 530,
       "left": 370,
-      "attrs": {}
+      "attrs": {
+        "bufferSize": "24000000"
+      }
     }
   ],
   "connections": [
@@ -228,6 +230,18 @@
       "logic:GND",
       "nucleo:GND.1",
       "black",
+      []
+    ],
+    [
+      "logic:D6",
+      "nucleo:PA6",
+      "purple",
+      []
+    ],
+    [
+      "logic:D7",
+      "nucleo:PA7",
+      "purple",
       []
     ]
   ],

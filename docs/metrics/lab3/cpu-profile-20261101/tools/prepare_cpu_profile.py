@@ -1,0 +1,28 @@
+from pathlib import Path
+root=Path('source/firmware')
+(root/'Platform/profile_scope.h').write_text('''#ifndef PROFILE_SCOPE_H\n#define PROFILE_SCOPE_H\n#include "main.h"\n#define PROFILE_BEGIN() (GPIOA->BSRR=GPIO_PIN_6)\n#define PROFILE_END() (GPIOA->BRR=GPIO_PIN_6)\n#endif\n''')
+def replace(s,a,b,n=1):
+ if s.count(a)!=n:raise ValueError(f'expected {n} anchors, found {s.count(a)}: {a!r}')
+ return s.replace(a,b)
+p=root/'Core/Src/main.c';s=p.read_text();s=replace(s,'#include "serial_text.h"','#include "serial_text.h"\n#include "profile_scope.h"')
+s=replace(s,'  observe_init();','  observe_init();\n  /* Isolated empty pulses reveal marker width, not full instrumentation cost. */\n  for (unsigned k=0;k<40;k++) { PROFILE_BEGIN(); PROFILE_END(); }')
+s=replace(s,'if(hist_count && !exporting) { exporting=true; dump_start=export_at; GPIOA->BSRR=GPIO_PIN_6; }','if(hist_count && !exporting) { exporting=true; dump_start=export_at; }')
+s=replace(s,'t=observe_us(); GPIOA->BSRR=GPIO_PIN_6;','t=observe_us();')
+s=replace(s,'        if(!exporting) GPIOA->BRR=GPIO_PIN_6;\n','')
+s=replace(s,'measure_add(&stats[14],elapsed); exporting=false; GPIOA->BRR=GPIO_PIN_6;','measure_add(&stats[14],elapsed); exporting=false;')
+s=replace(s,'    if(cmd) {\n','    if(cmd) {\n      PROFILE_BEGIN();\n')
+s=replace(s,'      }\n    }\n    now=observe_ms();','      }\n      PROFILE_END();\n    }\n    now=observe_ms();')
+for cond in ['if(imu.sequence!=imu_seq) {','if(board_adc_sequence!=adc_seq) {','if(cadence_take(&panel,now)) {','if(cadence_take(&led,now)) {','if(cadence_take(&log,now)) {','if(export_left && (uint32_t)(t-export_at)>=1000) {','else if(stat_left) {','if(stat_left==0 && exporting && !export_left && board_tx_idle()) {']:
+ s=replace(s,cond,cond+'\n      PROFILE_BEGIN();')
+for a in ['      imu_seq=imu.sequence; prev_period[0]=end;','      adc_seq=board_adc_sequence; prev_period[1]=board_adc_us;','      if((int32_t)(observe_ms()-panel.next)>0) panel_end_miss++;','      if((uint32_t)(observe_ms()-(led.next-led.period))>5) led_end_miss++;','      if((uint32_t)(observe_ms()-(log.next-log.period))>20) log_end_miss++;','      export_left--; export_at=t;','      if(i==18) observe_clock_report();','      serial_text("EXPORT_DONE %lu %lu\\r\\n",(unsigned long)dump_start,(unsigned long)elapsed);']:
+ s=replace(s,a,a+'\n      PROFILE_END();')
+p.write_text(s)
+p=root/'Platform/board.c';s=p.read_text();s=replace(s,'#include "board.h"','#include "board.h"\n#include "profile_scope.h"')
+s=replace(s,'    if(receive_pending) {\n','    if(receive_pending) {\n        PROFILE_BEGIN();\n');s=replace(s,'            i2c_result=BUS_ERROR;\n    }\n    if(!tx_busy','            i2c_result=BUS_ERROR;\n        PROFILE_END();\n    }\n    if(!tx_busy')
+s=replace(s,'    if(!tx_busy && tx_head!=tx_tail) {','    if(!tx_busy && tx_head!=tx_tail) {\n        PROFILE_BEGIN();');s=replace(s,'if(HAL_UART_Transmit_IT(&huart2,tx+tx_tail,tx_count)!=HAL_OK) tx_busy=false;','if(HAL_UART_Transmit_IT(&huart2,tx+tx_tail,tx_count)!=HAL_OK) tx_busy=false;\n        PROFILE_END();')
+s=replace(s,'    if(adc_phase) {\n        if(__HAL_ADC_GET_FLAG','    if(adc_phase) {\n        PROFILE_BEGIN();\n        if(__HAL_ADC_GET_FLAG');s=replace(s,'        }\n    }\n    if(!adc_phase && cadence_take(&adc_schedule,now)) {','        }\n        PROFILE_END();\n    }\n    if(!adc_phase && cadence_take(&adc_schedule,now)) {\n        PROFILE_BEGIN();')
+s=replace(s,'if(adc_start(0,now)) adc_phase=1; else { adc_ok=false; HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,GPIO_PIN_RESET); }','if(adc_start(0,now)) adc_phase=1; else { adc_ok=false; HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,GPIO_PIN_RESET); }\n        PROFILE_END();')
+p.write_text(s)
+p=root/'Devices/mpu6050.c';s=p.read_text();s=replace(s,'#include "mpu6050.h"','#include "mpu6050.h"\n#include "profile_scope.h"');s=replace(s,'    if(m->waiting) {\n        bus_status_t result','    if(m->waiting) {\n        PROFILE_BEGIN();\n        bus_status_t result');s=replace(s,'if(result==BUS_PENDING) return;','if(result==BUS_PENDING) { PROFILE_END(); return; }');s=replace(s,'if(result!=BUS_OK) { fail(m,now,result); return; }','if(result!=BUS_OK) { fail(m,now,result); PROFILE_END(); return; }');s=replace(s,'if(m->id!=0x68) { fail(m,now,BUS_ERROR); return; }','if(m->id!=0x68) { fail(m,now,BUS_ERROR); PROFILE_END(); return; }');s=replace(s,'        return;\n    }\n    if(m->state==MPU_RETRY)','        PROFILE_END();\n        return;\n    }\n    if(m->state==MPU_RETRY)');s=replace(s,'    bool read=true; uint8_t addr=0x68','    PROFILE_BEGIN();\n    bool read=true; uint8_t addr=0x68');s=replace(s,'    else if(result!=BUS_BUSY) fail(m,now,result);\n}','    else if(result!=BUS_BUSY) fail(m,now,result);\n    PROFILE_END();\n}')
+p.write_text(s)
+print('profile instrumentation created in isolated copy')

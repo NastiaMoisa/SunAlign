@@ -1,0 +1,56 @@
+{
+  "mode": "fault",
+  "source_id": "src-b16af10ff4b0",
+  "elf_sha256": "3bc51b829e7e8e3804919fe8866ed4408f314d19144638cf91c4123de81f19aa",
+  "diagram_sha256": "02749b7b8dede780ab051b91390ea369ba886c4452ae12b76afcd2427ed75c1a",
+  "workspace": "../workspace",
+  "port": 43652,
+  "duration_mcu_s": 15,
+  "started_utc": "2026-11-01T20:37:13.572242+00:00",
+  "state": "complete",
+  "complete": true,
+  "boot_count": 1,
+  "first_mcu_ms": 2,
+  "last_mcu_ms": 20500,
+  "commands": [
+    {
+      "utc": "2026-11-01T20:37:19.335247+00:00",
+      "mcu_ms": null,
+      "bytes": "v",
+      "purpose": "clock"
+    },
+    {
+      "utc": "2026-11-01T20:37:19.335351+00:00",
+      "mcu_ms": 2,
+      "bytes": "t",
+      "purpose": "stats"
+    },
+    {
+      "utc": "2026-11-01T20:37:23.787446+00:00",
+      "mcu_ms": 4500,
+      "bytes": "d",
+      "purpose": "diagnostic_export_once"
+    },
+    {
+      "utc": "2026-11-01T20:37:28.773104+00:00",
+      "mcu_ms": 9500,
+      "bytes": "c",
+      "purpose": "diagnostic_refresh_once"
+    },
+    {
+      "utc": "2026-11-01T20:37:34.767994+00:00",
+      "mcu_ms": 15500,
+      "bytes": "t",
+      "purpose": "end_stats"
+    }
+  ],
+  "reason": null,
+  "connected_utc": "2026-11-01T20:37:18.795734+00:00",
+  "updated_utc": "2026-11-01T20:37:38.839447+00:00",
+  "elapsed_mcu_ms": 20498,
+  "first_imu_uart": "FIRST imu 107000",
+  "healthy_first_mcu_ms": 500,
+  "requested_interval_completed_ms": 15498,
+  "ended_utc": "2026-11-01T20:37:40.087495+00:00",
+  "raw_sha256": "b0ced4466da9adfc813cc87fc0e421ea815816ecbdef2430a4389c4a496d59b0"
+}

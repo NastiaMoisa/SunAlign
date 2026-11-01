@@ -6,3 +6,7 @@ wokwi.vcd
 tests/build/
 *.gcda
 *.gcno
+
+# Local authoring exports and preparation files
+**/report-source/
+/docs/verification/lab1/wokwi-ax.txt

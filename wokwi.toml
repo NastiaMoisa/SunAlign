@@ -1,6 +1,6 @@
 [wokwi]
 version = 1
-firmware = 'firmware/build/firmware.hex'
-elf = 'firmware/build/firmware.elf'
+firmware = 'firmware/build-current/firmware.hex'
+elf = 'firmware/build-current/firmware.elf'
 rfc2217ServerPort = 43614
 vcdFile = 'docs/captures/lab3/run.vcd'

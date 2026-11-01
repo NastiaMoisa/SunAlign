@@ -1,0 +1,3 @@
+# Preserve original CRLF bytes in measured raw UART and HEX.
+results/uart.log -text -diff
+workspace/firmware.hex -text -diff

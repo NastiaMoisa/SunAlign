@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+firmware = 'firmware.hex'
+elf = 'firmware.elf'
+rfc2217ServerPort = 43652
+vcdFile = 'cpu-profile.vcd'

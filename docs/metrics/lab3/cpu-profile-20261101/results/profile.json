@@ -1,0 +1,51 @@
+{
+  "source_id": "src-b16af10ff4b0",
+  "vcd_sha256": "9d85d11d7b5e4b91d3209c3058164a067cd5dc12aceeb253d9736795980b8203",
+  "window": {
+    "mcu_start_ms": 2500,
+    "mcu_end_anchor_ms": 14500,
+    "wire_start_ns": 2503187675,
+    "wire_end_ns": 13503187675,
+    "wire_end_anchor_ns": 14502868675,
+    "full_seconds": 11,
+    "basis": "wire timestamps of PANEL; 1 s bins use VCD clock"
+  },
+  "scope_intervals": {
+    "n": 12308,
+    "min_us": 3.5,
+    "avg_us": 396.54524496262593,
+    "max_us": 753.0
+  },
+  "foreground_fraction": {
+    "per_second_percent": [
+      44.3127025,
+      44.309264999999996,
+      44.8784575,
+      44.3130775,
+      44.3133325,
+      44.3112125,
+      44.30856,
+      44.3771375,
+      44.3112725,
+      44.322385,
+      44.310485
+    ],
+    "min_percent": 44.30856,
+    "avg_percent": 44.36980795454545,
+    "max_percent": 44.8784575
+  },
+  "empty_marker_pulses": {
+    "n": 40,
+    "min_us": 0.25,
+    "avg_us": 0.25,
+    "max_us": 0.25
+  },
+  "limits": [
+    "Diagnostic build only; not the frozen S1/S2/S3 ELF.",
+    "GPIO marker covers executed foreground scopes, including ADC and I2C polling inside active tasks; empty not-due checks and inter-task spin are excluded.",
+    "IRQs during a marked interval are included; ISR work outside those intervals is excluded.",
+    "Marker writes and altered execution perturb timing; empty pulse width is not total probe overhead.",
+    "Asynchronous UART wire time is not CPU time; only foreground TX setup and formatting are marked.",
+    "PANEL wire timestamps include serial-queue latency; 1 ns VCD timescale is not a physical accuracy guarantee."
+  ]
+}

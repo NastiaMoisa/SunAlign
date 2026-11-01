@@ -21,6 +21,7 @@ TARGET = firmware
 ######################################
 # debug build?
 DEBUG = 1
+
 # optimization
 OPT = -Os
 
@@ -36,6 +37,11 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
+App/measure.c \
+App/calibration.c \
+Platform/serial_text.c \
+Platform/observe.c \
+Platform/timebase.c \
 App/sunalign.c \
 Devices/mpu6050.c \
 Platform/board.c \
@@ -62,6 +68,10 @@ Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c_ex.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart_ex.c \
 Core/Src/system_stm32c0xx.c  
+
+ifeq ($(DIAGNOSTIC),flash)
+C_SOURCES += Diagnostics/flash_probe.c
+endif
 
 # ASM sources
 ASM_SOURCES =  \
@@ -112,13 +122,17 @@ C_DEFS =  \
 -DUSE_HAL_DRIVER \
 -DSTM32C031xx
 
+ifeq ($(DIAGNOSTIC),flash)
+C_DEFS += -DSUNALIGN_FLASH_DIAGNOSTIC
+endif
+
 
 # AS includes
 AS_INCLUDES = 
 
 # C includes
 C_INCLUDES =  \
--IApp -IDevices -IPlatform \
+-IApp -IDevices -IPlatform -IDiagnostics -I$(BUILD_DIR) \
 -ICore/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy \
@@ -129,7 +143,7 @@ C_INCLUDES =  \
 # compile gcc flags
 ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
 
-CFLAGS += $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+CFLAGS += -flto -fstack-usage -Wstack-usage=512 $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
 
 ifeq ($(DEBUG), 1)
 CFLAGS += -g -gdwarf-2
@@ -140,7 +154,8 @@ endif
 CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
 
 # Diagnostics are strict for project-owned code, without muting vendor diagnostics globally.
-$(BUILD_DIR)/main.o $(BUILD_DIR)/board.o $(BUILD_DIR)/sunalign.o $(BUILD_DIR)/mpu6050.o: CFLAGS += -Wextra -Werror
+$(BUILD_DIR)/measure.o $(BUILD_DIR)/calibration.o $(BUILD_DIR)/observe.o $(BUILD_DIR)/serial_text.o $(BUILD_DIR)/main.o $(BUILD_DIR)/board.o $(BUILD_DIR)/sunalign.o $(BUILD_DIR)/mpu6050.o: CFLAGS += -Wextra -Werror
+$(BUILD_DIR)/clock_pair.o $(BUILD_DIR)/timebase.o $(BUILD_DIR)/flash_probe.o: CFLAGS += -Wextra -Werror
 
 
 #######################################
@@ -152,7 +167,7 @@ LDSCRIPT = STM32C031C6Tx_FLASH.ld
 # libraries
 LIBS = -lc -lm -lnosys 
 LIBDIR = 
-LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+LDFLAGS = -flto -fstack-usage -Wstack-usage=512 -save-temps=obj -Wl,--print-memory-usage $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
@@ -169,7 +184,7 @@ OBJECTS += $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
 vpath %.s $(sort $(dir $(ASM_SOURCES)))
 
 $(BUILD_DIR)/%.o: %.c Makefile | $(BUILD_DIR) 
-	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	$(CC) -c $(CFLAGS) $< -o $@
 
 $(BUILD_DIR)/%.o: %.s Makefile | $(BUILD_DIR)
 	$(AS) -c $(CFLAGS) $< -o $@
@@ -199,3 +214,12 @@ clean:
 -include $(wildcard $(BUILD_DIR)/*.d)
 
 # *** EOF ***
+
+$(BUILD_DIR)/syscalls.o: CFLAGS += -fno-lto
+
+.PHONY: FORCE
+FORCE:
+$(BUILD_DIR)/build_id.h: FORCE | $(BUILD_DIR)
+	@python3 ../tools/source_id.py --variant $(if $(filter flash,$(DIAGNOSTIC)),flash,app) | sed 's/.*/#define BUILD_ID "&"/' > $(BUILD_DIR)/build_id.new
+	@cmp -s $(BUILD_DIR)/build_id.new $@ || cp $(BUILD_DIR)/build_id.new $@
+$(BUILD_DIR)/main.o: $(BUILD_DIR)/build_id.h

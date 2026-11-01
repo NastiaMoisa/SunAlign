@@ -3,7 +3,7 @@ from pathlib import Path
 import re
 
 root = Path(__file__).resolve().parents[1]
-allowed = {"sunalign.h", "mpu6050.h"}
+allowed = {"sunalign.h", "mpu6050.h", "measure.h", "calibration.h"}
 errors = []
 for folder in ("App", "Devices"):
     for path in (root / "firmware" / folder).glob("*.[ch]"):

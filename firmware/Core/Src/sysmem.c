@@ -28,6 +28,8 @@
  * Pointer to the current high watermark of the heap usage
  */
 static uint8_t *__sbrk_heap_end = NULL;
+static uint32_t heap_peak;
+uint32_t sunalign_heap_peak(void) { return heap_peak; }
 
 /**
  * @brief _sbrk() allocates memory to the newlib heap and is used by malloc
@@ -74,6 +76,8 @@ void *_sbrk(ptrdiff_t incr)
 
   prev_heap_end = __sbrk_heap_end;
   __sbrk_heap_end += incr;
+  uint32_t used=(uint32_t)(__sbrk_heap_end - &_end);
+  if(used>heap_peak) heap_peak=used;
 
   return (void *)prev_heap_end;
 }

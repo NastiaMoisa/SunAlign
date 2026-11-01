@@ -34,7 +34,7 @@ void mpu6050_tick(mpu6050_t *m, uint32_t now) {
         case MPU_RANGE: m->state=MPU_SETTLE; m->deadline=now+100; break;
         case MPU_SAMPLE:
             mpu6050_decode(m->bytes,m->mg); m->valid=true; m->sequence++;
-            m->last_sample=now; m->state=MPU_READY; m->deadline=now+100; break;
+            m->last_sample=now; m->state=MPU_READY; m->deadline+=100; break;
         case MPU_PROBE:
             /* An unexpected response at 0x69 is reported too; never use it as panel data. */
             fail(m,now,BUS_ERROR); break;
@@ -53,7 +53,11 @@ void mpu6050_tick(mpu6050_t *m, uint32_t now) {
     if(m->state==MPU_READY) {
         if(m->probe_requested) { m->probe_requested=false; m->state=MPU_PROBE; }
         else if(m->refresh_requested) { m->refresh_requested=false; m->state=MPU_ID; }
-        else { if(!due(now,m->deadline)) return; m->state=MPU_SAMPLE; }
+        else {
+            if(!due(now,m->deadline)) return;
+            m->deadline+=((now-m->deadline)/100)*100;
+            m->state=MPU_SAMPLE;
+        }
     }
     bool read=true; uint8_t addr=0x68, reg=0x75; uint16_t length=1;
     switch(m->state) {

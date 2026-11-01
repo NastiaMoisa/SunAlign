@@ -1,0 +1,50 @@
+{
+  "mode": "fault",
+  "source_id": "src-af2d5aa374d1",
+  "elf_sha256": "9791f5375be0fea0e576c3d3c857ba3c16355593547e42675980834e502f8471",
+  "diagram_sha256": "93603f1eef4048c00cee0e65a625a1ce4038f20c45fdc0e1bbd8cfe0d1a7b9d6",
+  "port": 43614,
+  "duration_mcu_s": 25,
+  "started_utc": "2026-11-01T11:18:40.341731+00:00",
+  "state": "complete",
+  "complete": true,
+  "boot_count": 1,
+  "first_mcu_ms": 2,
+  "last_mcu_ms": 30500,
+  "commands": [
+    {
+      "utc": "2026-11-01T11:18:45.731704+00:00",
+      "mcu_ms": null,
+      "bytes": "v",
+      "purpose": "clock"
+    },
+    {
+      "utc": "2026-11-01T11:18:45.731899+00:00",
+      "mcu_ms": 2,
+      "bytes": "t",
+      "purpose": "stats"
+    },
+    {
+      "utc": "2026-11-01T11:19:05.753556+00:00",
+      "mcu_ms": 20000,
+      "bytes": "t",
+      "purpose": "stats"
+    },
+    {
+      "utc": "2026-11-01T11:19:11.186022+00:00",
+      "mcu_ms": 25500,
+      "bytes": "t",
+      "purpose": "end_stats"
+    }
+  ],
+  "reason": null,
+  "connected_utc": "2026-11-01T11:18:45.057481+00:00",
+  "updated_utc": "2026-11-01T11:19:15.120164+00:00",
+  "elapsed_mcu_ms": 30498,
+  "first_imu_uart": "FIRST imu 106000",
+  "healthy_first_mcu_ms": 500,
+  "requested_interval_completed_ms": 25498,
+  "ended_utc": "2026-11-01T11:19:16.492264+00:00",
+  "raw_sha256": "e65bec5ac61a394df6532cdbb41a84cd80ce430414b56fe9778ac50710b7b11d",
+  "workspace_note": "Локальний абсолютний шлях вилучено; копію схеми збережено у tools/fixtures/lab3."
+}

@@ -1,0 +1,41 @@
+{
+  "clamp_ns": [
+    [
+      5000000000,
+      1
+    ],
+    [
+      10000000000,
+      0
+    ]
+  ],
+  "adc_count": 50,
+  "adc_max_interval_ms": 100.639225,
+  "ready_ns": 3000000000,
+  "startup_address_frames": [
+    {
+      "end_ns": 4386700,
+      "address": 104,
+      "read": false,
+      "ack": false
+    },
+    {
+      "end_ns": 1005163225,
+      "address": 104,
+      "read": false,
+      "ack": false
+    },
+    {
+      "end_ns": 2005133400,
+      "address": 104,
+      "read": false,
+      "ack": false
+    },
+    {
+      "end_ns": 3005118800,
+      "address": 104,
+      "read": false,
+      "ack": true
+    }
+  ]
+}

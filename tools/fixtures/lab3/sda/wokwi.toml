@@ -1,0 +1,10 @@
+[wokwi]
+version = 1
+firmware = 'firmware.hex'
+elf = 'firmware.elf'
+rfc2217ServerPort = 43614
+vcdFile = 'capture.vcd'
+
+[[chip]]
+name = 'sda-clamp'
+binary = 'sda.clamp.wasm'

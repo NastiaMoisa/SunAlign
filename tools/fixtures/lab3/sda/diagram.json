@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "author": "NastiaMoisa",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-st-nucleo-c031c6",
+      "id": "nucleo",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "mpu",
+      "top": 20,
+      "left": 400,
+      "attrs": {
+        "accelZ": "1"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldrLeft",
+      "top": 200,
+      "left": 400,
+      "attrs": {
+        "lux": "400"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldrRight",
+      "top": 300,
+      "left": 400,
+      "attrs": {
+        "lux": "400"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "zero",
+      "top": 420,
+      "left": 400,
+      "attrs": {
+        "color": "blue",
+        "label": "ZERO"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "pullScl",
+      "top": -60,
+      "left": 300,
+      "attrs": {
+        "value": "4700"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "pullSda",
+      "top": -20,
+      "left": 300,
+      "attrs": {
+        "value": "4700"
+      }
+    },
+    {
+      "type": "wokwi-logic-analyzer",
+      "id": "logic",
+      "top": 530,
+      "left": 370,
+      "attrs": {
+        "bufferSize": "24000000"
+      }
+    },
+    {
+      "type": "chip-sda-clamp",
+      "id": "fault",
+      "top": 500,
+      "left": 30,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "$serialMonitor:TX",
+      "nucleo:PA3",
+      "",
+      []
+    ],
+    [
+      "$serialMonitor:RX",
+      "nucleo:PA2",
+      "",
+      []
+    ],
+    [
+      "nucleo:PB8",
+      "mpu:SCL",
+      "green",
+      []
+    ],
+    [
+      "nucleo:PB9",
+      "mpu:SDA",
+      "blue",
+      []
+    ],
+    [
+      "nucleo:3V3",
+      "mpu:VCC",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "mpu:GND",
+      "black",
+      []
+    ],
+    [
+      "mpu:AD0",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "nucleo:PB8",
+      "pullScl:1",
+      "green",
+      []
+    ],
+    [
+      "pullScl:2",
+      "nucleo:3V3",
+      "red",
+      []
+    ],
+    [
+      "nucleo:PB9",
+      "pullSda:1",
+      "blue",
+      []
+    ],
+    [
+      "pullSda:2",
+      "nucleo:3V3",
+      "red",
+      []
+    ],
+    [
+      "nucleo:3V3",
+      "ldrLeft:VCC",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "ldrLeft:GND",
+      "black",
+      []
+    ],
+    [
+      "ldrLeft:AO",
+      "nucleo:PA0",
+      "orange",
+      []
+    ],
+    [
+      "nucleo:3V3",
+      "ldrRight:VCC",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "ldrRight:GND",
+      "black",
+      []
+    ],
+    [
+      "ldrRight:AO",
+      "nucleo:PA1",
+      "orange",
+      []
+    ],
+    [
+      "zero:1.l",
+      "nucleo:PB0",
+      "purple",
+      []
+    ],
+    [
+      "zero:2.l",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "logic:D0",
+      "nucleo:PB8",
+      "green",
+      []
+    ],
+    [
+      "logic:D1",
+      "nucleo:PB9",
+      "green",
+      []
+    ],
+    [
+      "logic:D2",
+      "nucleo:PA2",
+      "green",
+      []
+    ],
+    [
+      "logic:D3",
+      "nucleo:PA4",
+      "green",
+      []
+    ],
+    [
+      "logic:D4",
+      "nucleo:PB0",
+      "green",
+      []
+    ],
+    [
+      "logic:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "logic:D6",
+      "nucleo:PA6",
+      "purple",
+      []
+    ],
+    [
+      "logic:D7",
+      "nucleo:PA7",
+      "purple",
+      []
+    ],
+    [
+      "fault:SDA",
+      "mpu:SDA",
+      "blue",
+      []
+    ],
+    [
+      "fault:CLAMP",
+      "logic:D5",
+      "orange",
+      []
+    ]
+  ],
+  "dependencies": {}
+}

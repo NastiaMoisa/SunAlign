@@ -1,0 +1,88 @@
+{
+  "description": "Host command counts and span rate; RES counters are cumulative snapshots and nearest preceding PANEL time is approximate, not the timestamp of RES.",
+  "trace_sha256": "63f332157931e9e7973d1808b9880b6a06d38ad9c36e3e30219727282a207a9e",
+  "framing_errors": 0,
+  "accepted_panels": 325,
+  "rejected_panels": 2,
+  "phases": [
+    {
+      "target_hz": 2,
+      "sent": 47,
+      "host_span_s": 24.007883,
+      "observed_host_hz": 1.9160373282392287,
+      "mcu_ms_last_observed_at_first_send": 2,
+      "mcu_ms_last_observed_at_last_send": 24000
+    },
+    {
+      "target_hz": 5,
+      "sent": 107,
+      "host_span_s": 23.885797,
+      "observed_host_hz": 4.437783675378301,
+      "mcu_ms_last_observed_at_first_send": 24500,
+      "mcu_ms_last_observed_at_last_send": 48000
+    },
+    {
+      "target_hz": 10,
+      "sent": 190,
+      "host_span_s": 23.71002,
+      "observed_host_hz": 7.97131339408402,
+      "mcu_ms_last_observed_at_first_send": 48500,
+      "mcu_ms_last_observed_at_last_send": 72000
+    },
+    {
+      "target_hz": 20,
+      "sent": 406,
+      "host_span_s": 24.957723,
+      "observed_host_hz": 16.227441902452398,
+      "mcu_ms_last_observed_at_first_send": 72500,
+      "mcu_ms_last_observed_at_last_send": 96000
+    },
+    {
+      "target_hz": 40,
+      "sent": 745,
+      "host_span_s": 22.946944,
+      "observed_host_hz": 32.42261801832959,
+      "mcu_ms_last_observed_at_first_send": 97500,
+      "mcu_ms_last_observed_at_last_send": 117500
+    }
+  ],
+  "res_snapshots": [
+    {
+      "wire_ns": 133713250,
+      "preceding_panel_ms": 2,
+      "stack_b": 536,
+      "heap_b": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0
+    },
+    {
+      "wire_ns": 20172995050,
+      "preceding_panel_ms": 20000,
+      "stack_b": 576,
+      "heap_b": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0
+    },
+    {
+      "wire_ns": 40190292575,
+      "preceding_panel_ms": 40000,
+      "stack_b": 576,
+      "heap_b": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0
+    },
+    {
+      "wire_ns": 60270855825,
+      "preceding_panel_ms": 60000,
+      "stack_b": 576,
+      "heap_b": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0
+    }
+  ],
+  "interpretation": "Last complete RES near PANEL 60000 ms reports cumulative zero RX lost/errors and TX lost. Later complete RES is unavailable; no first-loss rate can be established. UART RX is not captured in this VCD."
+}

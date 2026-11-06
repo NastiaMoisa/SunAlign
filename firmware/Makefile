@@ -73,6 +73,10 @@ ifeq ($(DIAGNOSTIC),flash)
 C_SOURCES += Diagnostics/flash_probe.c
 endif
 
+ifeq ($(RTOS),1)
+C_SOURCES += $(if $(OS_DIAG),RTOS/os_experiments.c,RTOS/sunalign_rtos.c) Middlewares/FreeRTOS/tasks.c Middlewares/FreeRTOS/queue.c Middlewares/FreeRTOS/list.c Middlewares/FreeRTOS/portable/GCC/ARM_CM0/port.c Middlewares/FreeRTOS/portable/MemMang/heap_4.c
+endif
+
 # ASM sources
 ASM_SOURCES =  \
 startup_stm32c031xx.s
@@ -127,12 +131,23 @@ C_DEFS += -DSUNALIGN_FLASH_DIAGNOSTIC
 endif
 
 
+ifeq ($(RTOS),1)
+C_DEFS += -DSUNALIGN_RTOS -DRTOS_TICK_HZ=$(if $(TICK_HZ),$(TICK_HZ),1000)
+ifneq ($(OS_DIAG),)
+C_DEFS += -DSUNALIGN_OS_DIAGNOSTIC=$(OS_DIAG) -DOS_STACK_CHECK=$(if $(STACK_CHECK),$(STACK_CHECK),2)
+ifneq ($(STACK_WORDS),)
+C_DEFS += -DOS_STACK_WORDS=$(STACK_WORDS)
+endif
+endif
+C_INCLUDES_EXTRA = -IRTOS -IMiddlewares/FreeRTOS/include -IMiddlewares/FreeRTOS/portable/GCC/ARM_CM0
+endif
+
 # AS includes
 AS_INCLUDES = 
 
 # C includes
 C_INCLUDES =  \
--IApp -IDevices -IPlatform -IDiagnostics -I$(BUILD_DIR) \
+$(C_INCLUDES_EXTRA) -IApp -IDevices -IPlatform -IDiagnostics -I$(BUILD_DIR) \
 -ICore/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy \
@@ -156,6 +171,8 @@ CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
 # Diagnostics are strict for project-owned code, without muting vendor diagnostics globally.
 $(BUILD_DIR)/measure.o $(BUILD_DIR)/calibration.o $(BUILD_DIR)/observe.o $(BUILD_DIR)/serial_text.o $(BUILD_DIR)/main.o $(BUILD_DIR)/board.o $(BUILD_DIR)/sunalign.o $(BUILD_DIR)/mpu6050.o: CFLAGS += -Wextra -Werror
 $(BUILD_DIR)/clock_pair.o $(BUILD_DIR)/timebase.o $(BUILD_DIR)/flash_probe.o: CFLAGS += -Wextra -Werror
+$(BUILD_DIR)/sunalign_rtos.o $(BUILD_DIR)/os_experiments.o: CFLAGS += -Wextra -Werror
+$(BUILD_DIR)/os_experiments.o: CFLAGS += -Wno-unused-function -Wno-unused-variable
 
 
 #######################################
@@ -222,4 +239,4 @@ FORCE:
 $(BUILD_DIR)/build_id.h: FORCE | $(BUILD_DIR)
 	@python3 ../tools/source_id.py --variant $(if $(filter flash,$(DIAGNOSTIC)),flash,app) | sed 's/.*/#define BUILD_ID "&"/' > $(BUILD_DIR)/build_id.new
 	@cmp -s $(BUILD_DIR)/build_id.new $@ || cp $(BUILD_DIR)/build_id.new $@
-$(BUILD_DIR)/main.o: $(BUILD_DIR)/build_id.h
+$(BUILD_DIR)/main.o $(BUILD_DIR)/sunalign_rtos.o $(BUILD_DIR)/os_experiments.o: $(BUILD_DIR)/build_id.h

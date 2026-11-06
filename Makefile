@@ -1,5 +1,6 @@
 IMAGE ?= sunalign-build:local
-BUILD_DIR ?= build-current
+BUILD_DIR ?= build-lab4
+RTOS ?= 1
 
 .PHONY: image build clean
 
@@ -10,7 +11,7 @@ build: image
 	python3 tools/check_pinout.py
 	docker run --rm -v "$(CURDIR):/workspace" -w /workspace \
 		--user "$(shell id -u):$(shell id -g)" $(IMAGE) \
-		make -C firmware BUILD_DIR=$(BUILD_DIR) all
+		make -C firmware BUILD_DIR=$(BUILD_DIR) RTOS=$(RTOS) TICK_HZ=$(TICK_HZ) OS_DIAG=$(OS_DIAG) STACK_CHECK=$(STACK_CHECK) STACK_WORDS=$(STACK_WORDS) all
 
 clean:
 	$(MAKE) -C firmware BUILD_DIR=$(BUILD_DIR) clean

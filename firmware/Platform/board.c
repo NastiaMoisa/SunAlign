@@ -2,6 +2,9 @@
 #include "main.h"
 #include "observe.h"
 #include <stdio.h>
+#ifdef SUNALIGN_RTOS
+#include "sunalign_rtos.h"
+#endif
 extern I2C_HandleTypeDef hi2c1;
 extern UART_HandleTypeDef huart2;
 static ADC_HandleTypeDef adc;
@@ -26,7 +29,7 @@ static volatile unsigned rx_head, rx_tail;
 volatile uint32_t board_rx_lost, board_tx_lost, board_rx_errors;
 uint32_t board_command_at;
 static uint8_t tx[1024];
-static unsigned tx_head;
+static volatile unsigned tx_head;
 static volatile unsigned tx_tail, tx_count;
 static volatile bool tx_busy;
 static bus_status_t start(void *ctx,bool read,uint8_t address,uint8_t reg,uint8_t *p,uint16_t len) {
@@ -73,16 +76,25 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *h) {
     if(h==&huart2) { unsigned next=(rx_head+1)%64;
         if(next==rx_tail) board_rx_lost++;
         else { commands[rx_head]=(char)rx; command_times[rx_head]=observe_us(); __DMB(); rx_head=next; }
-        HAL_UART_Receive_IT(&huart2,&rx,1); }
+        HAL_UART_Receive_IT(&huart2,&rx,1);
+#ifdef SUNALIGN_RTOS
+        sunalign_uart_wake();
+#endif
+    }
 }
 void HAL_UART_TxCpltCallback(UART_HandleTypeDef *h) {
     if(h==&huart2) { tx_tail=(tx_tail+tx_count)%sizeof(tx); tx_busy=false; }
 }
 #ifndef SUNALIGN_FLASH_DIAGNOSTIC
 int __io_putchar(int c) {
+#ifdef SUNALIGN_OS_DIAGNOSTIC
+    while(!(huart2.Instance->ISR&USART_ISR_TXE_TXFNF)) {}
+    huart2.Instance->TDR=(uint8_t)c; return c;
+#else
     unsigned next=(tx_head+1)%sizeof(tx);
     if(next==tx_tail) { board_tx_lost++; return EOF; }
     tx[tx_head]=(uint8_t)c; __DMB(); tx_head=next; return c;
+#endif
 }
 #endif
 char board_command(void) {

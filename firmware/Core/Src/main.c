@@ -30,6 +30,9 @@
 #include "flash_probe.h"
 #endif
 #include <string.h>
+#ifdef SUNALIGN_RTOS
+#include "sunalign_rtos.h"
+#endif
 extern uint32_t sunalign_heap_peak(void);
 
 /* USER CODE END Includes */
@@ -113,6 +116,9 @@ int main(void)
   flash_diagnostic_run();
 #endif
   board_init();
+  #ifdef SUNALIGN_RTOS
+  sunalign_rtos_start();
+  #else
   static mpu6050_t imu;
   static sunalign_t app;
   static measure_t stats[15];
@@ -244,6 +250,7 @@ int main(void)
 
 
   }
+  #endif
   /* USER CODE END 3 */
 }
 

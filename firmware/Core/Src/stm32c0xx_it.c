@@ -96,6 +96,8 @@ void HardFault_Handler(void)
 /**
   * @brief This function handles System service call via SWI instruction.
   */
+
+#ifndef SUNALIGN_RTOS
 void SVC_Handler(void)
 {
   /* USER CODE BEGIN SVC_IRQn 0 */
@@ -132,6 +134,8 @@ void SysTick_Handler(void)
 
   /* USER CODE END SysTick_IRQn 1 */
 }
+
+#endif
 
 /******************************************************************************/
 /* STM32C0xx Peripheral Interrupt Handlers                                    */

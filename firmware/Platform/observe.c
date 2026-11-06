@@ -17,9 +17,13 @@ unsigned observe_stack_used(void) {
     return (uintptr_t)&_estack-(uintptr_t)p;
 }
 void observe_init(void) {
-    GPIO_InitTypeDef p={0}; p.Pin=GPIO_PIN_6|GPIO_PIN_7;
+    GPIO_InitTypeDef p={0}; p.Pin=GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10;
     p.Mode=GPIO_MODE_OUTPUT_PP; p.Speed=GPIO_SPEED_FREQ_HIGH;
     HAL_GPIO_Init(GPIOA,&p);
+}
+/* 0 idle, 1 panel, 2 sensors, 3 command/log; separate from D6 export. */
+void observe_task(unsigned id) {
+    GPIOA->BSRR=((id&3u)<<8)|(((~id)&3u)<<24);
 }
 void observe_clock_report(void) {
     timebase_report();

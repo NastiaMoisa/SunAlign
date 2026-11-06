@@ -6,11 +6,17 @@
 void timebase_start(void) { }
 
 uint32_t timebase_ms(void) {
+#ifdef SUNALIGN_RTOS
+    /* Aligned 32-bit HAL tick read: observation must not restore IRQ masks
+     * across scheduler/ISR instrumentation. Fine timing comes from GPIO/VCD. */
+    return HAL_GetTick();
+#else
     uint32_t mask = __get_PRIMASK();
     __disable_irq();
     uint32_t tick = HAL_GetTick();
     __set_PRIMASK(mask);
     return tick;
+#endif
 }
 
 uint64_t timebase_us(void) {

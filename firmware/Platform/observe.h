@@ -9,6 +9,7 @@ void observe_stack_paint(void);
 unsigned observe_stack_used(void);
 void observe_clock_report(void);
 void observe_stat(const char *,const measure_t *);
+void observe_task(unsigned id);
 bool calibration_load(calibration_t *);
 bool calibration_save(int32_t);
 #endif

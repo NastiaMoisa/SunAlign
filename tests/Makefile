@@ -3,13 +3,14 @@ CFLAGS = -std=c11 -O0 -g --coverage -Wall -Wextra -Werror -I../firmware/App -I..
 HEADERS = $(wildcard ../firmware/App/*.h ../firmware/Devices/*.h)
 SOURCES = test_sunalign.c ../firmware/App/sunalign.c ../firmware/Devices/mpu6050.c
 .PHONY: test coverage clean
-test: build/tests build/lab3 build/serial build/clock_pair build/timebase
+test: build/tests build/lab3 build/serial build/clock_pair build/timebase build/runtime_clock
 	rm -f build/*.gcda
 	./build/tests
 	./build/lab3
 	./build/serial
 	./build/clock_pair
 	./build/timebase
+	./build/runtime_clock
 build/tests: $(SOURCES) $(HEADERS) fixtures/mpu6050_capture.h
 	mkdir -p build
 	$(CC) $(CFLAGS) $(SOURCES) -lm -o $@
@@ -35,3 +36,7 @@ build/clock_pair: test_clock_pair.c ../firmware/Platform/clock_pair.c ../firmwar
 build/timebase: test_timebase.c ../firmware/Platform/timebase.c ../firmware/Platform/timebase.h timebase_stub/main.h
 	mkdir -p build
 	$(CC) $(CFLAGS) -Itimebase_stub -I../firmware/Platform $(filter %.c,$^) -o $@
+
+build/runtime_clock: test_runtime_clock.c ../firmware/RTOS/runtime_clock.h
+	mkdir -p build
+	$(CC) $(CFLAGS) test_runtime_clock.c -o $@

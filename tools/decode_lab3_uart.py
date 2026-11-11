@@ -1,12 +1,12 @@
 """Decode own VCD UART TX and retain independent wire timestamps for each line."""
 import argparse,bisect,json,pathlib,re,statistics,hashlib
-p=argparse.ArgumentParser();p.add_argument('vcd');p.add_argument('--output',required=True);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('vcd');p.add_argument('--output',required=True);p.add_argument('--channel',default='D2');a=p.parse_args()
 t=0;sym=None;long_sym=None;edges=[];levels=[];long_start=None;long_intervals=[]
 with open(a.vcd) as f:
  for raw in f:
   x=raw.strip()
   if x.startswith('$var'):
-   if x.split()[4]=='D2':sym=x.split()[3]
+   if x.split()[4]==a.channel:sym=x.split()[3]
    if x.split()[4]=='D6':long_sym=x.split()[3]
   elif x.startswith('$timescale'):
    assert re.search(r'\b1\s*ns\b',x),'Decoder requires actual 1 ns VCD timescale'
@@ -42,7 +42,7 @@ for line in lines:
   points.append((tick,line['wire_ns']))
  elif line['text'].startswith('PANEL '):
   rejected_panels.append({'wire_ns':line['wire_ns'],'text':line['text'],'reason':'incomplete or malformed record after UART loss'})
-result={'source':str(pathlib.Path(a.vcd).resolve()),'sha256':hashlib.sha256(pathlib.Path(a.vcd).read_bytes()).hexdigest(),'bit_ns':bit,'framing_errors':errors,'lines':lines}
+result={'source':str(pathlib.Path(a.vcd).resolve()),'sha256':hashlib.sha256(pathlib.Path(a.vcd).read_bytes()).hexdigest(),'channel':a.channel,'byte_count':len(data),'bit_ns':bit,'framing_errors':errors,'lines':lines}
 result['accepted_panel_timestamps']=[{'mcu_ms':ms,'wire_ns':ns} for ms,ns in points]
 result['rejected_panel_records']=rejected_panels
 byte_starts=[at for at,_ in data]

@@ -1,0 +1,1024 @@
+{
+  "mode": "faults",
+  "started_utc": "2026-10-28T20:01:31.528136+00:00",
+  "source_id": "src-2cbad8f6d7e5",
+  "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+  "diagram_sha256": "02749b7b8dede780ab051b91390ea369ba886c4452ae12b76afcd2427ed75c1a",
+  "trials": [
+    {
+      "trial": 1,
+      "byte_offset": 715,
+      "before": {
+        "ms": 500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "first_error_panel": {
+        "ms": 1000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 1
+      },
+      "first_recovered_panel": {
+        "ms": 2000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 1
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 2,
+      "byte_offset": 836,
+      "before": {
+        "ms": 2000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 1
+      },
+      "first_error_panel": {
+        "ms": 2500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 2
+      },
+      "first_recovered_panel": {
+        "ms": 3500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 2
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 3,
+      "byte_offset": 957,
+      "before": {
+        "ms": 3500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 2
+      },
+      "first_error_panel": {
+        "ms": 4000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 3
+      },
+      "first_recovered_panel": {
+        "ms": 5000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 3
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 4,
+      "byte_offset": 1078,
+      "before": {
+        "ms": 5000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 3
+      },
+      "first_error_panel": {
+        "ms": 5500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 4
+      },
+      "first_recovered_panel": {
+        "ms": 6500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 4
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 5,
+      "byte_offset": 1199,
+      "before": {
+        "ms": 6500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 4
+      },
+      "first_error_panel": {
+        "ms": 7000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 5
+      },
+      "first_recovered_panel": {
+        "ms": 8000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 5
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 6,
+      "byte_offset": 1320,
+      "before": {
+        "ms": 8000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 5
+      },
+      "first_error_panel": {
+        "ms": 8500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 6
+      },
+      "first_recovered_panel": {
+        "ms": 9500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 6
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 7,
+      "byte_offset": 1441,
+      "before": {
+        "ms": 9500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 6
+      },
+      "first_error_panel": {
+        "ms": 10000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 7
+      },
+      "first_recovered_panel": {
+        "ms": 11000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 7
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 8,
+      "byte_offset": 1565,
+      "before": {
+        "ms": 11000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 7
+      },
+      "first_error_panel": {
+        "ms": 11500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 8
+      },
+      "first_recovered_panel": {
+        "ms": 12500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 8
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 9,
+      "byte_offset": 1689,
+      "before": {
+        "ms": 12500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 8
+      },
+      "first_error_panel": {
+        "ms": 13000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 9
+      },
+      "first_recovered_panel": {
+        "ms": 14000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 9
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 10,
+      "byte_offset": 1813,
+      "before": {
+        "ms": 14000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 9
+      },
+      "first_error_panel": {
+        "ms": 14500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 10
+      },
+      "first_recovered_panel": {
+        "ms": 15500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 10
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 11,
+      "byte_offset": 1940,
+      "before": {
+        "ms": 15500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 10
+      },
+      "first_error_panel": {
+        "ms": 16000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 11
+      },
+      "first_recovered_panel": {
+        "ms": 17000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 11
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 12,
+      "byte_offset": 2067,
+      "before": {
+        "ms": 17000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 11
+      },
+      "first_error_panel": {
+        "ms": 17500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 12
+      },
+      "first_recovered_panel": {
+        "ms": 18500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 12
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 13,
+      "byte_offset": 2194,
+      "before": {
+        "ms": 18500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 12
+      },
+      "first_error_panel": {
+        "ms": 19000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 13
+      },
+      "first_recovered_panel": {
+        "ms": 20000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 13
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 14,
+      "byte_offset": 2321,
+      "before": {
+        "ms": 20000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 13
+      },
+      "first_error_panel": {
+        "ms": 20500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 14
+      },
+      "first_recovered_panel": {
+        "ms": 21500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 14
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 15,
+      "byte_offset": 2448,
+      "before": {
+        "ms": 21500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 14
+      },
+      "first_error_panel": {
+        "ms": 22000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 15
+      },
+      "first_recovered_panel": {
+        "ms": 23000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 15
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 16,
+      "byte_offset": 2575,
+      "before": {
+        "ms": 23000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 15
+      },
+      "first_error_panel": {
+        "ms": 23500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 16
+      },
+      "first_recovered_panel": {
+        "ms": 24500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 16
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 17,
+      "byte_offset": 2702,
+      "before": {
+        "ms": 24500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 16
+      },
+      "first_error_panel": {
+        "ms": 25000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 17
+      },
+      "first_recovered_panel": {
+        "ms": 26000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 17
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 18,
+      "byte_offset": 2829,
+      "before": {
+        "ms": 26000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 17
+      },
+      "first_error_panel": {
+        "ms": 26500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 18
+      },
+      "first_recovered_panel": {
+        "ms": 27500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 18
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 19,
+      "byte_offset": 2956,
+      "before": {
+        "ms": 27500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 18
+      },
+      "first_error_panel": {
+        "ms": 28000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 19
+      },
+      "first_recovered_panel": {
+        "ms": 29000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 19
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 20,
+      "byte_offset": 3083,
+      "before": {
+        "ms": 29000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 19
+      },
+      "first_error_panel": {
+        "ms": 29500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 20
+      },
+      "first_recovered_panel": {
+        "ms": 30500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 20
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 21,
+      "byte_offset": 3210,
+      "before": {
+        "ms": 30500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 20
+      },
+      "first_error_panel": {
+        "ms": 31000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 21
+      },
+      "first_recovered_panel": {
+        "ms": 32000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 21
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 22,
+      "byte_offset": 3337,
+      "before": {
+        "ms": 32000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 21
+      },
+      "first_error_panel": {
+        "ms": 32500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 22
+      },
+      "first_recovered_panel": {
+        "ms": 33500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 22
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 23,
+      "byte_offset": 3464,
+      "before": {
+        "ms": 33500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 22
+      },
+      "first_error_panel": {
+        "ms": 34000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 23
+      },
+      "first_recovered_panel": {
+        "ms": 35000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 23
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 24,
+      "byte_offset": 3591,
+      "before": {
+        "ms": 35000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 23
+      },
+      "first_error_panel": {
+        "ms": 35500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 24
+      },
+      "first_recovered_panel": {
+        "ms": 36500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 24
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 25,
+      "byte_offset": 3718,
+      "before": {
+        "ms": 36500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 24
+      },
+      "first_error_panel": {
+        "ms": 37000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 25
+      },
+      "first_recovered_panel": {
+        "ms": 38000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 25
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 26,
+      "byte_offset": 3845,
+      "before": {
+        "ms": 38000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 25
+      },
+      "first_error_panel": {
+        "ms": 38500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 26
+      },
+      "first_recovered_panel": {
+        "ms": 39500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 26
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 27,
+      "byte_offset": 3972,
+      "before": {
+        "ms": 39500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 26
+      },
+      "first_error_panel": {
+        "ms": 40000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 27
+      },
+      "first_recovered_panel": {
+        "ms": 41000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 27
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 28,
+      "byte_offset": 4099,
+      "before": {
+        "ms": 41000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 27
+      },
+      "first_error_panel": {
+        "ms": 41500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 28
+      },
+      "first_recovered_panel": {
+        "ms": 42500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 28
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 29,
+      "byte_offset": 4226,
+      "before": {
+        "ms": 42500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 28
+      },
+      "first_error_panel": {
+        "ms": 43000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 29
+      },
+      "first_recovered_panel": {
+        "ms": 44000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 29
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 30,
+      "byte_offset": 4353,
+      "before": {
+        "ms": 44000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 29
+      },
+      "first_error_panel": {
+        "ms": 44500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 30
+      },
+      "first_recovered_panel": {
+        "ms": 45500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 30
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    }
+  ],
+  "completed": true,
+  "time_basis": "MCU PANEL for durations; host clock only schedules inputs and bounds waiting",
+  "initial": {
+    "byte_offset": 715,
+    "panel": {
+      "ms": 500,
+      "horizontal": "CENTER",
+      "vertical": "UNSET",
+      "zero_count": 0,
+      "imu_errors": 0
+    },
+    "statistics": {
+      "board": {
+        "n": 1004,
+        "min_us": 94,
+        "avg_us": 109,
+        "max_us": 186
+      },
+      "imu": {
+        "n": 1005,
+        "min_us": 13,
+        "avg_us": 18,
+        "max_us": 187
+      },
+      "panel": {
+        "n": 641,
+        "min_us": 38,
+        "avg_us": 453,
+        "max_us": 1917
+      },
+      "led": {
+        "n": 2,
+        "min_us": 11,
+        "avg_us": 14,
+        "max_us": 18
+      },
+      "log": {
+        "n": 2,
+        "min_us": 394,
+        "avg_us": 454,
+        "max_us": 514
+      },
+      "loop": {
+        "n": 1008,
+        "min_us": 251,
+        "avg_us": 647,
+        "max_us": 2506
+      },
+      "command": {
+        "n": 1,
+        "min_us": 253,
+        "avg_us": 253,
+        "max_us": 253
+      },
+      "button": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "save": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "imu_dt": {
+        "n": 5,
+        "min_us": 99982,
+        "avg_us": 100260,
+        "max_us": 101175
+      },
+      "adc_dt": {
+        "n": 6,
+        "min_us": 97025,
+        "avg_us": 99719,
+        "max_us": 101831
+      },
+      "panel_dt": {
+        "n": 649,
+        "min_us": 711,
+        "avg_us": 1018,
+        "max_us": 2346
+      },
+      "led_dt": {
+        "n": 1,
+        "min_us": 498341,
+        "avg_us": 498341,
+        "max_us": 498341
+      },
+      "log_dt": {
+        "n": 1,
+        "min_us": 498363,
+        "avg_us": 498363,
+        "max_us": 498363
+      },
+      "dump_wire": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      }
+    },
+    "resources": [
+      592,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deadlines": [
+      6,
+      0,
+      0,
+      0
+    ]
+  },
+  "final": {
+    "byte_offset": 5080,
+    "panel": {
+      "ms": 46000,
+      "horizontal": "CENTER",
+      "vertical": "UNSET",
+      "zero_count": 0,
+      "imu_errors": 30
+    },
+    "statistics": {
+      "board": {
+        "n": 97584,
+        "min_us": 94,
+        "avg_us": 131,
+        "max_us": 226
+      },
+      "imu": {
+        "n": 97585,
+        "min_us": 12,
+        "avg_us": 14,
+        "max_us": 187
+      },
+      "panel": {
+        "n": 45909,
+        "min_us": 38,
+        "avg_us": 180,
+        "max_us": 1917
+      },
+      "led": {
+        "n": 93,
+        "min_us": 11,
+        "avg_us": 18,
+        "max_us": 20
+      },
+      "log": {
+        "n": 93,
+        "min_us": 394,
+        "avg_us": 561,
+        "max_us": 592
+      },
+      "loop": {
+        "n": 97588,
+        "min_us": 251,
+        "avg_us": 472,
+        "max_us": 2506
+      },
+      "command": {
+        "n": 32,
+        "min_us": 62,
+        "avg_us": 634,
+        "max_us": 2324
+      },
+      "button": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "save": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "imu_dt": {
+        "n": 135,
+        "min_us": 99231,
+        "avg_us": 340838,
+        "max_us": 1200910
+      },
+      "adc_dt": {
+        "n": 461,
+        "min_us": 96878,
+        "avg_us": 99996,
+        "max_us": 102013
+      },
+      "panel_dt": {
+        "n": 45917,
+        "min_us": 454,
+        "avg_us": 1004,
+        "max_us": 2536
+      },
+      "led_dt": {
+        "n": 92,
+        "min_us": 498341,
+        "avg_us": 499984,
+        "max_us": 500787
+      },
+      "log_dt": {
+        "n": 92,
+        "min_us": 498363,
+        "avg_us": 499984,
+        "max_us": 500786
+      },
+      "dump_wire": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      }
+    },
+    "resources": [
+      592,
+      0,
+      0,
+      0,
+      0,
+      496
+    ],
+    "deadlines": [
+      135,
+      0,
+      0,
+      0
+    ]
+  },
+  "log_sha256": "4da0f9897b2887da6b9996d0d9ba0547e0ec2b23002c73a968b470cafe426a9c"
+}

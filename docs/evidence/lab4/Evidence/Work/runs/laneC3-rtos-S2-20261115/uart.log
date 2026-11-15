@@ -1,0 +1,26 @@
+BOOT SunAlign lab3 src-dfed9a63eeda systick_1ms 48MHz 115200
+RTOS FreeRTOS=10.5.1 port=GCC/ARM_CM0 tick_hz=1000
+STORE valid=0 zero=0
+PANEL 4 0 0 0 ERROR ERROR 0 0
+FIRST adc 7000
+CLOCK mode=systick_ms resolution_us=1000 configured=1 wcet=unavailable cpu=unavailable masked_ticks=may_be_lost
+STAT board 40 0 0 0
+STAT imu 41 0 0 0
+STAT panel 83 0 0 0
+STAT led 1 0 0 0
+STAT log 1 1000 1000 1000
+STAT loop 80 0 1075 3000
+STAT command 2 1000 2000 3000
+STAT button 0 0 0 0
+STAT save 0 0 0 0
+STAT imu_dt 0 0 0 0
+STAT adc_dt 0 0 0 0
+STAT panel_dt 100 1000 1000 1000
+STAT led_dt 0 0 0 0
+STAT log_dt 0 0 0 0
+STAT dump_wire 0 0 0 0
+SCHED 2 2 2 4
+RES 276 0 0 0 0 NA
+DEADLINE 0 0 0 0
+CLOCK mode=systick_ms resolution_us=1000 configured=1 wcet=unavailable cpu=unavailable masked_ticks=may_be_lost
+FIRST imu 125000

@@ -1,0 +1,199 @@
+{
+  "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/metrics/lab3/pilot-sampled.log",
+  "statistics": {
+    "board": {
+      "n": 121561,
+      "min_us": 94,
+      "avg_us": 135,
+      "max_us": 228
+    },
+    "imu": {
+      "n": 121562,
+      "min_us": 13,
+      "avg_us": 19,
+      "max_us": 206
+    },
+    "panel": {
+      "n": 90319,
+      "min_us": 38,
+      "avg_us": 411,
+      "max_us": 823
+    },
+    "led": {
+      "n": 182,
+      "min_us": 11,
+      "avg_us": 18,
+      "max_us": 20
+    },
+    "log": {
+      "n": 182,
+      "min_us": 394,
+      "avg_us": 546,
+      "max_us": 557
+    },
+    "loop": {
+      "n": 121565,
+      "min_us": 251,
+      "avg_us": 744,
+      "max_us": 2037
+    },
+    "command": {
+      "n": 4,
+      "min_us": 104,
+      "avg_us": 456,
+      "max_us": 813
+    },
+    "button": {
+      "n": 0,
+      "min_us": null,
+      "avg_us": null,
+      "max_us": null
+    },
+    "save": {
+      "n": 0,
+      "min_us": null,
+      "avg_us": null,
+      "max_us": null
+    },
+    "imu_dt": {
+      "n": 904,
+      "min_us": 98681,
+      "avg_us": 100001,
+      "max_us": 101218,
+      "jitter_min_us": -1319,
+      "jitter_max_us": 1218
+    },
+    "adc_dt": {
+      "n": 905,
+      "min_us": 97025,
+      "avg_us": 99999,
+      "max_us": 101995,
+      "jitter_min_us": -2975,
+      "jitter_max_us": 1995
+    },
+    "panel_dt": {
+      "n": 90327,
+      "min_us": 711,
+      "avg_us": 1002,
+      "max_us": 2034,
+      "jitter_min_us": -289,
+      "jitter_max_us": 1034
+    },
+    "led_dt": {
+      "n": 181,
+      "min_us": 498137,
+      "avg_us": 499991,
+      "max_us": 500346,
+      "jitter_min_us": -1863,
+      "jitter_max_us": 346
+    },
+    "log_dt": {
+      "n": 181,
+      "min_us": 498158,
+      "avg_us": 499991,
+      "max_us": 500349,
+      "jitter_min_us": -1842,
+      "jitter_max_us": 349
+    },
+    "dump_wire": {
+      "n": 0,
+      "min_us": null,
+      "avg_us": null,
+      "max_us": null
+    }
+  },
+  "events": {},
+  "resources": [
+    {
+      "stack_used": 600,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 438
+    },
+    {
+      "stack_used": 600,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 441
+    },
+    {
+      "stack_used": 600,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 438
+    },
+    {
+      "stack_used": 600,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 436
+    }
+  ],
+  "deadlines": [
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    }
+  ],
+  "evidence_sufficiency": {
+    "zero_events": 0,
+    "periodic_counts": {
+      "imu_dt": 904,
+      "adc_dt": 905,
+      "panel_dt": 90327,
+      "led_dt": 181,
+      "log_dt": 181
+    }
+  },
+  "clock": [
+    {
+      "reads": 346841,
+      "wraps": 366,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 757933,
+      "wraps": 824,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 1161220,
+      "wraps": 1282,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 1247462,
+      "wraps": 1381,
+      "max_gap_mod_us": 1168
+    }
+  ],
+  "timing_status": "requires TIM3-vs-VCD validation; simulation values are not physical MCU guarantees"
+}

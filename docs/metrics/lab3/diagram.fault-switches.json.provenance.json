@@ -1,0 +1,15 @@
+{
+  "baseline_sha256": "02749b7b8dede780ab051b91390ea369ba886c4452ae12b76afcd2427ed75c1a",
+  "fixture_sha256": "8591ef4b5f42d254b91146b3c36d4709e701812c204303355ec446984c0aa0d2",
+  "changes": [
+    "AD0 SPDT switch: left GND=0x68; right VCC=0x69",
+    "SDA clamp SPDT switch: left open; right SDA-to-GND",
+    "D5 is AD0 in this fixture, not LED; all other analyzer channels unchanged"
+  ],
+  "status": "prepared, not yet executed; runtime behavior of model must be observed",
+  "references": [
+    "https://docs.wokwi.com/parts/wokwi-slide-switch",
+    "https://docs.wokwi.com/parts/wokwi-mpu6050"
+  ],
+  "scope": "Only model circuit fault. No physical hardware or power-cut claim."
+}

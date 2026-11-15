@@ -1,0 +1,544 @@
+{
+  "mode": "startups",
+  "started_utc": "2026-10-28T20:02:28.347460+00:00",
+  "source_id": "src-2cbad8f6d7e5",
+  "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+  "diagram_sha256": "02749b7b8dede780ab051b91390ea369ba886c4452ae12b76afcd2427ed75c1a",
+  "trials": [
+    {
+      "trial": 1,
+      "byte_offset": 643,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 2,
+      "byte_offset": 827,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109107
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 3,
+      "byte_offset": 1011,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109106
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 4,
+      "byte_offset": 1195,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 5,
+      "byte_offset": 1379,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 6,
+      "byte_offset": 1563,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 7,
+      "byte_offset": 1747,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 8,
+      "byte_offset": 1931,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109107
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 9,
+      "byte_offset": 2115,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 10,
+      "byte_offset": 2299,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109106
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 11,
+      "byte_offset": 2483,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109106
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 12,
+      "byte_offset": 2667,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109106
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 13,
+      "byte_offset": 2851,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 14,
+      "byte_offset": 3035,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 15,
+      "byte_offset": 3219,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 16,
+      "byte_offset": 3403,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 17,
+      "byte_offset": 3587,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 18,
+      "byte_offset": 3771,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109106
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 19,
+      "byte_offset": 3955,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 20,
+      "byte_offset": 4139,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 21,
+      "byte_offset": 4323,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 22,
+      "byte_offset": 4507,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 23,
+      "byte_offset": 4691,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 24,
+      "byte_offset": 4875,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 25,
+      "byte_offset": 5059,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109106
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 26,
+      "byte_offset": 5243,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109106
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 27,
+      "byte_offset": 5427,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 28,
+      "byte_offset": 5611,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 29,
+      "byte_offset": 5795,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    },
+    {
+      "trial": 30,
+      "byte_offset": 5979,
+      "first_from_observe_init_us": {
+        "adc": 4621,
+        "imu": 109105
+      },
+      "store": "STORE valid=0 zero=0",
+      "scope": "NVIC software reset, excludes pre-observe_init time and power ramp"
+    }
+  ],
+  "completed": true,
+  "time_basis": "MCU PANEL for durations; host clock only schedules inputs and bounds waiting",
+  "initial": {
+    "byte_offset": 643,
+    "panel": {
+      "ms": 47500,
+      "horizontal": "CENTER",
+      "vertical": "UNSET",
+      "zero_count": 0,
+      "imu_errors": 30
+    },
+    "statistics": {
+      "board": {
+        "n": 99061,
+        "min_us": 94,
+        "avg_us": 131,
+        "max_us": 226
+      },
+      "imu": {
+        "n": 99062,
+        "min_us": 12,
+        "avg_us": 14,
+        "max_us": 187
+      },
+      "panel": {
+        "n": 47367,
+        "min_us": 38,
+        "avg_us": 191,
+        "max_us": 1917
+      },
+      "led": {
+        "n": 96,
+        "min_us": 11,
+        "avg_us": 18,
+        "max_us": 20
+      },
+      "log": {
+        "n": 96,
+        "min_us": 394,
+        "avg_us": 562,
+        "max_us": 592
+      },
+      "loop": {
+        "n": 99065,
+        "min_us": 251,
+        "avg_us": 480,
+        "max_us": 2506
+      },
+      "command": {
+        "n": 33,
+        "min_us": 62,
+        "avg_us": 650,
+        "max_us": 2324
+      },
+      "button": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "save": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "imu_dt": {
+        "n": 150,
+        "min_us": 99231,
+        "avg_us": 316756,
+        "max_us": 1200910
+      },
+      "adc_dt": {
+        "n": 476,
+        "min_us": 96878,
+        "avg_us": 99996,
+        "max_us": 102013
+      },
+      "panel_dt": {
+        "n": 47375,
+        "min_us": 454,
+        "avg_us": 1005,
+        "max_us": 2536
+      },
+      "led_dt": {
+        "n": 95,
+        "min_us": 498341,
+        "avg_us": 499982,
+        "max_us": 500787
+      },
+      "log_dt": {
+        "n": 95,
+        "min_us": 498363,
+        "avg_us": 499983,
+        "max_us": 500786
+      },
+      "dump_wire": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      }
+    },
+    "resources": [
+      592,
+      0,
+      0,
+      0,
+      0,
+      548
+    ],
+    "deadlines": [
+      150,
+      0,
+      0,
+      0
+    ]
+  },
+  "final": {
+    "byte_offset": 6744,
+    "panel": {
+      "ms": 1000,
+      "horizontal": "CENTER",
+      "vertical": "UNSET",
+      "zero_count": 0,
+      "imu_errors": 0
+    },
+    "statistics": {
+      "board": {
+        "n": 1567,
+        "min_us": 94,
+        "avg_us": 111,
+        "max_us": 197
+      },
+      "imu": {
+        "n": 1568,
+        "min_us": 13,
+        "avg_us": 18,
+        "max_us": 188
+      },
+      "panel": {
+        "n": 1101,
+        "min_us": 38,
+        "avg_us": 486,
+        "max_us": 1917
+      },
+      "led": {
+        "n": 3,
+        "min_us": 11,
+        "avg_us": 15,
+        "max_us": 18
+      },
+      "log": {
+        "n": 3,
+        "min_us": 394,
+        "avg_us": 478,
+        "max_us": 527
+      },
+      "loop": {
+        "n": 1571,
+        "min_us": 251,
+        "avg_us": 712,
+        "max_us": 2507
+      },
+      "command": {
+        "n": 1,
+        "min_us": 150,
+        "avg_us": 150,
+        "max_us": 150
+      },
+      "button": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "save": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "imu_dt": {
+        "n": 10,
+        "min_us": 99731,
+        "avg_us": 100121,
+        "max_us": 101175
+      },
+      "adc_dt": {
+        "n": 11,
+        "min_us": 97025,
+        "avg_us": 99836,
+        "max_us": 101832
+      },
+      "panel_dt": {
+        "n": 1109,
+        "min_us": 711,
+        "avg_us": 1017,
+        "max_us": 2346
+      },
+      "led_dt": {
+        "n": 2,
+        "min_us": 498341,
+        "avg_us": 499237,
+        "max_us": 500133
+      },
+      "log_dt": {
+        "n": 2,
+        "min_us": 498362,
+        "avg_us": 499250,
+        "max_us": 500138
+      },
+      "dump_wire": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      }
+    },
+    "resources": [
+      592,
+      0,
+      0,
+      0,
+      0,
+      501
+    ],
+    "deadlines": [
+      11,
+      0,
+      0,
+      0
+    ]
+  },
+  "log_sha256": "711f8602ea72e1333f20fd7d7ab831d9b62ca9a39dfaeef0420e5df9bed2b27b"
+}

@@ -1,0 +1,52 @@
+{
+  "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-27.vcd",
+  "sha256": "72c0f4ef21446825174bdc604c9fb24a2a389daf34a03c42357de91b926457cd",
+  "bit_ns": 8687.5,
+  "framing_errors": 0,
+  "lines": [
+    {
+      "wire_ns": 4302500,
+      "wire_end_ns": 9829300.0,
+      "byte_count": 55,
+      "text": "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+    },
+    {
+      "wire_ns": 9842325,
+      "wire_end_ns": 12027100.0,
+      "byte_count": 22,
+      "text": "STORE valid=0 zero=0"
+    },
+    {
+      "wire_ns": 12228125,
+      "wire_end_ns": 15312000.0,
+      "byte_count": 31,
+      "text": "PANEL 2 0 0 0 ERROR ERROR 0 0"
+    },
+    {
+      "wire_ns": 15325025,
+      "wire_end_ns": 16910400.0,
+      "byte_count": 16,
+      "text": "FIRST adc 4621"
+    },
+    {
+      "wire_ns": 110760800,
+      "wire_end_ns": 112545875.0,
+      "byte_count": 18,
+      "text": "FIRST imu 107989"
+    },
+    {
+      "wire_ns": 503864600,
+      "wire_end_ns": 507847575.0,
+      "byte_count": 40,
+      "text": "PANEL 500 1123 1123 0 CENTER UNSET 0 0"
+    }
+  ],
+  "long_operation_uart": [],
+  "clock_check": {
+    "panel_points": 2,
+    "mcu_elapsed_ms": 498,
+    "wire_elapsed_ms": 491.636475,
+    "wire_to_mcu_ratio": 0.9872218373493976,
+    "monotonic": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-28T19:44:02.887343+00:00",
+  "mode": "S3",
+  "requested_mcu_seconds": 300,
+  "requested_host_bursts_hz": 20.0,
+  "port": 43614,
+  "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+  "diagram_sha256": "02749b7b8dede780ab051b91390ea369ba886c4452ae12b76afcd2427ed75c1a",
+  "transport": "Wokwi VS Code RFC2217, no host time used as MCU latency",
+  "source_id": "src-2cbad8f6d7e5",
+  "first_tick_ms": 2,
+  "final_tick_ms": 301501,
+  "wall_seconds": 313.08010616699903,
+  "commands_sent": 11439,
+  "completed": true,
+  "rejected_implausible_panel_records": 0,
+  "log_sha256": "a41826395b58d8f22ae3fea80314014e34963b2b39958aeb1bca8a2752493153"
+}

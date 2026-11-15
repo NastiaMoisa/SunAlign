@@ -1,0 +1,9 @@
+{
+  "runner_reported_completed": true,
+  "validated_completed": false,
+  "reason": "Corrupted UART timestamp triggered old prefix-only parser duration before300real MCU seconds",
+  "accepted_first_ms": 2,
+  "accepted_last_ms": 214500,
+  "rejected_records": [],
+  "raw_preserved": true
+}

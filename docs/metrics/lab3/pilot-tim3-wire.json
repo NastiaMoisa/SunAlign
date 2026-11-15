@@ -1,0 +1,591 @@
+{
+  "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/pilot-tim3.vcd",
+  "sha256": "6151b943fa9857c230d132d74548e7948cc99afc7f46a2036406d660f9d4d2fc",
+  "bit_ns": 8687.5,
+  "framing_errors": 0,
+  "lines": [
+    {
+      "wire_ns": 4283750,
+      "text": "BOOT SunAlign lab3 src-1c57ae774012 1MHz 48MHz 115200"
+    },
+    {
+      "wire_ns": 9906450,
+      "text": "STORE valid=0 zero=0"
+    },
+    {
+      "wire_ns": 12324000,
+      "text": "PANEL 2 0 0 0 ERROR ERROR 0 0"
+    },
+    {
+      "wire_ns": 15420900,
+      "text": "FIRST adc 4510"
+    },
+    {
+      "wire_ns": 111583025,
+      "text": "FIRST imu 108835"
+    },
+    {
+      "wire_ns": 503857350,
+      "text": "PANEL 500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 1004028900,
+      "text": "PANEL 1000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 1504032000,
+      "text": "PANEL 1500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 2004066325,
+      "text": "PANEL 2000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 2503943425,
+      "text": "PANEL 2500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 3003906750,
+      "text": "PANEL 3000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 3504083325,
+      "text": "PANEL 3500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 3534575950,
+      "text": "STAT board 6194 89 111 198"
+    },
+    {
+      "wire_ns": 3538454125,
+      "text": "STAT imu 6195 10 15 157"
+    },
+    {
+      "wire_ns": 3540951625,
+      "text": "STAT panel 3532 43 399 793"
+    },
+    {
+      "wire_ns": 3543752525,
+      "text": "STAT led 8 8 14 16"
+    },
+    {
+      "wire_ns": 3546503950,
+      "text": "STAT log 8 390 492 518"
+    },
+    {
+      "wire_ns": 3548901550,
+      "text": "STAT loop 6198 226 570 1615"
+    },
+    {
+      "wire_ns": 3551798650,
+      "text": "STAT command 1 787 787 787"
+    },
+    {
+      "wire_ns": 3554595850,
+      "text": "STAT button 0 0 0 0"
+    },
+    {
+      "wire_ns": 3556693750,
+      "text": "STAT save 0 0 0 0"
+    },
+    {
+      "wire_ns": 3558591850,
+      "text": "STAT imu_dt 34 99555 100028 100497"
+    },
+    {
+      "wire_ns": 3562762500,
+      "text": "STAT adc_dt 35 97111 99971 101759"
+    },
+    {
+      "wire_ns": 3566259000,
+      "text": "STAT panel_dt 3540 639 1001 1684"
+    },
+    {
+      "wire_ns": 3569655600,
+      "text": "STAT led_dt 7 498200 499766 500177"
+    },
+    {
+      "wire_ns": 3573252000,
+      "text": "STAT log_dt 7 498222 499771 500177"
+    },
+    {
+      "wire_ns": 3576848400,
+      "text": "SCHED 2 7 2 2"
+    },
+    {
+      "wire_ns": 3578346900,
+      "text": "RES 648 0 0 0 0 432"
+    },
+    {
+      "wire_ns": 3580444800,
+      "text": "DEADLINE 0 0 0 0"
+    },
+    {
+      "wire_ns": 4003957400,
+      "text": "PANEL 4000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 4503988500,
+      "text": "PANEL 4500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 5003904075,
+      "text": "PANEL 5000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 5503993675,
+      "text": "PANEL 5500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 6003960250,
+      "text": "PANEL 6000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 6503983575,
+      "text": "PANEL 6500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 7004116175,
+      "text": "PANEL 7000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 7504145500,
+      "text": "PANEL 7500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 8004078325,
+      "text": "PANEL 8000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 8504153175,
+      "text": "PANEL 8500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 9003949500,
+      "text": "PANEL 9000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 9503985575,
+      "text": "PANEL 9500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 10004225675,
+      "text": "PANEL 10000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 10504099250,
+      "text": "PANEL 10500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 11004053325,
+      "text": "PANEL 11000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 11504214400,
+      "text": "PANEL 11500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 12004189500,
+      "text": "PANEL 12000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 12504120575,
+      "text": "PANEL 12500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 13004122650,
+      "text": "PANEL 13000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 13503942500,
+      "text": "PANEL 13500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 14004208825,
+      "text": "PANEL 14000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 14504009900,
+      "text": "PANEL 14500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 15004208000,
+      "text": "PANEL 15000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 15504252075,
+      "text": "PANEL 15500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 16004167900,
+      "text": "PANEL 16000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 16503957500,
+      "text": "PANEL 16500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 17004151575,
+      "text": "PANEL 17000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 17504255150,
+      "text": "PANEL 17500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 18004174500,
+      "text": "PANEL 18000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 18504250575,
+      "text": "PANEL 18500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 19004024400,
+      "text": "PANEL 19000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 19504175250,
+      "text": "PANEL 19500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 20004111325,
+      "text": "PANEL 20000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 20504221650,
+      "text": "PANEL 20500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 21004018000,
+      "text": "PANEL 21000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 21504225825,
+      "text": "PANEL 21500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 22004022675,
+      "text": "PANEL 22000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 22504201000,
+      "text": "PANEL 22500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 23004200825,
+      "text": "PANEL 23000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 23504252425,
+      "text": "PANEL 23500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 24004158250,
+      "text": "PANEL 24000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 24504226825,
+      "text": "PANEL 24500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 25004188175,
+      "text": "PANEL 25000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 25504001500,
+      "text": "PANEL 25500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 26004249325,
+      "text": "PANEL 26000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 26504295175,
+      "text": "PANEL 26500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 27004000250,
+      "text": "PANEL 27000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 27504031575,
+      "text": "PANEL 27500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 28004205925,
+      "text": "PANEL 28000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 28504046750,
+      "text": "PANEL 28500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 29004251825,
+      "text": "PANEL 29000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 29504154425,
+      "text": "PANEL 29500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 30004056750,
+      "text": "PANEL 30000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 30504095075,
+      "text": "PANEL 30500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 31004178425,
+      "text": "PANEL 31000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 31504059250,
+      "text": "PANEL 31500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 32004272575,
+      "text": "PANEL 32000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 32504029675,
+      "text": "PANEL 32500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 33004277975,
+      "text": "PANEL 33000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 33504012075,
+      "text": "PANEL 33500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 34004075675,
+      "text": "PANEL 34000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 34504282975,
+      "text": "PANEL 34500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 35003998575,
+      "text": "PANEL 35000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 35504289150,
+      "text": "PANEL 35500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 36004287975,
+      "text": "PANEL 36000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 36504014325,
+      "text": "PANEL 36500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 37004147675,
+      "text": "PANEL 37000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 37504170225,
+      "text": "PANEL 37500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 38004087825,
+      "text": "PANEL 38000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 38504223150,
+      "text": "PANEL 38500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 39004092750,
+      "text": "PANEL 39000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 39504076825,
+      "text": "PANEL 39500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 40004015425,
+      "text": "PANEL 40000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 40504277475,
+      "text": "PANEL 40500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 41004135550,
+      "text": "PANEL 41000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 41504223650,
+      "text": "PANEL 41500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 42003996000,
+      "text": "PANEL 42000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 42503960325,
+      "text": "PANEL 42500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 43004039650,
+      "text": "PANEL 43000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 43504007250,
+      "text": "PANEL 43500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 44004260050,
+      "text": "PANEL 44000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 44504016400,
+      "text": "PANEL 44500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 45004311975,
+      "text": "PANEL 45000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 45504258300,
+      "text": "PANEL 45500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 46004253400,
+      "text": "PANEL 46000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 46504086225,
+      "text": "PANEL 46500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 47004078800,
+      "text": "PANEL 47000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 47504327650,
+      "text": "PANEL 47500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 48004273475,
+      "text": "PANEL 48000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 48504218050,
+      "text": "PANEL 48500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 49004289650,
+      "text": "PANEL 49000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 49504065725,
+      "text": "PANEL 49500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 50004244800,
+      "text": "PANEL 50000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 50504007400,
+      "text": "PANEL 50500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 51004295975,
+      "text": "PANEL 51000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 51504267050,
+      "text": "PANEL 51500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 52004099650,
+      "text": "PANEL 52000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 52504060225,
+      "text": "PANEL 52500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 53003989550,
+      "text": "PANEL 53000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 53504091900,
+      "text": "PANEL 53500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 54004207025,
+      "text": "PANEL 54000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 54504039300,
+      "text": "PANEL 54500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 55004299150,
+      "text": "PANEL 55000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 55504331475,
+      "text": "PANEL 55500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 56004082300,
+      "text": "PANEL 56000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 56504052150,
+      "text": "PANEL 56500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 57004051975,
+      "text": "PANEL 57000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 57504197550,
+      "text": "PANEL 57500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 58004173150,
+      "text": "PANEL 58000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 58504161475,
+      "text": "PANEL 58500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 59004099300,
+      "text": "PANEL 59000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 59504096650,
+      "text": "PANEL 59500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 60004277725,
+      "text": "PANEL 60000 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 60504310800,
+      "text": "PANEL 60500 1123 1123 0 CENTER UNSET 0 0"
+    },
+    {
+      "wire_ns": 61004093650,
+      "text": "PANEL 61000 1123 1123 0 CENTER UNSET 0 0"
+    }
+  ],
+  "clock_check": {
+    "panel_points": 123,
+    "mcu_elapsed_ms": 60998,
+    "wire_elapsed_ms": 60991.76965,
+    "wire_to_mcu_ratio": 0.999897859765894,
+    "monotonic": true
+  }
+}

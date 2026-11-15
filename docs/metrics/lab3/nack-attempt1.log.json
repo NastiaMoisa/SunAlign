@@ -1,0 +1,181 @@
+{
+  "mode": "faults",
+  "started_utc": "2026-10-28T19:50:14.333758+00:00",
+  "source_id": "src-2cbad8f6d7e5",
+  "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+  "diagram_sha256": "02749b7b8dede780ab051b91390ea369ba886c4452ae12b76afcd2427ed75c1a",
+  "trials": [
+    {
+      "trial": 1,
+      "byte_offset": 715,
+      "before": {
+        "ms": 500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "first_error_panel": {
+        "ms": 1000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 1
+      },
+      "first_recovered_panel": {
+        "ms": 2000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 1
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    },
+    {
+      "trial": 2,
+      "byte_offset": 836,
+      "before": {
+        "ms": 2000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 1
+      },
+      "first_error_panel": {
+        "ms": 2500,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 2
+      },
+      "first_recovered_panel": {
+        "ms": 3500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 2
+      },
+      "scope": "diagnostic address NACK at 0x69, not a physical disconnection"
+    }
+  ],
+  "completed": false,
+  "time_basis": "MCU PANEL for durations; host clock only schedules inputs and bounds waiting",
+  "initial": {
+    "byte_offset": 715,
+    "panel": {
+      "ms": 500,
+      "horizontal": "CENTER",
+      "vertical": "UNSET",
+      "zero_count": 0,
+      "imu_errors": 0
+    },
+    "statistics": {
+      "board": {
+        "n": 1017,
+        "min_us": 94,
+        "avg_us": 109,
+        "max_us": 186
+      },
+      "imu": {
+        "n": 1018,
+        "min_us": 13,
+        "avg_us": 18,
+        "max_us": 187
+      },
+      "panel": {
+        "n": 651,
+        "min_us": 38,
+        "avg_us": 454,
+        "max_us": 1917
+      },
+      "led": {
+        "n": 2,
+        "min_us": 11,
+        "avg_us": 14,
+        "max_us": 18
+      },
+      "log": {
+        "n": 2,
+        "min_us": 394,
+        "avg_us": 454,
+        "max_us": 514
+      },
+      "loop": {
+        "n": 1021,
+        "min_us": 251,
+        "avg_us": 648,
+        "max_us": 2506
+      },
+      "command": {
+        "n": 1,
+        "min_us": 748,
+        "avg_us": 748,
+        "max_us": 748
+      },
+      "button": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "save": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "imu_dt": {
+        "n": 5,
+        "min_us": 99982,
+        "avg_us": 100260,
+        "max_us": 101175
+      },
+      "adc_dt": {
+        "n": 6,
+        "min_us": 97025,
+        "avg_us": 99719,
+        "max_us": 101831
+      },
+      "panel_dt": {
+        "n": 659,
+        "min_us": 711,
+        "avg_us": 1018,
+        "max_us": 2346
+      },
+      "led_dt": {
+        "n": 1,
+        "min_us": 498341,
+        "avg_us": 498341,
+        "max_us": 498341
+      },
+      "log_dt": {
+        "n": 1,
+        "min_us": 498363,
+        "avg_us": 498363,
+        "max_us": 498363
+      },
+      "dump_wire": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      }
+    },
+    "resources": [
+      592,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deadlines": [
+      6,
+      0,
+      0,
+      0
+    ]
+  },
+  "error": "TimeoutError('Condition not reached in 12 host seconds')",
+  "log_sha256": "bc4d64fb5125b60a292f13a9501954ffd7572571361f49315d50036876fc067b"
+}

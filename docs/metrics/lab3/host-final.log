@@ -1,0 +1,31 @@
+make: Entering directory '/workspace/tests'
+mkdir -p build
+gcc -std=c11 -O0 -g --coverage -Wall -Wextra -Werror -I../firmware/App -I../firmware/Devices test_sunalign.c ../firmware/App/sunalign.c ../firmware/Devices/mpu6050.c -lm -o build/tests
+mkdir -p build
+gcc -std=c11 -O0 -g --coverage -Wall -Wextra -Werror -I../firmware/App -I../firmware/Devices test_lab3.c ../firmware/App/calibration.c ../firmware/App/measure.c ../firmware/App/sunalign.c -lm -o build/lab3
+rm -f build/*.gcda
+./build/tests
+PASS driver_sequence
+PASS driver_errors
+PASS driver_probe_and_wrap
+PASS decode_signed
+PASS captured_vector
+PASS app_light
+PASS app_button_tilt_and_simultaneous
+PASS app_faults_and_wrap
+PASS 8 test groups
+./build/lab3
+PASS two-slot recovery, CRC fallback and sequence wrap
+PASS calibration: 24 interrupted prefixes, 192 bit flips rejected
+PASS cadence: skipped releases and uint32 wrap
+./build/serial
+gcovr --root .. --filter '../firmware/(App|Devices)/' --txt --txt-metric branch --output ../docs/metrics/lab3/coverage-branches.txt
+(INFO) Reading coverage data...
+(INFO) Writing coverage report...
+gcovr --root .. --filter '../firmware/(App|Devices)/' --txt --output ../docs/metrics/lab3/coverage-lines.txt
+(INFO) Reading coverage data...
+(INFO) Writing coverage report...
+gcovr --root .. --filter '../firmware/(App|Devices)/' --json-summary --output ../docs/metrics/lab3/coverage.json --fail-under-line 90 --fail-under-branch 75
+(INFO) Reading coverage data...
+(INFO) Writing coverage report...
+make: Leaving directory '/workspace/tests'

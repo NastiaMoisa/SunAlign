@@ -1,0 +1,7 @@
+{
+  "source_id": "src-2cbad8f6d7e5",
+  "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+  "diagram_sha256": "8591ef4b5f42d254b91146b3c36d4709e701812c204303355ec446984c0aa0d2",
+  "scope": "separate model circuit and save diagnostic; GDB breaks unsupported, no performance claim",
+  "log_sha256": "fca5a19ff460402ec203ffeb105f5b7030b269ed332f8a88f47497d1bf3abf43"
+}

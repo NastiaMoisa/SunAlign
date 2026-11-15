@@ -1,0 +1,177 @@
+{
+  "elf_sha256": "9791f5375be0fea0e576c3d3c857ba3c16355593547e42675980834e502f8471",
+  "largest_symbols": [
+    {
+      "symbol": "main",
+      "bytes": 6404,
+      "address": "0x8003c71",
+      "kind": "function"
+    },
+    {
+      "symbol": "tx",
+      "bytes": 1024,
+      "address": "0x20000708",
+      "kind": "object"
+    },
+    {
+      "symbol": "USART2_IRQHandler",
+      "bytes": 952,
+      "address": "0x8001f6d",
+      "kind": "function"
+    },
+    {
+      "symbol": "__aeabi_fsub",
+      "bytes": 908,
+      "address": "0x800341d",
+      "kind": "function"
+    },
+    {
+      "symbol": "__aeabi_fadd",
+      "bytes": 832,
+      "address": "0x8002ac5",
+      "kind": "function"
+    },
+    {
+      "symbol": "__aeabi_fmul",
+      "bytes": 640,
+      "address": "0x800319d",
+      "kind": "function"
+    },
+    {
+      "symbol": "atanf",
+      "bytes": 568,
+      "address": "0x8002739",
+      "kind": "function"
+    },
+    {
+      "symbol": "__aeabi_fdiv",
+      "bytes": 548,
+      "address": "0x8002e05",
+      "kind": "function"
+    },
+    {
+      "symbol": "UART_RxISR_8BIT_FIFOEN",
+      "bytes": 424,
+      "address": "0x8001a1d",
+      "kind": "function"
+    },
+    {
+      "symbol": "UART_RxISR_16BIT_FIFOEN",
+      "bytes": 420,
+      "address": "0x8001859",
+      "kind": "function"
+    },
+    {
+      "symbol": "HAL_UART_Receive_IT.constprop.0.isra.0",
+      "bytes": 416,
+      "address": "0x8001505",
+      "kind": "function"
+    },
+    {
+      "symbol": "__udivmoddi4",
+      "bytes": 408,
+      "address": "0x80039ed",
+      "kind": "function"
+    },
+    {
+      "symbol": "adc_start",
+      "bytes": 392,
+      "address": "0x80002d1",
+      "kind": "function"
+    },
+    {
+      "symbol": "snapshot.5",
+      "bytes": 384,
+      "address": "0x20000420",
+      "kind": "object"
+    },
+    {
+      "symbol": "history.4",
+      "bytes": 384,
+      "address": "0x200002a0",
+      "kind": "object"
+    },
+    {
+      "symbol": "HAL_GPIO_Init",
+      "bytes": 372,
+      "address": "0x8000525",
+      "kind": "function"
+    },
+    {
+      "symbol": "stats.6",
+      "bytes": 360,
+      "address": "0x200005a0",
+      "kind": "object"
+    },
+    {
+      "symbol": "__sf",
+      "bytes": 312,
+      "address": "0x20000c9c",
+      "kind": "object"
+    },
+    {
+      "symbol": "I2C_Master_ISR_IT",
+      "bytes": 300,
+      "address": "0x8000c4d",
+      "kind": "function"
+    },
+    {
+      "symbol": "start",
+      "bytes": 296,
+      "address": "0x80007b9",
+      "kind": "function"
+    },
+    {
+      "symbol": "HAL_I2C_Init.constprop.0",
+      "bytes": 296,
+      "address": "0x80012f5",
+      "kind": "function"
+    },
+    {
+      "symbol": "I2C_Slave_ISR_IT",
+      "bytes": 292,
+      "address": "0x8001dc1",
+      "kind": "function"
+    },
+    {
+      "symbol": "I2C_ITSlaveCplt",
+      "bytes": 292,
+      "address": "0x8000e99",
+      "kind": "function"
+    },
+    {
+      "symbol": "I2C_Master_ISR_DMA",
+      "bytes": 288,
+      "address": "0x8000d79",
+      "kind": "function"
+    },
+    {
+      "symbol": "I2C_Slave_ISR_DMA",
+      "bytes": 276,
+      "address": "0x8001cad",
+      "kind": "function"
+    }
+  ],
+  "known_chain": [
+    {
+      "symbol": "main",
+      "bytes": 344
+    },
+    {
+      "symbol": "serial_text",
+      "bytes": 24
+    },
+    {
+      "symbol": "number",
+      "bytes": 56
+    },
+    {
+      "symbol": "__io_putchar",
+      "bytes": 8
+    }
+  ],
+  "known_chain_sum_bytes": 432,
+  "evidence": "LTO .su and linked LTO assembler calls; only frame sum for this path, not a bound; interrupt frames and other library paths excluded",
+  "runtime_watermark_bytes": 640,
+  "reserved_stack_bytes": 2048
+}

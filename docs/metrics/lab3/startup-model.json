@@ -1,0 +1,630 @@
+{
+  "scope": "Fresh Wokwi simulation t=0. ADC is PA4 completion; IMU is first valid-data notification on TX, an upper bound including cooperative dispatch and UART delay. Not physical power ramp.",
+  "trials": [
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-01.vcd",
+      "sha256": "8c6539fe0c2d4bd6a606e693ceb96197b83055f43ad66464f3e7f6c66971bbfc",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-02.vcd",
+      "sha256": "c6dad958eb5c98dffc731086f12b4d2b147d8272130841acf9f195365ffe0439",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-03.vcd",
+      "sha256": "97f2ca114175a84816aab45cad41d940e49f3a38ba4738b6f0bebabc115533f1",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-04.vcd",
+      "sha256": "69a8b314357accd7199ac0e2adf43ad8ab6ceaf0ad546b87dd437f130fcdddf9",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-05.vcd",
+      "sha256": "a6c997d619b5b0bdd1455844c32d742918e3eb59c41f048c1889fa60fb0e62f2",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-06.vcd",
+      "sha256": "00de2bb6b2205924cb8e03c45e9bed60ad5c76f1f321834e91dd1bdc9046f021",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-07.vcd",
+      "sha256": "e224be1a8320c53b95252378e0ad424640ce6b70698696c3774887e9c743e326",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-08.vcd",
+      "sha256": "c2f399f10a3c351907b04721f224d54e9f8765d078f8144c3b3f0598de702d03",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-09.vcd",
+      "sha256": "741001ac4c634c0069b6686fb239641affe6dd376c13100b160b52ea940447ae",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-10.vcd",
+      "sha256": "c0ca8b64e1132cf067876eeac5890b4742f3d3ddd802c2ea73027e2c6c06c7c6",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-11.vcd",
+      "sha256": "339b1f3ec72f925ed22146c8b26e5b88864b3e49454434ec2dbbecc98fc0aa2d",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-12.vcd",
+      "sha256": "f7d0c6168430277b7248e29a0390fa8a68e0cc413ed19999a0e4da2070f65c65",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-13.vcd",
+      "sha256": "36c32fc62fff277d50ff96807a1ae4a9411fdc6f76195c84387d841fc4622dce",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-14.vcd",
+      "sha256": "d12e8a9da3a9315ea6ea976e08fe62906a7d743a926eeead4b1a19998abfa0ce",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-15.vcd",
+      "sha256": "98777f065c3f2aa219bdd0c7117875b4a81369fa77feacae525ae491841542a6",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-16.vcd",
+      "sha256": "cd3bd538e16f4268db6606586822f0770c5dd12290eb35e6b4c2f77711c42f45",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-17.vcd",
+      "sha256": "64c0236aa9d21154857b4645853030ee7f4628cde82a3950d57a3ff45fbd8d4f",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-18.vcd",
+      "sha256": "20cd3d2434e59e7b9377531bdaa5e5f5912ee0d1aac1881e86ae22f838a88fdb",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-19.vcd",
+      "sha256": "9ee2226feb3f3e2ac3c6767680dc6eb8d942922881e461abdb9b53035f231234",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-20.vcd",
+      "sha256": "e460b47b6a032050155a75159387118ea81ef79636d8fda1cdd1a4a75eb3affa",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-21.vcd",
+      "sha256": "8e18678a36a5f32e32acc3d3a9d6165c85ce1d475da4726730249c9ce2fee244",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-22.vcd",
+      "sha256": "a4713b2c764c7bdb770abe92e34634722b37ea723cc822ed87d723dcab8497dc",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-23.vcd",
+      "sha256": "47e16316f988436acf1bc733d9d73b18a4b7475175c3b39cb645c1787b3bffe1",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-24.vcd",
+      "sha256": "105aa7d36b3f25cf93344272a3e9d49e7c329014469cafc580951369827fa447",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-25.vcd",
+      "sha256": "59ca95e0b479ede14031eec12c8eb6567eb7c51f03ee74ba53a7252aca4307d7",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-26.vcd",
+      "sha256": "4100634a23d1f23d45024cbb6e3fa3938ca72f0370528790b4291f38057fa465",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-27.vcd",
+      "sha256": "72c0f4ef21446825174bdc604c9fb24a2a389daf34a03c42357de91b926457cd",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-28.vcd",
+      "sha256": "e5a148579b1e56fe88e5112f44d9891ca5510d6db7351136572a01a8b51a98f9",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-29.vcd",
+      "sha256": "2e63d8c0df91b150475c30e4b7342179c780e73ce6e5e5413b706f601f3b685e",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    },
+    {
+      "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-30.vcd",
+      "sha256": "5a3eaeebd917119fcf759bc3266a07f50651f0b1b5ad8e9a4eba0cba912d3e0b",
+      "banners": [
+        "BOOT SunAlign lab3 src-2cbad8f6d7e5 1MHz 48MHz 115200"
+      ],
+      "framing_errors": 0,
+      "first": {
+        "adc": {
+          "firmware_from_observe_init_us": 4621,
+          "uart_wire_from_simulation_start_us": 15325.025
+        },
+        "imu": {
+          "firmware_from_observe_init_us": 107989,
+          "uart_wire_from_simulation_start_us": 110760.8
+        }
+      },
+      "first_adc_gpio_from_simulation_start_us": 6220.2,
+      "complete": true
+    }
+  ],
+  "complete_trials": 30,
+  "adc_gpio": {
+    "n": 30,
+    "min_us": 6220.2,
+    "avg_us": 6220.2,
+    "max_us": 6220.2
+  },
+  "imu_uart_notification": {
+    "n": 30,
+    "min_us": 110760.8,
+    "avg_us": 110760.8,
+    "max_us": 110760.8
+  },
+  "adc_internal": {
+    "n": 30,
+    "min_us": 4621,
+    "avg_us": 4621,
+    "max_us": 4621
+  },
+  "imu_internal": {
+    "n": 30,
+    "min_us": 107989,
+    "avg_us": 107989,
+    "max_us": 107989
+  }
+}

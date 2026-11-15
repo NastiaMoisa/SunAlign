@@ -1,0 +1,50 @@
+{
+  "started_utc": "2026-10-28T20:05:47.877602+00:00",
+  "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+  "scope": "paused debugger diagnostic; no timing claims",
+  "breakpoints": {
+    "0x08004a7a": "HAL_FLASH_Unlock passed, before HAL erase lock",
+    "0x08004b22": "r0 is FLASH_WaitForLastOperation return after starting page erase",
+    "0x08004b56": "before ERASE print: r2 checked words, r3 bad word, r7 ok"
+  },
+  "stops": [],
+  "supported": "",
+  "initial_stop": "S05",
+  "initial_registers": {
+    "r0": 4294967295,
+    "r1": 4294967295,
+    "r2": 4294967295,
+    "r3": 4294967295,
+    "r4": 4294967295,
+    "r5": 4294967295,
+    "r6": 4294967295,
+    "r7": 4294967295,
+    "r8": 4294967295,
+    "r9": 4294967295,
+    "r10": 4294967295,
+    "r11": 4294967295,
+    "r12": 4294967295,
+    "r13": 536883200,
+    "r14": 4294967295,
+    "r15": 134239984,
+    "packet_bytes": 68
+  },
+  "page_a_before": {
+    "address": "0x8007000",
+    "bytes": 2048,
+    "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "ff_bytes": 0,
+    "zero_bytes": 2048,
+    "first_24_hex": "000000000000000000000000000000000000000000000000"
+  },
+  "page_b_before": {
+    "address": "0x8007800",
+    "bytes": 2048,
+    "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "ff_bytes": 0,
+    "zero_bytes": 2048,
+    "first_24_hex": "000000000000000000000000000000000000000000000000"
+  },
+  "error": "AssertionError()",
+  "detach_note": "TimeoutError('timed out')"
+}

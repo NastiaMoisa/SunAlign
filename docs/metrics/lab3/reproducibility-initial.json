@@ -1,0 +1,17 @@
+{
+  "firmware.elf": {
+    "first": "4fed54a7c6e61763c219d34629d333d58c7c5ba9b407968b270e8514eaa45dc7",
+    "second": "4fed54a7c6e61763c219d34629d333d58c7c5ba9b407968b270e8514eaa45dc7",
+    "equal": true
+  },
+  "firmware.hex": {
+    "first": "677ce19fab5a59b8dbde13dca136a8b6792f29424e28505d585ee33d74188e63",
+    "second": "677ce19fab5a59b8dbde13dca136a8b6792f29424e28505d585ee33d74188e63",
+    "equal": true
+  },
+  "firmware.bin": {
+    "first": "df771d1aa37bf3e88deaab61e1f9ae1294fe6eb37d981956868bcd0d1fa87db4",
+    "second": "df771d1aa37bf3e88deaab61e1f9ae1294fe6eb37d981956868bcd0d1fa87db4",
+    "equal": true
+  }
+}

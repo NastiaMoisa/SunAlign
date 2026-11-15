@@ -1,0 +1,53 @@
+firmware/build/firmware.elf  :
+section               size        addr
+.isr_vector            192   134217728
+.text                21972   134217920
+.rodata                824   134239892
+.ARM                     8   134240716
+.init_array              4   134240724
+.fini_array              4   134240728
+.data                  152   536870912
+.bss                  3380   536871064
+._user_heap_stack     2564   536874444
+.ARM.attributes         40           0
+.comment                38           0
+.debug_info         113557           0
+.debug_abbrev        19039           0
+.debug_loclists      33304           0
+.debug_aranges        1064           0
+.debug_rnglists       3528           0
+.debug_line          52513           0
+.debug_str           24114           0
+.debug_frame          3124           0
+.debug_ranges           32           0
+.debug_line_str        163           0
+Total               279616
+
+
+134225124 00000276 t I2C_Slave_ISR_DMA
+134221220 00000288 t I2C_Master_ISR_DMA
+134221508 00000292 t I2C_ITSlaveCplt
+134225400 00000292 t I2C_Slave_ISR_IT
+134219748 00000296 t start
+134220920 00000300 t I2C_Master_ISR_IT
+134222628 00000304 t HAL_I2C_Init.constprop.0
+536874132 00000312 B __sf
+536872368 00000336 b stats.6
+134219088 00000372 t HAL_GPIO_Init
+536871600 00000384 b history.4
+536871984 00000384 b snapshot.5
+134218492 00000392 t adc_start
+134232664 00000408 T __udivmoddi4
+134223164 00000416 t HAL_UART_Receive_IT.constprop.0.isra.0
+134224016 00000420 t UART_RxISR_16BIT_FIFOEN
+134224468 00000424 t UART_RxISR_8BIT_FIFOEN
+134229616 00000548 T __aeabi_fdiv
+134227876 00000568 T atanf
+134230536 00000640 T __aeabi_fmul
+134228784 00000832 T __aeabi_fadd
+134231176 00000908 T __aeabi_fsub
+134225868 00000952 T USART2_IRQHandler
+536872704 00001024 b tx
+134233308 00006476 T main
+arm-none-eabi-gcc (15:13.2.rel1-2) 13.2.1 20231009
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0

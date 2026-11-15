@@ -1,0 +1,1433 @@
+{
+  "groups": [
+    {
+      "memory": "RAM",
+      "group": "Platform board",
+      "bytes": 1548
+    },
+    {
+      "memory": "RAM",
+      "group": "C runtime bookkeeping",
+      "bytes": 25
+    },
+    {
+      "memory": "code",
+      "group": "startup_stm32c031xx.s",
+      "bytes": 58
+    },
+    {
+      "memory": "code",
+      "group": "Core/Src/stm32c0xx_it.c",
+      "bytes": 50
+    },
+    {
+      "memory": "code",
+      "group": "runtime/libm/libgcc linked functions",
+      "bytes": 6122
+    },
+    {
+      "memory": "RAM",
+      "group": "Platform observe",
+      "bytes": 26
+    },
+    {
+      "memory": "RAM",
+      "group": "HAL/CMSIS globals",
+      "bytes": 36
+    },
+    {
+      "memory": "RAM",
+      "group": "sysmem heap counters",
+      "bytes": 8
+    },
+    {
+      "memory": "RAM",
+      "group": "newlib globals",
+      "bytes": 396
+    },
+    {
+      "memory": "code",
+      "group": "Platform/observe.c",
+      "bytes": 212
+    },
+    {
+      "memory": "code",
+      "group": "Core/Src/system_stm32c0xx.c",
+      "bytes": 16
+    },
+    {
+      "memory": "RAM",
+      "group": "Core main static product state",
+      "bytes": 1280
+    },
+    {
+      "memory": "code",
+      "group": "Platform/board.c",
+      "bytes": 2168
+    },
+    {
+      "memory": "code",
+      "group": "HAL linked functions",
+      "bytes": 6120
+    },
+    {
+      "memory": "code",
+      "group": "App/measure.c",
+      "bytes": 96
+    },
+    {
+      "memory": "code",
+      "group": "App/calibration.c",
+      "bytes": 132
+    },
+    {
+      "memory": "code",
+      "group": "Platform/serial_text.c",
+      "bytes": 226
+    },
+    {
+      "memory": "RAM",
+      "group": "Core peripheral handles",
+      "bytes": 220
+    },
+    {
+      "memory": "code",
+      "group": "Core/Src/sysmem.c",
+      "bytes": 84
+    },
+    {
+      "memory": "code",
+      "group": "Core/Src/main.c",
+      "bytes": 6648
+    }
+  ],
+  "symbols": [
+    {
+      "address": "0x200001e4",
+      "bytes": 1,
+      "kind": "b",
+      "name": "adc_ok",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000098",
+      "bytes": 1,
+      "kind": "b",
+      "name": "completed.1",
+      "group": "C runtime bookkeeping",
+      "location": null
+    },
+    {
+      "address": "0x2000018d",
+      "bytes": 1,
+      "kind": "b",
+      "name": "i2c_active",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x2000018c",
+      "bytes": 1,
+      "kind": "b",
+      "name": "i2c_result",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000194",
+      "bytes": 1,
+      "kind": "b",
+      "name": "read_after_write",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000195",
+      "bytes": 1,
+      "kind": "b",
+      "name": "receive_pending",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000208",
+      "bytes": 1,
+      "kind": "b",
+      "name": "rx",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000196",
+      "bytes": 1,
+      "kind": "b",
+      "name": "target_address",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000264",
+      "bytes": 1,
+      "kind": "b",
+      "name": "tx_busy",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x8005740",
+      "bytes": 2,
+      "kind": "W",
+      "name": "ADC1_IRQHandler",
+      "group": "startup_stm32c031xx.s",
+      "location": "/workspace/firmware/startup_stm32c031xx.s:109"
+    },
+    {
+      "address": "0x8002454",
+      "bytes": 2,
+      "kind": "T",
+      "name": "HardFault_Handler",
+      "group": "Core/Src/stm32c0xx_it.c",
+      "location": "/workspace/firmware/Core/Src/stm32c0xx_it.c:84"
+    },
+    {
+      "address": "0x8002452",
+      "bytes": 2,
+      "kind": "T",
+      "name": "NMI_Handler",
+      "group": "Core/Src/stm32c0xx_it.c",
+      "location": "/workspace/firmware/Core/Src/stm32c0xx_it.c:69"
+    },
+    {
+      "address": "0x8002458",
+      "bytes": 2,
+      "kind": "T",
+      "name": "PendSV_Handler",
+      "group": "Core/Src/stm32c0xx_it.c",
+      "location": "/workspace/firmware/Core/Src/stm32c0xx_it.c:112"
+    },
+    {
+      "address": "0x8002456",
+      "bytes": 2,
+      "kind": "T",
+      "name": "SVC_Handler",
+      "group": "Core/Src/stm32c0xx_it.c",
+      "location": "/workspace/firmware/Core/Src/stm32c0xx_it.c:99"
+    },
+    {
+      "address": "0x80039d4",
+      "bytes": 2,
+      "kind": "W",
+      "name": "__aeabi_idiv0",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": null
+    },
+    {
+      "address": "0x200002a4",
+      "bytes": 2,
+      "kind": "b",
+      "name": "pending_left",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x2000019c",
+      "bytes": 2,
+      "kind": "b",
+      "name": "receive_length",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x200000b8",
+      "bytes": 2,
+      "kind": "b",
+      "name": "timer_previous",
+      "group": "Platform observe",
+      "location": null
+    },
+    {
+      "address": "0x20000000",
+      "bytes": 4,
+      "kind": "d",
+      "name": "SystemCoreClock",
+      "group": "HAL/CMSIS globals",
+      "location": null
+    },
+    {
+      "address": "0x200002b8",
+      "bytes": 4,
+      "kind": "b",
+      "name": "__sbrk_heap_end",
+      "group": "sysmem heap counters",
+      "location": null
+    },
+    {
+      "address": "0x20000cb8",
+      "bytes": 4,
+      "kind": "B",
+      "name": "__stdio_exit_handler",
+      "group": "newlib globals",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/sys/reent.h:903"
+    },
+    {
+      "address": "0x20000048",
+      "bytes": 4,
+      "kind": "D",
+      "name": "_impure_ptr",
+      "group": "newlib globals",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/sys/reent.h:782"
+    },
+    {
+      "address": "0x200001ec",
+      "bytes": 4,
+      "kind": "b",
+      "name": "adc_at",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x200002a0",
+      "bytes": 4,
+      "kind": "b",
+      "name": "adc_phase",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000138",
+      "bytes": 4,
+      "kind": "b",
+      "name": "adc_started",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x200002a8",
+      "bytes": 4,
+      "kind": "b",
+      "name": "board_adc_sequence",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x200002ac",
+      "bytes": 4,
+      "kind": "b",
+      "name": "board_adc_us",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x200002b0",
+      "bytes": 4,
+      "kind": "b",
+      "name": "board_command_at",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000258",
+      "bytes": 4,
+      "kind": "b",
+      "name": "board_rx_errors",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000214",
+      "bytes": 4,
+      "kind": "b",
+      "name": "board_rx_lost",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x2000026c",
+      "bytes": 4,
+      "kind": "b",
+      "name": "board_tx_lost",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x200000c0",
+      "bytes": 4,
+      "kind": "b",
+      "name": "clock_gap",
+      "group": "Platform observe",
+      "location": null
+    },
+    {
+      "address": "0x200000d0",
+      "bytes": 4,
+      "kind": "b",
+      "name": "clock_reads",
+      "group": "Platform observe",
+      "location": null
+    },
+    {
+      "address": "0x200000bc",
+      "bytes": 4,
+      "kind": "b",
+      "name": "clock_wraps",
+      "group": "Platform observe",
+      "location": null
+    },
+    {
+      "address": "0x200002b4",
+      "bytes": 4,
+      "kind": "b",
+      "name": "heap_peak",
+      "group": "sysmem heap counters",
+      "location": null
+    },
+    {
+      "address": "0x20000190",
+      "bytes": 4,
+      "kind": "b",
+      "name": "i2c_at",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x200001e6",
+      "bytes": 4,
+      "kind": "b",
+      "name": "ldr",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000270",
+      "bytes": 4,
+      "kind": "b",
+      "name": "paint_end",
+      "group": "Platform observe",
+      "location": null
+    },
+    {
+      "address": "0x20000198",
+      "bytes": 4,
+      "kind": "b",
+      "name": "receive_buffer",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x2000020c",
+      "bytes": 4,
+      "kind": "b",
+      "name": "rx_head",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000210",
+      "bytes": 4,
+      "kind": "b",
+      "name": "rx_tail",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000260",
+      "bytes": 4,
+      "kind": "b",
+      "name": "tx_count",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000268",
+      "bytes": 4,
+      "kind": "b",
+      "name": "tx_head",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x2000025c",
+      "bytes": 4,
+      "kind": "b",
+      "name": "tx_tail",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x2000013c",
+      "bytes": 4,
+      "kind": "b",
+      "name": "uwTick",
+      "group": "HAL/CMSIS globals",
+      "location": null
+    },
+    {
+      "address": "0x20000004",
+      "bytes": 4,
+      "kind": "d",
+      "name": "uwTickPrio",
+      "group": "HAL/CMSIS globals",
+      "location": null
+    },
+    {
+      "address": "0x80029f8",
+      "bytes": 6,
+      "kind": "T",
+      "name": "fabsf",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/math.h:381"
+    },
+    {
+      "address": "0x80039cc",
+      "bytes": 8,
+      "kind": "T",
+      "name": "__aeabi_uidivmod",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/lib1funcs.S:1134"
+    },
+    {
+      "address": "0x80026ac",
+      "bytes": 8,
+      "kind": "T",
+      "name": "atan2f",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/math.h:387"
+    },
+    {
+      "address": "0x800028c",
+      "bytes": 8,
+      "kind": "t",
+      "name": "observe_us",
+      "group": "Platform/observe.c",
+      "location": "/workspace/firmware/Platform/observe.c:48"
+    },
+    {
+      "address": "0x2000019e",
+      "bytes": 8,
+      "kind": "b",
+      "name": "packet",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x200000c8",
+      "bytes": 8,
+      "kind": "b",
+      "name": "timer_total",
+      "group": "Platform observe",
+      "location": null
+    },
+    {
+      "address": "0x8002af0",
+      "bytes": 12,
+      "kind": "T",
+      "name": "__aeabi_fcmpeq",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/bpabi-v6m.S:211"
+    },
+    {
+      "address": "0x80025d8",
+      "bytes": 12,
+      "kind": "T",
+      "name": "__errno",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/sys/errno.h:19"
+    },
+    {
+      "address": "0x800245a",
+      "bytes": 14,
+      "kind": "T",
+      "name": "SysTick_Handler",
+      "group": "Core/Src/stm32c0xx_it.c",
+      "location": "/workspace/firmware/Core/Src/stm32c0xx_it.c:125"
+    },
+    {
+      "address": "0x80024d8",
+      "bytes": 16,
+      "kind": "T",
+      "name": "SystemInit",
+      "group": "Core/Src/system_stm32c0xx.c",
+      "location": "/workspace/firmware/Core/Src/system_stm32c0xx.c:136"
+    },
+    {
+      "address": "0x8002ae0",
+      "bytes": 16,
+      "kind": "T",
+      "name": "__aeabi_cfcmpeq",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/bpabi-v6m.S:193"
+    },
+    {
+      "address": "0x20000008",
+      "bytes": 16,
+      "kind": "d",
+      "name": "adc_schedule",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x20000028",
+      "bytes": 16,
+      "kind": "d",
+      "name": "led.2",
+      "group": "Core main static product state",
+      "location": null
+    },
+    {
+      "address": "0x20000038",
+      "bytes": 16,
+      "kind": "d",
+      "name": "log.1",
+      "group": "Core main static product state",
+      "location": null
+    },
+    {
+      "address": "0x20000018",
+      "bytes": 16,
+      "kind": "d",
+      "name": "panel.3",
+      "group": "Core main static product state",
+      "location": null
+    },
+    {
+      "address": "0x80002a6",
+      "bytes": 16,
+      "kind": "t",
+      "name": "read_slot",
+      "group": "Platform/observe.c",
+      "location": "/workspace/firmware/Platform/observe.c:57"
+    },
+    {
+      "address": "0x8002b38",
+      "bytes": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmpge",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/bpabi-v6m.S:238"
+    },
+    {
+      "address": "0x8002b24",
+      "bytes": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmpgt",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/bpabi-v6m.S:237"
+    },
+    {
+      "address": "0x8002b10",
+      "bytes": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmple",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/bpabi-v6m.S:236"
+    },
+    {
+      "address": "0x8002afc",
+      "bytes": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmplt",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/bpabi-v6m.S:235"
+    },
+    {
+      "address": "0x8003898",
+      "bytes": 18,
+      "kind": "T",
+      "name": "__gnu_thumb1_case_uqi",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": null
+    },
+    {
+      "address": "0x8000294",
+      "bytes": 18,
+      "kind": "t",
+      "name": "observe_ms",
+      "group": "Platform/observe.c",
+      "location": "/workspace/firmware/Platform/observe.c:49"
+    },
+    {
+      "address": "0x8001868",
+      "bytes": 20,
+      "kind": "t",
+      "name": "HAL_UART_ErrorCallback.part.0",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:91"
+    },
+    {
+      "address": "0x80038ac",
+      "bytes": 20,
+      "kind": "T",
+      "name": "__gnu_thumb1_case_uhi",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/lib1funcs.S:2137"
+    },
+    {
+      "address": "0x8002ad8",
+      "bytes": 24,
+      "kind": "T",
+      "name": "__aeabi_cfrcmple",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/bpabi-v6m.S:183"
+    },
+    {
+      "address": "0x2000009c",
+      "bytes": 24,
+      "kind": "b",
+      "name": "object.0",
+      "group": "C runtime bookkeeping",
+      "location": null
+    },
+    {
+      "address": "0x200001f0",
+      "bytes": 24,
+      "kind": "b",
+      "name": "pFlash",
+      "group": "HAL/CMSIS globals",
+      "location": null
+    },
+    {
+      "address": "0x8002468",
+      "bytes": 28,
+      "kind": "T",
+      "name": "EXTI4_15_IRQHandler",
+      "group": "Core/Src/stm32c0xx_it.c",
+      "location": "/workspace/firmware/Core/Src/stm32c0xx_it.c:146"
+    },
+    {
+      "address": "0x80007ba",
+      "bytes": 28,
+      "kind": "t",
+      "name": "I2C_Flush_TXDR",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:6144"
+    },
+    {
+      "address": "0x800079c",
+      "bytes": 30,
+      "kind": "t",
+      "name": "I2C_DMAAbort",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:6339"
+    },
+    {
+      "address": "0x8001a20",
+      "bytes": 32,
+      "kind": "t",
+      "name": "UART_DMAAbortOnError",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:3791"
+    },
+    {
+      "address": "0x80007d6",
+      "bytes": 38,
+      "kind": "t",
+      "name": "I2C_TransferConfig",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:6689"
+    },
+    {
+      "address": "0x8000544",
+      "bytes": 40,
+      "kind": "t",
+      "name": "HAL_RCC_GetPCLK1Freq",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.c:922"
+    },
+    {
+      "address": "0x8003830",
+      "bytes": 42,
+      "kind": "T",
+      "name": "__aeabi_fcmpun",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/unordsf2.c:33"
+    },
+    {
+      "address": "0x20000274",
+      "bytes": 44,
+      "kind": "b",
+      "name": "app.7",
+      "group": "Core main static product state",
+      "location": null
+    },
+    {
+      "address": "0x8000158",
+      "bytes": 46,
+      "kind": "t",
+      "name": "measure_add",
+      "group": "App/measure.c",
+      "location": "/workspace/firmware/App/measure.c:2"
+    },
+    {
+      "address": "0x80010cc",
+      "bytes": 50,
+      "kind": "t",
+      "name": "UART_TxISR_16BIT.part.0",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:3987"
+    },
+    {
+      "address": "0x80010fe",
+      "bytes": 50,
+      "kind": "t",
+      "name": "UART_TxISR_8BIT",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:3987"
+    },
+    {
+      "address": "0x8000186",
+      "bytes": 50,
+      "kind": "t",
+      "name": "cadence_take",
+      "group": "App/measure.c",
+      "location": "/workspace/firmware/App/measure.c:7"
+    },
+    {
+      "address": "0x800233c",
+      "bytes": 52,
+      "kind": "T",
+      "name": "__io_putchar",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:81"
+    },
+    {
+      "address": "0x80001b8",
+      "bytes": 52,
+      "kind": "t",
+      "name": "calibration_crc",
+      "group": "App/calibration.c",
+      "location": "/workspace/firmware/App/calibration.c:2"
+    },
+    {
+      "address": "0x8001130",
+      "bytes": 54,
+      "kind": "t",
+      "name": "UART_TxISR_16BIT",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:4016"
+    },
+    {
+      "address": "0x80056f0",
+      "bytes": 56,
+      "kind": "W",
+      "name": "Reset_Handler",
+      "group": "startup_stm32c031xx.s",
+      "location": "/workspace/firmware/startup_stm32c031xx.s:52"
+    },
+    {
+      "address": "0x8002670",
+      "bytes": 58,
+      "kind": "T",
+      "name": "sqrtf",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/math.h:395"
+    },
+    {
+      "address": "0x800385c",
+      "bytes": 60,
+      "kind": "T",
+      "name": "__clzsi2",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/lib1funcs.S:1703"
+    },
+    {
+      "address": "0x200001a8",
+      "bytes": 60,
+      "kind": "b",
+      "name": "imu.8",
+      "group": "Core main static product state",
+      "location": null
+    },
+    {
+      "address": "0x8002370",
+      "bytes": 60,
+      "kind": "t",
+      "name": "number",
+      "group": "Platform/serial_text.c",
+      "location": "/workspace/firmware/Platform/serial_text.c:5"
+    },
+    {
+      "address": "0x80039d8",
+      "bytes": 62,
+      "kind": "T",
+      "name": "__aeabi_uldivmod",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/config/arm/bpabi-v6m.S:148"
+    },
+    {
+      "address": "0x800075c",
+      "bytes": 64,
+      "kind": "t",
+      "name": "I2C_TreatErrorCallback",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:6106"
+    },
+    {
+      "address": "0x8003c0c",
+      "bytes": 64,
+      "kind": "T",
+      "name": "__aeabi_f2iz",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/fixsfsi.c:33"
+    },
+    {
+      "address": "0x20000218",
+      "bytes": 64,
+      "kind": "b",
+      "name": "commands",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x80004fc",
+      "bytes": 72,
+      "kind": "t",
+      "name": "HAL_RCC_GetSysClockFreq",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.c:867"
+    },
+    {
+      "address": "0x8000908",
+      "bytes": 72,
+      "kind": "t",
+      "name": "I2C_Disable_IRQ",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:6787"
+    },
+    {
+      "address": "0x80024e8",
+      "bytes": 72,
+      "kind": "T",
+      "name": "__libc_init_array",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/build_nano/arm-none-eabi/thumb/v6-m/nofp/newlib/../../../../../../newlib/libc/misc/init.c:30"
+    },
+    {
+      "address": "0x2000004c",
+      "bytes": 76,
+      "kind": "D",
+      "name": "_impure_data",
+      "group": "newlib globals",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/sys/reent.h:788"
+    },
+    {
+      "address": "0x20000140",
+      "bytes": 76,
+      "kind": "b",
+      "name": "hi2c1",
+      "group": "Core peripheral handles",
+      "location": null
+    },
+    {
+      "address": "0x80030b0",
+      "bytes": 80,
+      "kind": "T",
+      "name": "__eqsf2",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/eqsf2.c:33"
+    },
+    {
+      "address": "0x80001ec",
+      "bytes": 80,
+      "kind": "t",
+      "name": "calibration_valid",
+      "group": "App/calibration.c",
+      "location": "/workspace/firmware/App/calibration.c:10"
+    },
+    {
+      "address": "0x800023c",
+      "bytes": 80,
+      "kind": "t",
+      "name": "ticks",
+      "group": "Platform/observe.c",
+      "location": "/workspace/firmware/Platform/observe.c:34"
+    },
+    {
+      "address": "0x80016c8",
+      "bytes": 84,
+      "kind": "t",
+      "name": "HAL_UART_RxCpltCallback",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:72"
+    },
+    {
+      "address": "0x8002484",
+      "bytes": 84,
+      "kind": "T",
+      "name": "_sbrk",
+      "group": "Core/Src/sysmem.c",
+      "location": "/workspace/firmware/Core/Src/sysmem.c:55"
+    },
+    {
+      "address": "0x8003a18",
+      "bytes": 90,
+      "kind": "T",
+      "name": "__aeabi_lmul",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/libgcc2.c:529"
+    },
+    {
+      "address": "0x80002b6",
+      "bytes": 90,
+      "kind": "t",
+      "name": "latest",
+      "group": "Platform/observe.c",
+      "location": "/workspace/firmware/Platform/observe.c:62"
+    },
+    {
+      "address": "0x80004a0",
+      "bytes": 92,
+      "kind": "t",
+      "name": "HAL_InitTick",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal.c:236"
+    },
+    {
+      "address": "0x80014c4",
+      "bytes": 100,
+      "kind": "t",
+      "name": "FLASH_WaitForLastOperation.constprop.0",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c:580"
+    },
+    {
+      "address": "0x8000a20",
+      "bytes": 100,
+      "kind": "t",
+      "name": "I2C_ITListenCplt",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5943"
+    },
+    {
+      "address": "0x80009bc",
+      "bytes": 100,
+      "kind": "t",
+      "name": "I2C_ITSlaveSeqCplt",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5567"
+    },
+    {
+      "address": "0x200000d4",
+      "bytes": 100,
+      "kind": "b",
+      "name": "adc",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x8001c6c",
+      "bytes": 104,
+      "kind": "t",
+      "name": "I2C_ITAddrCplt.isra.0",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5419"
+    },
+    {
+      "address": "0x8000950",
+      "bytes": 108,
+      "kind": "t",
+      "name": "I2C_ITMasterSeqCplt",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5514"
+    },
+    {
+      "address": "0x80012b8",
+      "bytes": 116,
+      "kind": "t",
+      "name": "ADC_Disable.constprop.0",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc.c:2820"
+    },
+    {
+      "address": "0x8001f0c",
+      "bytes": 116,
+      "kind": "T",
+      "name": "I2C1_IRQHandler",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:70"
+    },
+    {
+      "address": "0x8000fd8",
+      "bytes": 120,
+      "kind": "t",
+      "name": "UART_TxISR_8BIT_FIFOEN",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:4048"
+    },
+    {
+      "address": "0x80006e0",
+      "bytes": 124,
+      "kind": "t",
+      "name": "HAL_DMA_Abort_IT",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma.c:528"
+    },
+    {
+      "address": "0x8001050",
+      "bytes": 124,
+      "kind": "t",
+      "name": "UART_TxISR_16BIT_FIFOEN",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:4088"
+    },
+    {
+      "address": "0x8001be8",
+      "bytes": 132,
+      "kind": "t",
+      "name": "HAL_ADC_Stop.constprop.0.isra.0",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc.c:1242"
+    },
+    {
+      "address": "0x8001440",
+      "bytes": 132,
+      "kind": "t",
+      "name": "poll",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:46"
+    },
+    {
+      "address": "0x800122c",
+      "bytes": 140,
+      "kind": "t",
+      "name": "board_inputs.constprop.0",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:159"
+    },
+    {
+      "address": "0x80025e4",
+      "bytes": 140,
+      "kind": "T",
+      "name": "memcpy",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/string.h:31"
+    },
+    {
+      "address": "0x8003194",
+      "bytes": 142,
+      "kind": "T",
+      "name": "__lesf2",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/lesf2.c:33"
+    },
+    {
+      "address": "0x20000c28",
+      "bytes": 144,
+      "kind": "b",
+      "name": "huart2",
+      "group": "Core peripheral handles",
+      "location": null
+    },
+    {
+      "address": "0x8003100",
+      "bytes": 146,
+      "kind": "T",
+      "name": "__gesf2",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/gesf2.c:33"
+    },
+    {
+      "address": "0x8003c4c",
+      "bytes": 148,
+      "kind": "T",
+      "name": "__aeabi_i2f",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/floatsisf.c:33"
+    },
+    {
+      "address": "0x80017c4",
+      "bytes": 164,
+      "kind": "t",
+      "name": "UART_RxISR_16BIT",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:4231"
+    },
+    {
+      "address": "0x8002530",
+      "bytes": 166,
+      "kind": "T",
+      "name": "memset",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/string.h:33"
+    },
+    {
+      "address": "0x80023ac",
+      "bytes": 166,
+      "kind": "t",
+      "name": "serial_text",
+      "group": "Platform/serial_text.c",
+      "location": "/workspace/firmware/Platform/serial_text.c:11"
+    },
+    {
+      "address": "0x800171c",
+      "bytes": 168,
+      "kind": "t",
+      "name": "UART_RxISR_8BIT",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:4154"
+    },
+    {
+      "address": "0x8001166",
+      "bytes": 198,
+      "kind": "t",
+      "name": "UART_WaitOnFlagUntilTimeout.constprop.0",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:3366"
+    },
+    {
+      "address": "0x8002a00",
+      "bytes": 216,
+      "kind": "T",
+      "name": "__ieee754_sqrtf",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v6-m/nofp/newlib/../../../../../../newlib/libm/machine/arm/../../math/ef_sqrt.c:25"
+    },
+    {
+      "address": "0x8000a84",
+      "bytes": 236,
+      "kind": "t",
+      "name": "I2C_ITError",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5994"
+    },
+    {
+      "address": "0x8000b70",
+      "bytes": 248,
+      "kind": "t",
+      "name": "I2C_ITMasterCplt",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5641"
+    },
+    {
+      "address": "0x20000b28",
+      "bytes": 256,
+      "kind": "b",
+      "name": "command_times",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x80038c0",
+      "bytes": 266,
+      "kind": "T",
+      "name": "__udivsi3",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": null
+    },
+    {
+      "address": "0x80026b4",
+      "bytes": 268,
+      "kind": "T",
+      "name": "__ieee754_atan2f",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v6-m/nofp/newlib/../../../../../../newlib/libm/math/ef_atan2.c:32"
+    },
+    {
+      "address": "0x80007fc",
+      "bytes": 268,
+      "kind": "t",
+      "name": "start",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:32"
+    },
+    {
+      "address": "0x800132c",
+      "bytes": 276,
+      "kind": "t",
+      "name": "HAL_I2C_Init.constprop.0",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:524"
+    },
+    {
+      "address": "0x8001cd4",
+      "bytes": 276,
+      "kind": "t",
+      "name": "I2C_Slave_ISR_DMA",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5170"
+    },
+    {
+      "address": "0x8000d94",
+      "bytes": 288,
+      "kind": "t",
+      "name": "I2C_Master_ISR_DMA",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5030"
+    },
+    {
+      "address": "0x8000eb4",
+      "bytes": 292,
+      "kind": "t",
+      "name": "I2C_ITSlaveCplt",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:5784"
+    },
+    {
+      "address": "0x8001de8",
+      "bytes": 292,
+      "kind": "t",
+      "name": "I2C_Slave_ISR_IT",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:4889"
+    },
+    {
+      "address": "0x8000c68",
+      "bytes": 300,
+      "kind": "t",
+      "name": "I2C_Master_ISR_IT",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c:4743"
+    },
+    {
+      "address": "0x20000cbc",
+      "bytes": 312,
+      "kind": "B",
+      "name": "__sf",
+      "group": "newlib globals",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/sys/reent.h:274"
+    },
+    {
+      "address": "0x200005c0",
+      "bytes": 360,
+      "kind": "b",
+      "name": "stats.6",
+      "group": "Core main static product state",
+      "location": null
+    },
+    {
+      "address": "0x800056c",
+      "bytes": 372,
+      "kind": "t",
+      "name": "HAL_GPIO_Init",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.c:170"
+    },
+    {
+      "address": "0x200002bc",
+      "bytes": 384,
+      "kind": "b",
+      "name": "history.4",
+      "group": "Core main static product state",
+      "location": null
+    },
+    {
+      "address": "0x2000043c",
+      "bytes": 384,
+      "kind": "b",
+      "name": "snapshot.5",
+      "group": "Core main static product state",
+      "location": null
+    },
+    {
+      "address": "0x8000310",
+      "bytes": 400,
+      "kind": "t",
+      "name": "adc_start",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:94"
+    },
+    {
+      "address": "0x8003a74",
+      "bytes": 408,
+      "kind": "T",
+      "name": "__udivmoddi4",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/libgcc2.c:927"
+    },
+    {
+      "address": "0x8001528",
+      "bytes": 416,
+      "kind": "t",
+      "name": "HAL_UART_Receive_IT.constprop.0.isra.0",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:1421"
+    },
+    {
+      "address": "0x800187c",
+      "bytes": 420,
+      "kind": "t",
+      "name": "UART_RxISR_16BIT_FIFOEN",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:4458"
+    },
+    {
+      "address": "0x8001a40",
+      "bytes": 424,
+      "kind": "t",
+      "name": "UART_RxISR_8BIT_FIFOEN",
+      "group": "HAL linked functions",
+      "location": "/workspace/firmware/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c:4310"
+    },
+    {
+      "address": "0x8002e8c",
+      "bytes": 548,
+      "kind": "T",
+      "name": "__aeabi_fdiv",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/divsf3.c:33"
+    },
+    {
+      "address": "0x80027c0",
+      "bytes": 568,
+      "kind": "T",
+      "name": "atanf",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/newlib-38V0JC/newlib-4.4.0.20231231/newlib/libc/include/math.h:373"
+    },
+    {
+      "address": "0x8003224",
+      "bytes": 640,
+      "kind": "T",
+      "name": "__aeabi_fmul",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/mulsf3.c:33"
+    },
+    {
+      "address": "0x8002b4c",
+      "bytes": 832,
+      "kind": "T",
+      "name": "__aeabi_fadd",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/addsf3.c:33"
+    },
+    {
+      "address": "0x80034a4",
+      "bytes": 908,
+      "kind": "T",
+      "name": "__aeabi_fsub",
+      "group": "runtime/libm/libgcc linked functions",
+      "location": "/build/gcc-arm-none-eabi-Kb2Qbx/gcc-arm-none-eabi-13.2.rel1/build/arm-none-eabi/thumb/v6-m/nofp/libgcc/../../../../../../libgcc/soft-fp/subsf3.c:33"
+    },
+    {
+      "address": "0x8001f80",
+      "bytes": 956,
+      "kind": "T",
+      "name": "USART2_IRQHandler",
+      "group": "Platform/board.c",
+      "location": "/workspace/firmware/Platform/board.c:71"
+    },
+    {
+      "address": "0x20000728",
+      "bytes": 1024,
+      "kind": "b",
+      "name": "tx",
+      "group": "Platform board",
+      "location": null
+    },
+    {
+      "address": "0x8003cf8",
+      "bytes": 6648,
+      "kind": "T",
+      "name": "main",
+      "group": "Core/Src/main.c",
+      "location": "/workspace/firmware/Core/Src/main.c:79"
+    }
+  ],
+  "limitations": [
+    "Aliases with the same address and size are counted once.",
+    "LTO inlined functions are attributed to the surviving linked symbol, especially main.",
+    "Code groups exclude read-only data, vector table, alignment and section glue; they do not sum to total Flash.",
+    "RAM groups count named .data/.bss symbols. Padding and minimum heap/stack reserves are separate.",
+    "This is a linked-symbol attribution, not a reconstruction of bytes belonging to every original C module."
+  ]
+}

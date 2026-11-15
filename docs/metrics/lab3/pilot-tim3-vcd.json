@@ -1,0 +1,41 @@
+{
+  "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/pilot-tim3.vcd",
+  "sha256": "6151b943fa9857c230d132d74548e7948cc99afc7f46a2036406d660f9d4d2fc",
+  "timescale_ns": 1,
+  "adc_completion_interval": {
+    "n": 614,
+    "min_us": 97111.5,
+    "avg_us": 99997.42365635179,
+    "max_us": 101941.8,
+    "p99_us": 101849.425
+  },
+  "button_physical_to_accept": null,
+  "button_during_save": null,
+  "save_gpio_width": null,
+  "button_pairs": [],
+  "save_intervals_ns": [],
+  "interpretation": "Wokwi simulation edges; no physical hardware accuracy claim",
+  "uart_sha256": "7ed9abc0110c3756c909f105f3eef39495dae70d1618a44c784b0a721e2495e6",
+  "run_manifest": {
+    "started_utc": "2026-10-28T17:56:32.912935+00:00",
+    "mode": "S1",
+    "requested_mcu_seconds": 3,
+    "requested_host_bursts_hz": 20,
+    "port": 43614,
+    "elf_sha256": "4fed54a7c6e61763c219d34629d333d58c7c5ba9b407968b270e8514eaa45dc7",
+    "diagram_sha256": "4bd3b959d552d8a6c59dc95320e9047ee5d35c13c72b96f03cdcfec37073661e",
+    "transport": "Wokwi VS Code RFC2217, no host time used as MCU latency",
+    "first_tick_ms": 2,
+    "final_tick_ms": 3500,
+    "wall_seconds": 7.722801750001963,
+    "commands_sent": 1,
+    "completed": true,
+    "log_sha256": "7ed9abc0110c3756c909f105f3eef39495dae70d1618a44c784b0a721e2495e6"
+  },
+  "save_count_matches_uart": true,
+  "successful_save_gpio": null,
+  "successful_save_timer": null,
+  "uart_zero_count": 0,
+  "pair_count_matches_uart": true,
+  "gpio_minus_irq": null
+}

@@ -1,0 +1,56 @@
+{
+  "mode": "S2",
+  "stand": "/Users/pliffdax/Projects/university/Study/People/Мойса Анастасія Святославівна/2026-Fall/SP/Lab04/Work/stands/laneC3-rtos-S2-20261115",
+  "started": "2026-11-15T08:49:28.473087+00:00",
+  "elf_sha256": "3b87d18a244b7819b61c68df72bc1b69cca62138374a0e9f08aac67a22ceeb94",
+  "diagram_sha256": "be3d28fdfd92637b9be1244be51304ef4e576219de18980983c6909449178ba8",
+  "requested_mcu_ms": 3605000,
+  "boot_count": 1,
+  "state": "incomplete",
+  "complete": false,
+  "commands": [
+    {
+      "utc": "2026-11-15T08:49:45.528427+00:00",
+      "mcu_ms": null,
+      "bytes": "v",
+      "purpose": "clock configuration"
+    },
+    {
+      "utc": "2026-11-15T08:49:45.528521+00:00",
+      "mcu_ms": 4,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-15T08:50:15.532335+00:00",
+      "mcu_ms": 4,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-15T08:50:45.553918+00:00",
+      "mcu_ms": 4,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    }
+  ],
+  "first_ms": 4,
+  "last_ms": 4,
+  "panel_count": 1,
+  "max_panel_gap_ms": 0,
+  "invalid_lines": 0,
+  "reason": "SerialException('connection failed (reader thread died)')",
+  "host_seconds": 79.33279741700001,
+  "stall_host_seconds": 90,
+  "connected": "2026-11-15T08:49:44.761581+00:00",
+  "boot": "BOOT SunAlign lab3 src-dfed9a63eeda systick_1ms 48MHz 115200",
+  "elapsed_mcu_ms": 0,
+  "ended": "2026-11-15T08:50:47.806896+00:00",
+  "raw_sha256": "aabfc2cd29f5287c5ee886b36ff9790067085b4821437dc6d3e49f05f7ddc6f6",
+  "collector_valid": false,
+  "valid": false,
+  "validation_state": "failed",
+  "independent_vcd_review": "pending after normal simulator stop",
+  "native_capture": "unavailable: ownCode60188exited; no nativeVCD saved",
+  "comparison_condition": "15NovsamefrozenELF/diagram48MHz115200, necessarydaycontrol; doesnotreplace14Novterminalfailure"
+}

@@ -1,0 +1,20 @@
+{
+  "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/startup/boot-09.vcd",
+  "sha256": "741001ac4c634c0069b6686fb239641affe6dd376c13100b160b52ea940447ae",
+  "timescale_ns": 1,
+  "first_adc_completion_ns": 6220200,
+  "capture_end_ns": 741739900,
+  "adc_completion_interval": {
+    "n": 7,
+    "min_us": 97010.725,
+    "avg_us": 99741.42142857143,
+    "max_us": 101499.575,
+    "p99_us": 101499.575
+  },
+  "button_physical_to_accept": null,
+  "button_during_long": null,
+  "long_operation_gpio_width": null,
+  "button_pairs": [],
+  "long_intervals_ns": [],
+  "interpretation": "Wokwi edges. Input event begins at first fall after at least 30 ms HIGH; subsequent bounce falls retained separately. No physical hardware accuracy claim."
+}

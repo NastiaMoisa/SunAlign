@@ -1,0 +1,53 @@
+{
+  "mode": "S2",
+  "stand": "/Users/pliffdax/Projects/university/Study/People/Мойса Анастасія Святославівна/2026-Fall/SP/Lab04/Work/stands/laneC2-rtos-S2-20261114",
+  "started": "2026-11-14T10:48:11.735614+00:00",
+  "elf_sha256": "3b87d18a244b7819b61c68df72bc1b69cca62138374a0e9f08aac67a22ceeb94",
+  "diagram_sha256": "be3d28fdfd92637b9be1244be51304ef4e576219de18980983c6909449178ba8",
+  "requested_mcu_ms": 3605000,
+  "boot_count": 1,
+  "state": "incomplete",
+  "complete": false,
+  "commands": [
+    {
+      "utc": "2026-11-14T10:51:01.322728+00:00",
+      "mcu_ms": null,
+      "bytes": "v",
+      "purpose": "clock configuration"
+    },
+    {
+      "utc": "2026-11-14T10:51:01.322889+00:00",
+      "mcu_ms": 4,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T10:51:31.327329+00:00",
+      "mcu_ms": 4,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    }
+  ],
+  "first_ms": 4,
+  "last_ms": 4,
+  "panel_count": 1,
+  "max_panel_gap_ms": 0,
+  "invalid_lines": 0,
+  "reason": "TimeoutError('MCU PANEL stopped')",
+  "host_seconds": 214.909359,
+  "stall_host_seconds": 45,
+  "connected": "2026-11-14T10:50:55.551851+00:00",
+  "boot": "BOOT SunAlign lab3 src-dfed9a63eeda systick_1ms 48MHz 115200",
+  "elapsed_mcu_ms": 0,
+  "ended": "2026-11-14T10:51:46.647298+00:00",
+  "raw_sha256": "067ae40a893974543b99e99fa16a9e99d8d8baded8708abb0e4c50f0727bf5f2",
+  "collector_valid": false,
+  "valid": false,
+  "validation_state": "failed",
+  "independent_vcd_review": {
+    "available": false,
+    "reason": "own properprofilemain51476 exited; nativeAXlateropenedblankdefaultprofile17186, guardednoinput; capturesunavailable",
+    "evidence": "frozen-RTOS-S2-native-window-issue.json"
+  },
+  "terminal_interpretation": "D1 fullscenariofailed:oneBOOT,onePANEL4ms,0continuousms,UARTheartbeatstopped. No3600000msclaim; nounchangedELFrerun forbettervalues."
+}

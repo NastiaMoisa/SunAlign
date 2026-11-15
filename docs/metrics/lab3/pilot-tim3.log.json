@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-28T17:56:32.912935+00:00",
+  "mode": "S1",
+  "requested_mcu_seconds": 3,
+  "requested_host_bursts_hz": 20,
+  "port": 43614,
+  "elf_sha256": "4fed54a7c6e61763c219d34629d333d58c7c5ba9b407968b270e8514eaa45dc7",
+  "diagram_sha256": "4bd3b959d552d8a6c59dc95320e9047ee5d35c13c72b96f03cdcfec37073661e",
+  "transport": "Wokwi VS Code RFC2217, no host time used as MCU latency",
+  "first_tick_ms": 2,
+  "final_tick_ms": 3500,
+  "wall_seconds": 7.722801750001963,
+  "commands_sent": 1,
+  "completed": true,
+  "log_sha256": "7ed9abc0110c3756c909f105f3eef39495dae70d1618a44c784b0a721e2495e6"
+}

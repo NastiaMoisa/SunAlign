@@ -1,0 +1,1141 @@
+{
+  "mode": "S2",
+  "stand": "/Users/pliffdax/Projects/university/Study/People/Мойса Анастасія Святославівна/2026-Fall/SP/Lab04/Work/stands/laneC2-lab3-S2-20261114",
+  "started": "2026-11-14T11:03:31.673914+00:00",
+  "elf_sha256": "33baeb35702c35c7f47abb04735c873c52b2c0aa72ff855fed34053c88d96b3e",
+  "diagram_sha256": "be3d28fdfd92637b9be1244be51304ef4e576219de18980983c6909449178ba8",
+  "requested_mcu_ms": 3605000,
+  "boot_count": 1,
+  "state": "complete",
+  "complete": true,
+  "commands": [
+    {
+      "utc": "2026-11-14T11:03:45.263669+00:00",
+      "mcu_ms": null,
+      "bytes": "v",
+      "purpose": "clock configuration"
+    },
+    {
+      "utc": "2026-11-14T11:03:45.263753+00:00",
+      "mcu_ms": 2,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:03:50.695468+00:00",
+      "mcu_ms": 5500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:04:15.278052+00:00",
+      "mcu_ms": 30000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:04:45.290838+00:00",
+      "mcu_ms": 60000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:04:50.709154+00:00",
+      "mcu_ms": 65500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:05:15.312995+00:00",
+      "mcu_ms": 90000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:05:45.326347+00:00",
+      "mcu_ms": 120000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:05:50.719670+00:00",
+      "mcu_ms": 125500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:06:15.328535+00:00",
+      "mcu_ms": 150000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:06:45.332105+00:00",
+      "mcu_ms": 180000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:06:50.740618+00:00",
+      "mcu_ms": 185500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:07:15.331814+00:00",
+      "mcu_ms": 210000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:07:45.347732+00:00",
+      "mcu_ms": 240000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:07:50.738953+00:00",
+      "mcu_ms": 245500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:08:15.347022+00:00",
+      "mcu_ms": 270000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:08:45.352320+00:00",
+      "mcu_ms": 300000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:08:50.763031+00:00",
+      "mcu_ms": 305500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:09:15.369521+00:00",
+      "mcu_ms": 329000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:09:45.375296+00:00",
+      "mcu_ms": 359000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:09:50.770963+00:00",
+      "mcu_ms": 364500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:10:15.378810+00:00",
+      "mcu_ms": 389000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:10:45.399291+00:00",
+      "mcu_ms": 419000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:10:50.796583+00:00",
+      "mcu_ms": 424500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:11:15.408586+00:00",
+      "mcu_ms": 449000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:11:45.421769+00:00",
+      "mcu_ms": 479000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:11:50.809327+00:00",
+      "mcu_ms": 484500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:12:15.429481+00:00",
+      "mcu_ms": 509000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:12:45.437128+00:00",
+      "mcu_ms": 539000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:12:50.829588+00:00",
+      "mcu_ms": 544500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:13:15.440173+00:00",
+      "mcu_ms": 569000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:13:45.461656+00:00",
+      "mcu_ms": 599000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:13:50.839893+00:00",
+      "mcu_ms": 604500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:14:15.464952+00:00",
+      "mcu_ms": 629000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:14:45.488898+00:00",
+      "mcu_ms": 659000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:14:50.852833+00:00",
+      "mcu_ms": 664500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:15:15.497768+00:00",
+      "mcu_ms": 689000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:15:45.518439+00:00",
+      "mcu_ms": 719000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:15:50.858979+00:00",
+      "mcu_ms": 724500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:16:15.535853+00:00",
+      "mcu_ms": 749000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:16:45.552556+00:00",
+      "mcu_ms": 779000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:16:50.862128+00:00",
+      "mcu_ms": 784500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:17:15.561167+00:00",
+      "mcu_ms": 809000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:17:45.568109+00:00",
+      "mcu_ms": 839000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:17:50.874282+00:00",
+      "mcu_ms": 844500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:18:15.574255+00:00",
+      "mcu_ms": 869000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:18:45.594355+00:00",
+      "mcu_ms": 899000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:18:50.892352+00:00",
+      "mcu_ms": 904500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:19:15.607543+00:00",
+      "mcu_ms": 929000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:19:45.626472+00:00",
+      "mcu_ms": 959000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:19:50.898356+00:00",
+      "mcu_ms": 964500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:20:15.646521+00:00",
+      "mcu_ms": 989500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:20:45.666370+00:00",
+      "mcu_ms": 1019500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:20:50.910673+00:00",
+      "mcu_ms": 1024500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:21:15.668316+00:00",
+      "mcu_ms": 1049500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:21:45.681297+00:00",
+      "mcu_ms": 1079500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:21:50.939332+00:00",
+      "mcu_ms": 1084500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:22:15.694740+00:00",
+      "mcu_ms": 1109500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:22:45.713837+00:00",
+      "mcu_ms": 1139500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:22:50.952940+00:00",
+      "mcu_ms": 1144500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:23:15.731412+00:00",
+      "mcu_ms": 1169500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:23:45.745907+00:00",
+      "mcu_ms": 1199500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:23:50.963896+00:00",
+      "mcu_ms": 1204500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:24:15.764659+00:00",
+      "mcu_ms": 1229500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:24:45.771816+00:00",
+      "mcu_ms": 1259500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:24:50.968020+00:00",
+      "mcu_ms": 1264500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:25:15.783087+00:00",
+      "mcu_ms": 1289500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:25:45.799582+00:00",
+      "mcu_ms": 1319500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:25:50.984596+00:00",
+      "mcu_ms": 1324500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:26:15.807659+00:00",
+      "mcu_ms": 1349500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:26:45.814217+00:00",
+      "mcu_ms": 1379500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:26:50.999546+00:00",
+      "mcu_ms": 1384500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:27:15.825349+00:00",
+      "mcu_ms": 1409500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:27:45.836418+00:00",
+      "mcu_ms": 1439500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:27:51.015127+00:00",
+      "mcu_ms": 1444500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:28:15.863162+00:00",
+      "mcu_ms": 1469500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:28:45.866698+00:00",
+      "mcu_ms": 1499500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:28:51.016651+00:00",
+      "mcu_ms": 1504500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:29:15.874821+00:00",
+      "mcu_ms": 1529500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:29:45.887984+00:00",
+      "mcu_ms": 1559500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:29:51.034021+00:00",
+      "mcu_ms": 1564500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:30:15.900094+00:00",
+      "mcu_ms": 1589500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:30:45.916478+00:00",
+      "mcu_ms": 1619500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:30:51.045185+00:00",
+      "mcu_ms": 1624500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:31:15.934774+00:00",
+      "mcu_ms": 1649500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:31:45.955858+00:00",
+      "mcu_ms": 1679500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:31:51.074693+00:00",
+      "mcu_ms": 1684500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:32:15.974216+00:00",
+      "mcu_ms": 1709500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:32:46.001902+00:00",
+      "mcu_ms": 1739500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:32:51.087653+00:00",
+      "mcu_ms": 1744500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:33:16.023757+00:00",
+      "mcu_ms": 1769500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:33:46.049697+00:00",
+      "mcu_ms": 1799500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:33:51.092001+00:00",
+      "mcu_ms": 1804500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:34:16.066780+00:00",
+      "mcu_ms": 1829500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:34:46.083357+00:00",
+      "mcu_ms": 1859500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:34:51.111355+00:00",
+      "mcu_ms": 1864500,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:35:16.106203+00:00",
+      "mcu_ms": 1889500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:35:46.107643+00:00",
+      "mcu_ms": 1919500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:35:51.132851+00:00",
+      "mcu_ms": 1925000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:36:16.113456+00:00",
+      "mcu_ms": 1949500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:36:46.114078+00:00",
+      "mcu_ms": 1980000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:36:51.156349+00:00",
+      "mcu_ms": 1985000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:37:16.123618+00:00",
+      "mcu_ms": 2010000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:37:46.134690+00:00",
+      "mcu_ms": 2040000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:37:51.176859+00:00",
+      "mcu_ms": 2045000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:38:16.135304+00:00",
+      "mcu_ms": 2070000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:38:46.152811+00:00",
+      "mcu_ms": 2100000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:38:51.193930+00:00",
+      "mcu_ms": 2105000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:39:16.176410+00:00",
+      "mcu_ms": 2130000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:39:46.188823+00:00",
+      "mcu_ms": 2160000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:39:51.197904+00:00",
+      "mcu_ms": 2165000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:40:16.209511+00:00",
+      "mcu_ms": 2190000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:40:46.226202+00:00",
+      "mcu_ms": 2220000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:40:51.225949+00:00",
+      "mcu_ms": 2225000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:41:16.226121+00:00",
+      "mcu_ms": 2250000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:41:46.229066+00:00",
+      "mcu_ms": 2280000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:41:51.243838+00:00",
+      "mcu_ms": 2285000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:42:16.241159+00:00",
+      "mcu_ms": 2310000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:42:46.259350+00:00",
+      "mcu_ms": 2340000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:42:51.255369+00:00",
+      "mcu_ms": 2345000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:43:16.267140+00:00",
+      "mcu_ms": 2370000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:43:46.282396+00:00",
+      "mcu_ms": 2400000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:43:51.276027+00:00",
+      "mcu_ms": 2405000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:44:16.290186+00:00",
+      "mcu_ms": 2430000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:44:46.307087+00:00",
+      "mcu_ms": 2460000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:44:51.298681+00:00",
+      "mcu_ms": 2465000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:45:16.305617+00:00",
+      "mcu_ms": 2490000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:45:46.332160+00:00",
+      "mcu_ms": 2520000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:45:51.307248+00:00",
+      "mcu_ms": 2525000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:46:16.350679+00:00",
+      "mcu_ms": 2550000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:46:46.368623+00:00",
+      "mcu_ms": 2580000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:46:51.330694+00:00",
+      "mcu_ms": 2585000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:47:16.380842+00:00",
+      "mcu_ms": 2610000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:47:46.398834+00:00",
+      "mcu_ms": 2640000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:47:51.348768+00:00",
+      "mcu_ms": 2645000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:48:16.402624+00:00",
+      "mcu_ms": 2670000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:48:46.402986+00:00",
+      "mcu_ms": 2700000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:48:51.369799+00:00",
+      "mcu_ms": 2705000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:49:16.406574+00:00",
+      "mcu_ms": 2730000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:49:46.407392+00:00",
+      "mcu_ms": 2760000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:49:51.370128+00:00",
+      "mcu_ms": 2765000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:50:16.423777+00:00",
+      "mcu_ms": 2790000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:50:46.435738+00:00",
+      "mcu_ms": 2820000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:50:51.373746+00:00",
+      "mcu_ms": 2825000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:51:16.448637+00:00",
+      "mcu_ms": 2850000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:51:46.465767+00:00",
+      "mcu_ms": 2880000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:51:51.378885+00:00",
+      "mcu_ms": 2885000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:52:16.489120+00:00",
+      "mcu_ms": 2910000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:52:46.506262+00:00",
+      "mcu_ms": 2940000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:52:51.396506+00:00",
+      "mcu_ms": 2945000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:53:16.525199+00:00",
+      "mcu_ms": 2970000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:53:46.554724+00:00",
+      "mcu_ms": 3000000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:53:51.409920+00:00",
+      "mcu_ms": 3005000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:54:16.556787+00:00",
+      "mcu_ms": 3030000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:54:46.572698+00:00",
+      "mcu_ms": 3060000,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:54:51.414231+00:00",
+      "mcu_ms": 3065000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:55:16.595448+00:00",
+      "mcu_ms": 3090500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:55:46.609322+00:00",
+      "mcu_ms": 3120500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:55:51.433477+00:00",
+      "mcu_ms": 3125000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:56:16.633798+00:00",
+      "mcu_ms": 3150500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:56:46.643416+00:00",
+      "mcu_ms": 3180500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:56:51.437846+00:00",
+      "mcu_ms": 3185000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:57:16.666538+00:00",
+      "mcu_ms": 3210500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:57:46.688180+00:00",
+      "mcu_ms": 3240500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:57:51.461263+00:00",
+      "mcu_ms": 3245000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:58:16.696478+00:00",
+      "mcu_ms": 3270500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:58:46.711848+00:00",
+      "mcu_ms": 3300500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:58:51.481891+00:00",
+      "mcu_ms": 3305000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T11:59:16.719878+00:00",
+      "mcu_ms": 3330500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:59:46.731480+00:00",
+      "mcu_ms": 3360500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T11:59:51.496425+00:00",
+      "mcu_ms": 3365000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T12:00:16.747225+00:00",
+      "mcu_ms": 3390500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T12:00:46.759687+00:00",
+      "mcu_ms": 3420500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T12:00:51.519972+00:00",
+      "mcu_ms": 3425000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T12:01:16.759037+00:00",
+      "mcu_ms": 3450500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T12:01:46.772975+00:00",
+      "mcu_ms": 3480500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T12:01:51.529135+00:00",
+      "mcu_ms": 3485000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T12:02:16.789129+00:00",
+      "mcu_ms": 3510500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T12:02:46.807262+00:00",
+      "mcu_ms": 3540500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T12:02:51.551434+00:00",
+      "mcu_ms": 3545000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T12:03:16.832481+00:00",
+      "mcu_ms": 3570500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T12:03:46.851350+00:00",
+      "mcu_ms": 3600500,
+      "bytes": "t",
+      "purpose": "periodic stats"
+    },
+    {
+      "utc": "2026-11-14T12:03:51.571212+00:00",
+      "mcu_ms": 3605000,
+      "bytes": "cd",
+      "purpose": "rare command"
+    },
+    {
+      "utc": "2026-11-14T12:03:51.592143+00:00",
+      "mcu_ms": 3605500,
+      "bytes": "t",
+      "purpose": "final stats"
+    },
+    {
+      "utc": "2026-11-14T12:03:55.608683+00:00",
+      "mcu_ms": 3609500,
+      "bytes": "o",
+      "purpose": "OS snapshot after timing interval"
+    }
+  ],
+  "first_ms": 2,
+  "last_ms": 3613500,
+  "panel_count": 7228,
+  "max_panel_gap_ms": 501,
+  "invalid_lines": 0,
+  "reason": null,
+  "host_seconds": 3628.23045,
+  "stall_host_seconds": 90,
+  "connected": "2026-11-14T11:03:44.514223+00:00",
+  "boot": "BOOT SunAlign lab3 src-c33b0f26e554 systick_1ms 48MHz 115200",
+  "elapsed_mcu_ms": 3613498,
+  "validated_interval_ms": 3605498,
+  "ended": "2026-11-14T12:03:59.917538+00:00",
+  "raw_sha256": "3f9d12c023061b9ec538a904dd5f4879b70fad5e049161e721ec91eb6d5746d7",
+  "collector_valid": true,
+  "valid": false,
+  "validation_state": "pending_native_vcd",
+  "independent_vcd_review": "blocked: nativeStop/writeback did not export; see S2-native-writeback-blocker-20261114.json"
+}

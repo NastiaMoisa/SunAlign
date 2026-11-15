@@ -1,0 +1,19 @@
+{
+  "source_id": "src-2cbad8f6d7e5",
+  "identical": true,
+  "files": {
+    "elf": {
+      "measured": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+      "rebuilt": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e"
+    },
+    "hex": {
+      "measured": "7fd9241bb4edea9b3e629f3fbfc5f8b673d4d44251928ce85dae93366be88ee6",
+      "rebuilt": "7fd9241bb4edea9b3e629f3fbfc5f8b673d4d44251928ce85dae93366be88ee6"
+    },
+    "bin": {
+      "measured": "6bec104b33125f923d1b2609dfa9e95f9ffa45287df1ece54304e04fab1ea01d",
+      "rebuilt": "6bec104b33125f923d1b2609dfa9e95f9ffa45287df1ece54304e04fab1ea01d"
+    }
+  },
+  "scope": "Clean build after GUI release compared byte-for-byte with measured frozen files"
+}

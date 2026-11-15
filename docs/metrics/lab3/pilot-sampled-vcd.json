@@ -1,0 +1,41 @@
+{
+  "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/captures/lab3/pilot-sampled.vcd",
+  "sha256": "748ebca465dce4e2e5c0bf1f68ab5d4b292fc8e8c7f632059f56ae5b630a609e",
+  "timescale_ns": 1,
+  "adc_completion_interval": {
+    "n": 905,
+    "min_us": 98011.9,
+    "avg_us": 100001.33787292818,
+    "max_us": 101994.075,
+    "p99_us": 101866.075
+  },
+  "button_physical_to_accept": null,
+  "button_during_long": null,
+  "long_operation_gpio_width": null,
+  "button_pairs": [],
+  "long_intervals_ns": [],
+  "interpretation": "Wokwi edges. Input event begins at first fall after at least 30 ms HIGH; subsequent bounce falls retained separately. No physical hardware accuracy claim.",
+  "uart_sha256": "2414a60efd0871e66bfeb87913617dea4c99eedfa387d2be6a7d663a82957941",
+  "run_manifest": {
+    "started_utc": "2026-10-28T18:12:52.379775+00:00",
+    "mode": "S1",
+    "requested_mcu_seconds": 90,
+    "requested_host_bursts_hz": 20,
+    "port": 43614,
+    "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+    "diagram_sha256": "02749b7b8dede780ab051b91390ea369ba886c4452ae12b76afcd2427ed75c1a",
+    "transport": "Wokwi VS Code RFC2217, no host time used as MCU latency",
+    "source_id": "src-2cbad8f6d7e5",
+    "first_tick_ms": 2,
+    "final_tick_ms": 90500,
+    "wall_seconds": 99.85199145800289,
+    "commands_sent": 4,
+    "completed": true,
+    "log_sha256": "2414a60efd0871e66bfeb87913617dea4c99eedfa387d2be6a7d663a82957941"
+  },
+  "successful_saves_uart": 0,
+  "marker_semantics": "PA6 is the union of an active UART export and a Flash call; it cannot isolate Flash latency.",
+  "uart_zero_count": 0,
+  "pair_count_matches_uart": true,
+  "gpio_minus_sample": null
+}

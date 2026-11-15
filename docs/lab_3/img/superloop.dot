@@ -1,0 +1,15 @@
+digraph SunAlign {
+ graph [rankdir=TB,bgcolor=white,nodesep=0.3,ranksep=0.32];
+ node [shape=box,fontname="Arial",fontsize=15,style=rounded,margin="0.18,0.10"];
+ edge [fontname="Arial",fontsize=12];
+ boot [label="Ініціалізація плати, TIM3, CRC ZERO"];
+ board [label="Крок ADC, I2C та UART"];
+ cmd [label="Одна команда c/n/s/d/t/r\ns: спроба Flash erase + program"];
+ imu [label="Крок MPU6050; запуски через 100 мс"];
+ panel [label="1 мс: poll PB0, debounce 30 мс,\nфільтр, ZERO, підказки"];
+ log [label="500 мс: LED та історія 32 точок"];
+ export [label="Один рядок експорту / статистики\nPA6 HIGH до завершення TX"];
+ metric [label="TIM3 sampled16, метрики, пропуски\nПроміжок читань < 65.536 мс"];
+ boot -> board -> cmd -> imu -> panel -> log -> export -> metric;
+ metric -> board [label="наступна ітерація"];
+}

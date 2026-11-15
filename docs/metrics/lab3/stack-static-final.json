@@ -1,0 +1,37 @@
+{
+  "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+  "disassembly_sha256": "9ec59733570e93ed9f479d677c8f908bce1de20a27b62769291d57af4946af2d",
+  "known_call_chain": [
+    {
+      "function": "main",
+      "frame_bytes": 376,
+      "method": "production LTO .su"
+    },
+    {
+      "function": "atan2f",
+      "frame_bytes": 8,
+      "method": "explicit push/sub sp in linked disassembly"
+    },
+    {
+      "function": "__ieee754_atan2f",
+      "frame_bytes": 24,
+      "method": "explicit push/sub sp in linked disassembly"
+    },
+    {
+      "function": "atanf",
+      "frame_bytes": 24,
+      "method": "explicit push/sub sp in linked disassembly"
+    },
+    {
+      "function": "__aeabi_fadd",
+      "frame_bytes": 24,
+      "method": "explicit push/sub sp in linked disassembly"
+    }
+  ],
+  "limitations": [
+    "A known call chain, not a complete worst-case stack bound.",
+    "Indirect callbacks, all alternative paths, exception frames and nested interrupts are not summed here.",
+    "Runtime painting includes startup and executed interrupt paths; it does not prove unexecuted paths safe."
+  ],
+  "known_chain_sum_bytes": 456
+}

@@ -1,0 +1,137 @@
+{
+  "scenario": "S1",
+  "clock_review_required": false,
+  "rejected_uart_panel_records": [],
+  "wire_clock_check": {
+    "panel_points": 692,
+    "mcu_elapsed_ms": 345498,
+    "wire_elapsed_ms": 345491.88255,
+    "wire_to_mcu_ratio": 0.9999822938193564,
+    "monotonic": true
+  },
+  "framing_errors": 0,
+  "paired_adc": {
+    "same_interval_count": true,
+    "firmware": {
+      "n": 3005,
+      "min_us": 96925,
+      "avg_us": 99999,
+      "max_us": 103093,
+      "jitter_min_us": -3075,
+      "jitter_max_us": 3093
+    },
+    "vcd": {
+      "n": 3005,
+      "min_us": 96925.025,
+      "avg_us": 99999.74042429285,
+      "max_us": 103092.35,
+      "p99_us": 101957.2
+    },
+    "vcd_minus_firmware_us": {
+      "min_us": 0.024999999994179234,
+      "avg_us": 0.7404242928460008,
+      "max_us": -0.6499999999941792
+    }
+  },
+  "uart_residual_windows": [
+    {
+      "start_mcu_ms": 0,
+      "n": 60,
+      "min_residual_us": 3864.5999999999767,
+      "median_residual_us": 4120.2874999996275,
+      "max_residual_us": 10228.125
+    },
+    {
+      "start_mcu_ms": 30000,
+      "n": 60,
+      "min_residual_us": 4015.0,
+      "median_residual_us": 4253.012499999255,
+      "max_residual_us": 4400.47500000149,
+      "min_step_us": 150.40000000002328
+    },
+    {
+      "start_mcu_ms": 60000,
+      "n": 60,
+      "min_residual_us": 4045.72500000149,
+      "median_residual_us": 4266.79999999702,
+      "max_residual_us": 4402.54999999702,
+      "min_step_us": 30.725000001490116
+    },
+    {
+      "start_mcu_ms": 90000,
+      "n": 60,
+      "min_residual_us": 4049.2000000029802,
+      "median_residual_us": 4223.07500000298,
+      "max_residual_us": 4445.375,
+      "min_step_us": 3.475000001490116
+    },
+    {
+      "start_mcu_ms": 120000,
+      "n": 60,
+      "min_residual_us": 4057.5999999940395,
+      "median_residual_us": 4313.07500000298,
+      "max_residual_us": 4459.5250000059605,
+      "min_step_us": 8.399999991059303
+    },
+    {
+      "start_mcu_ms": 150000,
+      "n": 60,
+      "min_residual_us": 4052.7750000059605,
+      "median_residual_us": 4254.725000008941,
+      "max_residual_us": 4475.824999988079,
+      "min_step_us": -4.824999988079071
+    },
+    {
+      "start_mcu_ms": 180000,
+      "n": 60,
+      "min_residual_us": 4073.7750000059605,
+      "median_residual_us": 4312.625,
+      "max_residual_us": 4482.574999988079,
+      "min_step_us": 21.0
+    },
+    {
+      "start_mcu_ms": 210000,
+      "n": 60,
+      "min_residual_us": 4075.75,
+      "median_residual_us": 4264.4000000059605,
+      "max_residual_us": 4475.050000011921,
+      "min_step_us": 1.9749999940395355
+    },
+    {
+      "start_mcu_ms": 240000,
+      "n": 60,
+      "min_residual_us": 4085.800000011921,
+      "median_residual_us": 4304.3499999940395,
+      "max_residual_us": 4490.9749999940395,
+      "min_step_us": 10.050000011920929
+    },
+    {
+      "start_mcu_ms": 270000,
+      "n": 60,
+      "min_residual_us": 4104.975000023842,
+      "median_residual_us": 4312.0374999940395,
+      "max_residual_us": 4491.524999976158,
+      "min_step_us": 19.17500001192093
+    },
+    {
+      "start_mcu_ms": 300000,
+      "n": 60,
+      "min_residual_us": 4103.699999988079,
+      "median_residual_us": 4378.175000011921,
+      "max_residual_us": 4520.925000011921,
+      "min_step_us": -1.2750000357627869
+    },
+    {
+      "start_mcu_ms": 330000,
+      "n": 32,
+      "min_residual_us": 4098.175000011921,
+      "median_residual_us": 4302.6875,
+      "max_residual_us": 4498.425000011921,
+      "min_step_us": -5.524999976158142
+    }
+  ],
+  "large_residual_steps": [],
+  "export_us_rollovers": [],
+  "zero_events": [],
+  "interpretation": "Wire residual includes UART queue delay; a step is an observed diagnostic and needs matched GPIO/firmware evidence. No physical oscillator or simulator-root-cause claim."
+}

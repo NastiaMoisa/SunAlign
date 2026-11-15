@@ -1,0 +1,5 @@
+{
+  "elf_sha256": "11eb733999317c423c8e5f05a31502fabe643e474dab50ded6aecd1257a79b3b",
+  "source_id": "#define BUILD_ID \"src-e235277eea10\"\n",
+  "commands": "s at1,2,3 wall seconds, t at4, r at6; ZERO previously pressed in own GUI"
+}

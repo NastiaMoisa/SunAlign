@@ -1,0 +1,2220 @@
+{
+  "mode": "boundary",
+  "started_utc": "2026-10-28T20:02:45.988615+00:00",
+  "source_id": "src-2cbad8f6d7e5",
+  "elf_sha256": "5a3df301d02ea13713421ccff9a77587f0677cb3141a6780f92e85e87f18ac3e",
+  "diagram_sha256": "02749b7b8dede780ab051b91390ea369ba886c4452ae12b76afcd2427ed75c1a",
+  "trials": [
+    {
+      "requested_host_bursts_hz": 1.0,
+      "host_commands_sent": 10,
+      "phase_start_mcu_ms": 3000,
+      "phase_end_panel": {
+        "ms": 13000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "before": {
+        "byte_offset": 1203,
+        "panel": {
+          "ms": 3000,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 4012,
+            "min_us": 94,
+            "avg_us": 118,
+            "max_us": 205
+          },
+          "imu": {
+            "n": 4013,
+            "min_us": 13,
+            "avg_us": 19,
+            "max_us": 188
+          },
+          "panel": {
+            "n": 3215,
+            "min_us": 38,
+            "avg_us": 516,
+            "max_us": 1917
+          },
+          "led": {
+            "n": 7,
+            "min_us": 11,
+            "avg_us": 17,
+            "max_us": 19
+          },
+          "log": {
+            "n": 7,
+            "min_us": 394,
+            "avg_us": 511,
+            "max_us": 543
+          },
+          "loop": {
+            "n": 4016,
+            "min_us": 251,
+            "avg_us": 818,
+            "max_us": 2507
+          },
+          "command": {
+            "n": 3,
+            "min_us": 150,
+            "avg_us": 294,
+            "max_us": 466
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 31,
+            "min_us": 99450,
+            "avg_us": 100044,
+            "max_us": 101175
+          },
+          "adc_dt": {
+            "n": 32,
+            "min_us": 97025,
+            "avg_us": 99946,
+            "max_us": 101907
+          },
+          "panel_dt": {
+            "n": 3223,
+            "min_us": 711,
+            "avg_us": 1022,
+            "max_us": 2346
+          },
+          "led_dt": {
+            "n": 6,
+            "min_us": 498341,
+            "avg_us": 499747,
+            "max_us": 500225
+          },
+          "log_dt": {
+            "n": 6,
+            "min_us": 498362,
+            "avg_us": 499752,
+            "max_us": 500229
+          },
+          "dump_wire": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          }
+        },
+        "resources": [
+          592,
+          0,
+          0,
+          0,
+          0,
+          552
+        ],
+        "deadlines": [
+          32,
+          0,
+          0,
+          0
+        ]
+      },
+      "after": {
+        "byte_offset": 6661,
+        "panel": {
+          "ms": 13500,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 15024,
+            "min_us": 74,
+            "avg_us": 126,
+            "max_us": 212
+          },
+          "imu": {
+            "n": 15025,
+            "min_us": 9,
+            "avg_us": 19,
+            "max_us": 189
+          },
+          "panel": {
+            "n": 13291,
+            "min_us": 38,
+            "avg_us": 529,
+            "max_us": 2099
+          },
+          "led": {
+            "n": 28,
+            "min_us": 11,
+            "avg_us": 17,
+            "max_us": 19
+          },
+          "log": {
+            "n": 28,
+            "min_us": 394,
+            "avg_us": 538,
+            "max_us": 556
+          },
+          "loop": {
+            "n": 15028,
+            "min_us": 251,
+            "avg_us": 906,
+            "max_us": 2661
+          },
+          "command": {
+            "n": 14,
+            "min_us": 76,
+            "avg_us": 517,
+            "max_us": 945
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 135,
+            "min_us": 96958,
+            "avg_us": 100009,
+            "max_us": 102805
+          },
+          "adc_dt": {
+            "n": 136,
+            "min_us": 97025,
+            "avg_us": 99987,
+            "max_us": 102295
+          },
+          "panel_dt": {
+            "n": 13299,
+            "min_us": 711,
+            "avg_us": 1024,
+            "max_us": 2630
+          },
+          "led_dt": {
+            "n": 27,
+            "min_us": 498341,
+            "avg_us": 499940,
+            "max_us": 500242
+          },
+          "log_dt": {
+            "n": 27,
+            "min_us": 498362,
+            "avg_us": 499941,
+            "max_us": 500242
+          },
+          "dump_wire": {
+            "n": 10,
+            "min_us": 20114,
+            "avg_us": 43312,
+            "max_us": 65346
+          }
+        },
+        "resources": [
+          600,
+          0,
+          0,
+          0,
+          0,
+          551
+        ],
+        "deadlines": [
+          136,
+          0,
+          0,
+          0
+        ]
+      },
+      "snapshot_window_ms": 10500,
+      "received_d_commands": 10,
+      "received_d_per_mcu_s": 0.9523809523809523
+    },
+    {
+      "requested_host_bursts_hz": 5.0,
+      "host_commands_sent": 49,
+      "phase_start_mcu_ms": 14000,
+      "phase_end_panel": {
+        "ms": 24000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "before": {
+        "byte_offset": 7270,
+        "panel": {
+          "ms": 14000,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 15712,
+            "min_us": 74,
+            "avg_us": 126,
+            "max_us": 212
+          },
+          "imu": {
+            "n": 15713,
+            "min_us": 9,
+            "avg_us": 19,
+            "max_us": 189
+          },
+          "panel": {
+            "n": 13931,
+            "min_us": 38,
+            "avg_us": 529,
+            "max_us": 2099
+          },
+          "led": {
+            "n": 29,
+            "min_us": 11,
+            "avg_us": 17,
+            "max_us": 19
+          },
+          "log": {
+            "n": 29,
+            "min_us": 394,
+            "avg_us": 539,
+            "max_us": 556
+          },
+          "loop": {
+            "n": 15716,
+            "min_us": 251,
+            "avg_us": 909,
+            "max_us": 2661
+          },
+          "command": {
+            "n": 15,
+            "min_us": 76,
+            "avg_us": 491,
+            "max_us": 945
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 141,
+            "min_us": 96958,
+            "avg_us": 100010,
+            "max_us": 102805
+          },
+          "adc_dt": {
+            "n": 142,
+            "min_us": 97025,
+            "avg_us": 99988,
+            "max_us": 102295
+          },
+          "panel_dt": {
+            "n": 13939,
+            "min_us": 711,
+            "avg_us": 1025,
+            "max_us": 2630
+          },
+          "led_dt": {
+            "n": 28,
+            "min_us": 498341,
+            "avg_us": 499950,
+            "max_us": 500242
+          },
+          "log_dt": {
+            "n": 28,
+            "min_us": 498362,
+            "avg_us": 499951,
+            "max_us": 500242
+          },
+          "dump_wire": {
+            "n": 10,
+            "min_us": 20114,
+            "avg_us": 43312,
+            "max_us": 65346
+          }
+        },
+        "resources": [
+          600,
+          0,
+          0,
+          0,
+          0,
+          550
+        ],
+        "deadlines": [
+          142,
+          0,
+          0,
+          0
+        ]
+      },
+      "after": {
+        "byte_offset": 48290,
+        "panel": {
+          "ms": 24500,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 25207,
+            "min_us": 68,
+            "avg_us": 131,
+            "max_us": 216
+          },
+          "imu": {
+            "n": 25208,
+            "min_us": 9,
+            "avg_us": 20,
+            "max_us": 197
+          },
+          "panel": {
+            "n": 23142,
+            "min_us": 38,
+            "avg_us": 540,
+            "max_us": 2105
+          },
+          "led": {
+            "n": 50,
+            "min_us": 11,
+            "avg_us": 18,
+            "max_us": 33
+          },
+          "log": {
+            "n": 50,
+            "min_us": 394,
+            "avg_us": 562,
+            "max_us": 650
+          },
+          "loop": {
+            "n": 25211,
+            "min_us": 251,
+            "avg_us": 977,
+            "max_us": 3310
+          },
+          "command": {
+            "n": 65,
+            "min_us": 48,
+            "avg_us": 432,
+            "max_us": 1000
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 245,
+            "min_us": 96958,
+            "avg_us": 100005,
+            "max_us": 102805
+          },
+          "adc_dt": {
+            "n": 246,
+            "min_us": 96546,
+            "avg_us": 99993,
+            "max_us": 103431
+          },
+          "panel_dt": {
+            "n": 23150,
+            "min_us": 711,
+            "avg_us": 1065,
+            "max_us": 3282
+          },
+          "led_dt": {
+            "n": 49,
+            "min_us": 498341,
+            "avg_us": 499966,
+            "max_us": 501261
+          },
+          "log_dt": {
+            "n": 49,
+            "min_us": 498362,
+            "avg_us": 499967,
+            "max_us": 501289
+          },
+          "dump_wire": {
+            "n": 59,
+            "min_us": 20114,
+            "avg_us": 78324,
+            "max_us": 90674
+          }
+        },
+        "resources": [
+          624,
+          0,
+          0,
+          0,
+          0,
+          582
+        ],
+        "deadlines": [
+          250,
+          0,
+          0,
+          0
+        ]
+      },
+      "snapshot_window_ms": 10500,
+      "received_d_commands": 49,
+      "received_d_per_mcu_s": 4.666666666666667
+    },
+    {
+      "requested_host_bursts_hz": 10.0,
+      "host_commands_sent": 96,
+      "phase_start_mcu_ms": 25000,
+      "phase_end_panel": {
+        "ms": 35000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "before": {
+        "byte_offset": 48901,
+        "panel": {
+          "ms": 25000,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 25891,
+            "min_us": 68,
+            "avg_us": 131,
+            "max_us": 216
+          },
+          "imu": {
+            "n": 25892,
+            "min_us": 8,
+            "avg_us": 20,
+            "max_us": 197
+          },
+          "panel": {
+            "n": 23793,
+            "min_us": 38,
+            "avg_us": 540,
+            "max_us": 2105
+          },
+          "led": {
+            "n": 51,
+            "min_us": 11,
+            "avg_us": 18,
+            "max_us": 33
+          },
+          "log": {
+            "n": 51,
+            "min_us": 394,
+            "avg_us": 563,
+            "max_us": 650
+          },
+          "loop": {
+            "n": 25895,
+            "min_us": 251,
+            "avg_us": 978,
+            "max_us": 3310
+          },
+          "command": {
+            "n": 66,
+            "min_us": 48,
+            "avg_us": 437,
+            "max_us": 1000
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 252,
+            "min_us": 96958,
+            "avg_us": 100005,
+            "max_us": 102805
+          },
+          "adc_dt": {
+            "n": 253,
+            "min_us": 96546,
+            "avg_us": 99996,
+            "max_us": 103431
+          },
+          "panel_dt": {
+            "n": 23801,
+            "min_us": 711,
+            "avg_us": 1064,
+            "max_us": 3282
+          },
+          "led_dt": {
+            "n": 50,
+            "min_us": 498341,
+            "avg_us": 499970,
+            "max_us": 501261
+          },
+          "log_dt": {
+            "n": 50,
+            "min_us": 498362,
+            "avg_us": 499970,
+            "max_us": 501289
+          },
+          "dump_wire": {
+            "n": 59,
+            "min_us": 20114,
+            "avg_us": 78324,
+            "max_us": 90674
+          }
+        },
+        "resources": [
+          624,
+          0,
+          0,
+          0,
+          0,
+          551
+        ],
+        "deadlines": [
+          257,
+          0,
+          0,
+          0
+        ]
+      },
+      "after": {
+        "byte_offset": 129846,
+        "panel": {
+          "ms": 35500,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 33945,
+            "min_us": 68,
+            "avg_us": 136,
+            "max_us": 258
+          },
+          "imu": {
+            "n": 33946,
+            "min_us": 8,
+            "avg_us": 21,
+            "max_us": 212
+          },
+          "panel": {
+            "n": 31822,
+            "min_us": 38,
+            "avg_us": 552,
+            "max_us": 2105
+          },
+          "led": {
+            "n": 72,
+            "min_us": 11,
+            "avg_us": 20,
+            "max_us": 33
+          },
+          "log": {
+            "n": 72,
+            "min_us": 394,
+            "avg_us": 580,
+            "max_us": 656
+          },
+          "loop": {
+            "n": 33949,
+            "min_us": 251,
+            "avg_us": 1049,
+            "max_us": 66441
+          },
+          "command": {
+            "n": 163,
+            "min_us": 48,
+            "avg_us": 893,
+            "max_us": 65767
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 355,
+            "min_us": 50629,
+            "avg_us": 100003,
+            "max_us": 149293
+          },
+          "adc_dt": {
+            "n": 356,
+            "min_us": 46359,
+            "avg_us": 99995,
+            "max_us": 154360
+          },
+          "panel_dt": {
+            "n": 31830,
+            "min_us": 711,
+            "avg_us": 1120,
+            "max_us": 66840
+          },
+          "led_dt": {
+            "n": 71,
+            "min_us": 498341,
+            "avg_us": 499979,
+            "max_us": 501261
+          },
+          "log_dt": {
+            "n": 71,
+            "min_us": 498362,
+            "avg_us": 499979,
+            "max_us": 501289
+          },
+          "dump_wire": {
+            "n": 155,
+            "min_us": 20114,
+            "avg_us": 84146,
+            "max_us": 92268
+          }
+        },
+        "resources": [
+          624,
+          0,
+          0,
+          0,
+          0,
+          621
+        ],
+        "deadlines": [
+          367,
+          0,
+          0,
+          1
+        ]
+      },
+      "snapshot_window_ms": 10500,
+      "received_d_commands": 96,
+      "received_d_per_mcu_s": 9.142857142857142
+    },
+    {
+      "requested_host_bursts_hz": 20.0,
+      "host_commands_sent": 193,
+      "phase_start_mcu_ms": 36000,
+      "phase_end_panel": {
+        "ms": 46000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "before": {
+        "byte_offset": 130465,
+        "panel": {
+          "ms": 36000,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 34602,
+            "min_us": 68,
+            "avg_us": 136,
+            "max_us": 258
+          },
+          "imu": {
+            "n": 34603,
+            "min_us": 8,
+            "avg_us": 21,
+            "max_us": 212
+          },
+          "panel": {
+            "n": 32462,
+            "min_us": 38,
+            "avg_us": 552,
+            "max_us": 2105
+          },
+          "led": {
+            "n": 73,
+            "min_us": 11,
+            "avg_us": 20,
+            "max_us": 33
+          },
+          "log": {
+            "n": 73,
+            "min_us": 394,
+            "avg_us": 580,
+            "max_us": 656
+          },
+          "loop": {
+            "n": 34606,
+            "min_us": 251,
+            "avg_us": 1049,
+            "max_us": 66441
+          },
+          "command": {
+            "n": 164,
+            "min_us": 48,
+            "avg_us": 890,
+            "max_us": 65767
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 362,
+            "min_us": 50629,
+            "avg_us": 100008,
+            "max_us": 149293
+          },
+          "adc_dt": {
+            "n": 363,
+            "min_us": 46359,
+            "avg_us": 99995,
+            "max_us": 154360
+          },
+          "panel_dt": {
+            "n": 32470,
+            "min_us": 711,
+            "avg_us": 1118,
+            "max_us": 66840
+          },
+          "led_dt": {
+            "n": 72,
+            "min_us": 498341,
+            "avg_us": 499977,
+            "max_us": 501261
+          },
+          "log_dt": {
+            "n": 72,
+            "min_us": 498362,
+            "avg_us": 499978,
+            "max_us": 501289
+          },
+          "dump_wire": {
+            "n": 155,
+            "min_us": 20114,
+            "avg_us": 84146,
+            "max_us": 92268
+          }
+        },
+        "resources": [
+          624,
+          0,
+          0,
+          0,
+          0,
+          551
+        ],
+        "deadlines": [
+          374,
+          0,
+          0,
+          1
+        ]
+      },
+      "after": {
+        "byte_offset": 226634,
+        "panel": {
+          "ms": 46500,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 41477,
+            "min_us": 68,
+            "avg_us": 141,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 41478,
+            "min_us": 8,
+            "avg_us": 21,
+            "max_us": 212
+          },
+          "panel": {
+            "n": 39328,
+            "min_us": 38,
+            "avg_us": 561,
+            "max_us": 2114
+          },
+          "led": {
+            "n": 94,
+            "min_us": 11,
+            "avg_us": 19,
+            "max_us": 33
+          },
+          "log": {
+            "n": 94,
+            "min_us": 394,
+            "avg_us": 593,
+            "max_us": 663
+          },
+          "loop": {
+            "n": 41481,
+            "min_us": 251,
+            "avg_us": 1125,
+            "max_us": 68521
+          },
+          "command": {
+            "n": 358,
+            "min_us": 45,
+            "avg_us": 987,
+            "max_us": 65795
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 465,
+            "min_us": 50629,
+            "avg_us": 100002,
+            "max_us": 149293
+          },
+          "adc_dt": {
+            "n": 466,
+            "min_us": 46359,
+            "avg_us": 99998,
+            "max_us": 154360
+          },
+          "panel_dt": {
+            "n": 39336,
+            "min_us": 711,
+            "avg_us": 1187,
+            "max_us": 67424
+          },
+          "led_dt": {
+            "n": 93,
+            "min_us": 455018,
+            "avg_us": 499984,
+            "max_us": 544465
+          },
+          "log_dt": {
+            "n": 93,
+            "min_us": 455017,
+            "avg_us": 499985,
+            "max_us": 544480
+          },
+          "dump_wire": {
+            "n": 156,
+            "min_us": 20114,
+            "avg_us": 146224,
+            "max_us": 9768356
+          }
+        },
+        "resources": [
+          632,
+          0,
+          0,
+          0,
+          55131,
+          666
+        ],
+        "deadlines": [
+          488,
+          1,
+          1,
+          2
+        ]
+      },
+      "snapshot_window_ms": 10500,
+      "received_d_commands": 193,
+      "received_d_per_mcu_s": 18.38095238095238
+    },
+    {
+      "requested_host_bursts_hz": 50.0,
+      "host_commands_sent": 480,
+      "phase_start_mcu_ms": 47000,
+      "phase_end_panel": {
+        "ms": 57000,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "before": {
+        "byte_offset": 227264,
+        "panel": {
+          "ms": 47000,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 42126,
+            "min_us": 68,
+            "avg_us": 141,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 42127,
+            "min_us": 8,
+            "avg_us": 21,
+            "max_us": 212
+          },
+          "panel": {
+            "n": 39964,
+            "min_us": 38,
+            "avg_us": 560,
+            "max_us": 2114
+          },
+          "led": {
+            "n": 95,
+            "min_us": 11,
+            "avg_us": 19,
+            "max_us": 33
+          },
+          "log": {
+            "n": 95,
+            "min_us": 394,
+            "avg_us": 593,
+            "max_us": 663
+          },
+          "loop": {
+            "n": 42130,
+            "min_us": 251,
+            "avg_us": 1123,
+            "max_us": 68521
+          },
+          "command": {
+            "n": 359,
+            "min_us": 45,
+            "avg_us": 985,
+            "max_us": 65795
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 472,
+            "min_us": 50629,
+            "avg_us": 100003,
+            "max_us": 149293
+          },
+          "adc_dt": {
+            "n": 473,
+            "min_us": 46359,
+            "avg_us": 99996,
+            "max_us": 154360
+          },
+          "panel_dt": {
+            "n": 39972,
+            "min_us": 711,
+            "avg_us": 1184,
+            "max_us": 67424
+          },
+          "led_dt": {
+            "n": 94,
+            "min_us": 455018,
+            "avg_us": 499984,
+            "max_us": 544465
+          },
+          "log_dt": {
+            "n": 94,
+            "min_us": 455017,
+            "avg_us": 499985,
+            "max_us": 544480
+          },
+          "dump_wire": {
+            "n": 156,
+            "min_us": 20114,
+            "avg_us": 146224,
+            "max_us": 9768356
+          }
+        },
+        "resources": [
+          632,
+          0,
+          0,
+          0,
+          55131,
+          554
+        ],
+        "deadlines": [
+          495,
+          1,
+          1,
+          2
+        ]
+      },
+      "after": {
+        "byte_offset": 323401,
+        "panel": {
+          "ms": 57500,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 48858,
+            "min_us": 66,
+            "avg_us": 144,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 48859,
+            "min_us": 8,
+            "avg_us": 22,
+            "max_us": 215
+          },
+          "panel": {
+            "n": 46686,
+            "min_us": 38,
+            "avg_us": 567,
+            "max_us": 2115
+          },
+          "led": {
+            "n": 116,
+            "min_us": 11,
+            "avg_us": 20,
+            "max_us": 33
+          },
+          "log": {
+            "n": 116,
+            "min_us": 394,
+            "avg_us": 602,
+            "max_us": 663
+          },
+          "loop": {
+            "n": 48862,
+            "min_us": 251,
+            "avg_us": 1180,
+            "max_us": 68521
+          },
+          "command": {
+            "n": 840,
+            "min_us": 45,
+            "avg_us": 972,
+            "max_us": 65795
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 575,
+            "min_us": 50629,
+            "avg_us": 100002,
+            "max_us": 149293
+          },
+          "adc_dt": {
+            "n": 576,
+            "min_us": 46359,
+            "avg_us": 99997,
+            "max_us": 154360
+          },
+          "panel_dt": {
+            "n": 46694,
+            "min_us": 711,
+            "avg_us": 1235,
+            "max_us": 67424
+          },
+          "led_dt": {
+            "n": 115,
+            "min_us": 455018,
+            "avg_us": 499987,
+            "max_us": 544465
+          },
+          "log_dt": {
+            "n": 115,
+            "min_us": 455017,
+            "avg_us": 499987,
+            "max_us": 544480
+          },
+          "dump_wire": {
+            "n": 157,
+            "min_us": 20114,
+            "avg_us": 207577,
+            "max_us": 9778593
+          }
+        },
+        "resources": [
+          632,
+          0,
+          0,
+          0,
+          113375,
+          664
+        ],
+        "deadlines": [
+          606,
+          1,
+          1,
+          3
+        ]
+      },
+      "snapshot_window_ms": 10500,
+      "received_d_commands": 480,
+      "received_d_per_mcu_s": 45.714285714285715
+    },
+    {
+      "requested_host_bursts_hz": 100.0,
+      "host_commands_sent": 981,
+      "phase_start_mcu_ms": 58000,
+      "phase_end_panel": {
+        "ms": 68500,
+        "horizontal": "CENTER",
+        "vertical": "UNSET",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "before": {
+        "byte_offset": 324037,
+        "panel": {
+          "ms": 58000,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 49520,
+            "min_us": 66,
+            "avg_us": 144,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 49521,
+            "min_us": 8,
+            "avg_us": 22,
+            "max_us": 215
+          },
+          "panel": {
+            "n": 47331,
+            "min_us": 38,
+            "avg_us": 566,
+            "max_us": 2115
+          },
+          "led": {
+            "n": 117,
+            "min_us": 11,
+            "avg_us": 20,
+            "max_us": 33
+          },
+          "log": {
+            "n": 117,
+            "min_us": 394,
+            "avg_us": 602,
+            "max_us": 663
+          },
+          "loop": {
+            "n": 49524,
+            "min_us": 251,
+            "avg_us": 1178,
+            "max_us": 68521
+          },
+          "command": {
+            "n": 841,
+            "min_us": 45,
+            "avg_us": 971,
+            "max_us": 65795
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 582,
+            "min_us": 50629,
+            "avg_us": 100002,
+            "max_us": 149293
+          },
+          "adc_dt": {
+            "n": 583,
+            "min_us": 46359,
+            "avg_us": 99998,
+            "max_us": 154360
+          },
+          "panel_dt": {
+            "n": 47339,
+            "min_us": 711,
+            "avg_us": 1233,
+            "max_us": 67424
+          },
+          "led_dt": {
+            "n": 116,
+            "min_us": 455018,
+            "avg_us": 499985,
+            "max_us": 544465
+          },
+          "log_dt": {
+            "n": 116,
+            "min_us": 455017,
+            "avg_us": 499986,
+            "max_us": 544480
+          },
+          "dump_wire": {
+            "n": 157,
+            "min_us": 20114,
+            "avg_us": 207577,
+            "max_us": 9778593
+          }
+        },
+        "resources": [
+          632,
+          0,
+          0,
+          0,
+          113375,
+          557
+        ],
+        "deadlines": [
+          612,
+          1,
+          1,
+          3
+        ]
+      },
+      "after": {
+        "byte_offset": 422118,
+        "panel": {
+          "ms": 69000,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 56304,
+            "min_us": 66,
+            "avg_us": 147,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 56305,
+            "min_us": 8,
+            "avg_us": 22,
+            "max_us": 215
+          },
+          "panel": {
+            "n": 54106,
+            "min_us": 38,
+            "avg_us": 572,
+            "max_us": 66039
+          },
+          "led": {
+            "n": 139,
+            "min_us": 11,
+            "avg_us": 20,
+            "max_us": 34
+          },
+          "log": {
+            "n": 139,
+            "min_us": 394,
+            "avg_us": 608,
+            "max_us": 664
+          },
+          "loop": {
+            "n": 56308,
+            "min_us": 251,
+            "avg_us": 1228,
+            "max_us": 68521
+          },
+          "command": {
+            "n": 1823,
+            "min_us": 25,
+            "avg_us": 1190,
+            "max_us": 69006
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 690,
+            "min_us": 41183,
+            "avg_us": 100002,
+            "max_us": 158396
+          },
+          "adc_dt": {
+            "n": 691,
+            "min_us": 31251,
+            "avg_us": 99997,
+            "max_us": 168389
+          },
+          "panel_dt": {
+            "n": 54114,
+            "min_us": 711,
+            "avg_us": 1278,
+            "max_us": 67424
+          },
+          "led_dt": {
+            "n": 138,
+            "min_us": 435339,
+            "avg_us": 499989,
+            "max_us": 564788
+          },
+          "log_dt": {
+            "n": 138,
+            "min_us": 435364,
+            "avg_us": 499989,
+            "max_us": 564762
+          },
+          "dump_wire": {
+            "n": 158,
+            "min_us": 20114,
+            "avg_us": 270993,
+            "max_us": 10227304
+          }
+        },
+        "resources": [
+          640,
+          0,
+          0,
+          0,
+          171073,
+          605
+        ],
+        "deadlines": [
+          735,
+          3,
+          3,
+          9
+        ]
+      },
+      "snapshot_window_ms": 11000,
+      "received_d_commands": 981,
+      "received_d_per_mcu_s": 89.18181818181819
+    },
+    {
+      "requested_host_bursts_hz": 500.0,
+      "host_commands_sent": 3507,
+      "phase_start_mcu_ms": 69500,
+      "phase_end_panel": {
+        "ms": 80000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "before": {
+        "byte_offset": 422759,
+        "panel": {
+          "ms": 69500,
+          "horizontal": "CENTER",
+          "vertical": "UNSET",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 56949,
+            "min_us": 66,
+            "avg_us": 147,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 56950,
+            "min_us": 8,
+            "avg_us": 22,
+            "max_us": 215
+          },
+          "panel": {
+            "n": 54741,
+            "min_us": 38,
+            "avg_us": 572,
+            "max_us": 66039
+          },
+          "led": {
+            "n": 140,
+            "min_us": 11,
+            "avg_us": 20,
+            "max_us": 34
+          },
+          "log": {
+            "n": 140,
+            "min_us": 394,
+            "avg_us": 608,
+            "max_us": 664
+          },
+          "loop": {
+            "n": 56953,
+            "min_us": 251,
+            "avg_us": 1226,
+            "max_us": 68521
+          },
+          "command": {
+            "n": 1824,
+            "min_us": 25,
+            "avg_us": 1190,
+            "max_us": 69006
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 697,
+            "min_us": 41183,
+            "avg_us": 100002,
+            "max_us": 158396
+          },
+          "adc_dt": {
+            "n": 698,
+            "min_us": 31251,
+            "avg_us": 99998,
+            "max_us": 168389
+          },
+          "panel_dt": {
+            "n": 54749,
+            "min_us": 711,
+            "avg_us": 1275,
+            "max_us": 67424
+          },
+          "led_dt": {
+            "n": 139,
+            "min_us": 435339,
+            "avg_us": 499988,
+            "max_us": 564788
+          },
+          "log_dt": {
+            "n": 139,
+            "min_us": 435364,
+            "avg_us": 499988,
+            "max_us": 564762
+          },
+          "dump_wire": {
+            "n": 158,
+            "min_us": 20114,
+            "avg_us": 270993,
+            "max_us": 10227304
+          }
+        },
+        "resources": [
+          640,
+          0,
+          0,
+          0,
+          171073,
+          605
+        ],
+        "deadlines": [
+          742,
+          3,
+          3,
+          9
+        ]
+      },
+      "after": {
+        "byte_offset": 493467,
+        "panel": {
+          "ms": 80500,
+          "horizontal": "ERROR",
+          "vertical": "ERROR",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 65871,
+            "min_us": 66,
+            "avg_us": 160,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 65872,
+            "min_us": 8,
+            "avg_us": 24,
+            "max_us": 65554
+          },
+          "panel": {
+            "n": 61762,
+            "min_us": 24,
+            "avg_us": 524,
+            "max_us": 66039
+          },
+          "led": {
+            "n": 162,
+            "min_us": 11,
+            "avg_us": 20,
+            "max_us": 34
+          },
+          "log": {
+            "n": 162,
+            "min_us": 394,
+            "avg_us": 612,
+            "max_us": 664
+          },
+          "loop": {
+            "n": 65875,
+            "min_us": 251,
+            "avg_us": 1225,
+            "max_us": 131866
+          },
+          "command": {
+            "n": 5332,
+            "min_us": 25,
+            "avg_us": 3340,
+            "max_us": 131236
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 715,
+            "min_us": 41183,
+            "avg_us": 100075,
+            "max_us": 158396
+          },
+          "adc_dt": {
+            "n": 807,
+            "min_us": 27064,
+            "avg_us": 99997,
+            "max_us": 168389
+          },
+          "panel_dt": {
+            "n": 61769,
+            "min_us": 581,
+            "avg_us": 1307,
+            "max_us": 131783
+          },
+          "led_dt": {
+            "n": 161,
+            "min_us": 435339,
+            "avg_us": 499988,
+            "max_us": 564788
+          },
+          "log_dt": {
+            "n": 161,
+            "min_us": 435364,
+            "avg_us": 499989,
+            "max_us": 564762
+          },
+          "dump_wire": {
+            "n": 159,
+            "min_us": 20114,
+            "avg_us": 334097,
+            "max_us": 10304578
+          }
+        },
+        "resources": [
+          656,
+          0,
+          0,
+          0,
+          201259,
+          304
+        ],
+        "deadlines": [
+          768,
+          4,
+          4,
+          147
+        ]
+      },
+      "snapshot_window_ms": 11000,
+      "received_d_commands": 3507,
+      "received_d_per_mcu_s": 318.8181818181818
+    },
+    {
+      "requested_host_bursts_hz": 1000.0,
+      "host_commands_sent": 5135,
+      "phase_start_mcu_ms": 81000,
+      "phase_end_panel": {
+        "ms": 91000,
+        "horizontal": "ERROR",
+        "vertical": "ERROR",
+        "zero_count": 0,
+        "imu_errors": 0
+      },
+      "before": {
+        "byte_offset": 494115,
+        "panel": {
+          "ms": 81000,
+          "horizontal": "ERROR",
+          "vertical": "ERROR",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 67353,
+            "min_us": 66,
+            "avg_us": 159,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 67354,
+            "min_us": 8,
+            "avg_us": 24,
+            "max_us": 65554
+          },
+          "panel": {
+            "n": 62432,
+            "min_us": 24,
+            "avg_us": 519,
+            "max_us": 66039
+          },
+          "led": {
+            "n": 163,
+            "min_us": 11,
+            "avg_us": 20,
+            "max_us": 34
+          },
+          "log": {
+            "n": 163,
+            "min_us": 394,
+            "avg_us": 611,
+            "max_us": 664
+          },
+          "loop": {
+            "n": 67357,
+            "min_us": 251,
+            "avg_us": 1208,
+            "max_us": 131866
+          },
+          "command": {
+            "n": 5333,
+            "min_us": 25,
+            "avg_us": 3340,
+            "max_us": 131236
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 715,
+            "min_us": 41183,
+            "avg_us": 100075,
+            "max_us": 158396
+          },
+          "adc_dt": {
+            "n": 814,
+            "min_us": 27064,
+            "avg_us": 99997,
+            "max_us": 168389
+          },
+          "panel_dt": {
+            "n": 62440,
+            "min_us": 581,
+            "avg_us": 1304,
+            "max_us": 131783
+          },
+          "led_dt": {
+            "n": 162,
+            "min_us": 435339,
+            "avg_us": 499988,
+            "max_us": 564788
+          },
+          "log_dt": {
+            "n": 162,
+            "min_us": 435364,
+            "avg_us": 499989,
+            "max_us": 564762
+          },
+          "dump_wire": {
+            "n": 159,
+            "min_us": 20114,
+            "avg_us": 334097,
+            "max_us": 10304578
+          }
+        },
+        "resources": [
+          656,
+          0,
+          0,
+          0,
+          201259,
+          100
+        ],
+        "deadlines": [
+          768,
+          4,
+          4,
+          147
+        ]
+      },
+      "after": {
+        "byte_offset": 529592,
+        "panel": {
+          "ms": 91500,
+          "horizontal": "ERROR",
+          "vertical": "ERROR",
+          "zero_count": 0,
+          "imu_errors": 0
+        },
+        "statistics": {
+          "board": {
+            "n": 76148,
+            "min_us": 66,
+            "avg_us": 174,
+            "max_us": 65784
+          },
+          "imu": {
+            "n": 76149,
+            "min_us": 8,
+            "avg_us": 26,
+            "max_us": 65554
+          },
+          "panel": {
+            "n": 68239,
+            "min_us": 24,
+            "avg_us": 481,
+            "max_us": 66039
+          },
+          "led": {
+            "n": 184,
+            "min_us": 10,
+            "avg_us": 20,
+            "max_us": 34
+          },
+          "log": {
+            "n": 184,
+            "min_us": 394,
+            "avg_us": 609,
+            "max_us": 664
+          },
+          "loop": {
+            "n": 76152,
+            "min_us": 251,
+            "avg_us": 1203,
+            "max_us": 133247
+          },
+          "command": {
+            "n": 10469,
+            "min_us": 24,
+            "avg_us": 5166,
+            "max_us": 137140
+          },
+          "button": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "save": {
+            "n": 0,
+            "min_us": 0,
+            "avg_us": 0,
+            "max_us": 0
+          },
+          "imu_dt": {
+            "n": 715,
+            "min_us": 41183,
+            "avg_us": 100075,
+            "max_us": 158396
+          },
+          "adc_dt": {
+            "n": 916,
+            "min_us": 1682,
+            "avg_us": 99997,
+            "max_us": 214795
+          },
+          "panel_dt": {
+            "n": 68247,
+            "min_us": 449,
+            "avg_us": 1342,
+            "max_us": 132482
+          },
+          "led_dt": {
+            "n": 183,
+            "min_us": 435339,
+            "avg_us": 499988,
+            "max_us": 565116
+          },
+          "log_dt": {
+            "n": 183,
+            "min_us": 435364,
+            "avg_us": 499988,
+            "max_us": 565124
+          },
+          "dump_wire": {
+            "n": 160,
+            "min_us": 20114,
+            "avg_us": 392101,
+            "max_us": 10304578
+          }
+        },
+        "resources": [
+          656,
+          0,
+          0,
+          0,
+          201259,
+          232
+        ],
+        "deadlines": [
+          782,
+          12,
+          12,
+          465
+        ]
+      },
+      "snapshot_window_ms": 10500,
+      "received_d_commands": 5135,
+      "received_d_per_mcu_s": 489.04761904761904
+    }
+  ],
+  "completed": true,
+  "time_basis": "MCU PANEL for durations; host clock only schedules inputs and bounds waiting",
+  "initial": {
+    "byte_offset": 622,
+    "panel": {
+      "ms": 2500,
+      "horizontal": "CENTER",
+      "vertical": "UNSET",
+      "zero_count": 0,
+      "imu_errors": 0
+    },
+    "statistics": {
+      "board": {
+        "n": 3278,
+        "min_us": 94,
+        "avg_us": 116,
+        "max_us": 202
+      },
+      "imu": {
+        "n": 3279,
+        "min_us": 13,
+        "avg_us": 19,
+        "max_us": 188
+      },
+      "panel": {
+        "n": 2569,
+        "min_us": 38,
+        "avg_us": 512,
+        "max_us": 1917
+      },
+      "led": {
+        "n": 6,
+        "min_us": 11,
+        "avg_us": 17,
+        "max_us": 19
+      },
+      "log": {
+        "n": 6,
+        "min_us": 394,
+        "avg_us": 506,
+        "max_us": 538
+      },
+      "loop": {
+        "n": 3282,
+        "min_us": 251,
+        "avg_us": 798,
+        "max_us": 2507
+      },
+      "command": {
+        "n": 2,
+        "min_us": 150,
+        "avg_us": 208,
+        "max_us": 266
+      },
+      "button": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "save": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "imu_dt": {
+        "n": 25,
+        "min_us": 99716,
+        "avg_us": 100052,
+        "max_us": 101175
+      },
+      "adc_dt": {
+        "n": 26,
+        "min_us": 97025,
+        "avg_us": 99966,
+        "max_us": 101907
+      },
+      "panel_dt": {
+        "n": 2577,
+        "min_us": 711,
+        "avg_us": 1020,
+        "max_us": 2346
+      },
+      "led_dt": {
+        "n": 5,
+        "min_us": 498341,
+        "avg_us": 499712,
+        "max_us": 500225
+      },
+      "log_dt": {
+        "n": 5,
+        "min_us": 498362,
+        "avg_us": 499719,
+        "max_us": 500229
+      },
+      "dump_wire": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      }
+    },
+    "resources": [
+      592,
+      0,
+      0,
+      0,
+      0,
+      553
+    ],
+    "deadlines": [
+      26,
+      0,
+      0,
+      0
+    ]
+  },
+  "final": {
+    "byte_offset": 530243,
+    "panel": {
+      "ms": 92000,
+      "horizontal": "ERROR",
+      "vertical": "ERROR",
+      "zero_count": 0,
+      "imu_errors": 0
+    },
+    "statistics": {
+      "board": {
+        "n": 77637,
+        "min_us": 66,
+        "avg_us": 173,
+        "max_us": 65784
+      },
+      "imu": {
+        "n": 77638,
+        "min_us": 8,
+        "avg_us": 26,
+        "max_us": 65554
+      },
+      "panel": {
+        "n": 68910,
+        "min_us": 24,
+        "avg_us": 477,
+        "max_us": 66039
+      },
+      "led": {
+        "n": 185,
+        "min_us": 10,
+        "avg_us": 20,
+        "max_us": 34
+      },
+      "log": {
+        "n": 185,
+        "min_us": 394,
+        "avg_us": 609,
+        "max_us": 664
+      },
+      "loop": {
+        "n": 77641,
+        "min_us": 251,
+        "avg_us": 1188,
+        "max_us": 133247
+      },
+      "command": {
+        "n": 10470,
+        "min_us": 24,
+        "avg_us": 5165,
+        "max_us": 137140
+      },
+      "button": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "save": {
+        "n": 0,
+        "min_us": 0,
+        "avg_us": 0,
+        "max_us": 0
+      },
+      "imu_dt": {
+        "n": 715,
+        "min_us": 41183,
+        "avg_us": 100075,
+        "max_us": 158396
+      },
+      "adc_dt": {
+        "n": 922,
+        "min_us": 1682,
+        "avg_us": 99997,
+        "max_us": 214795
+      },
+      "panel_dt": {
+        "n": 68918,
+        "min_us": 449,
+        "avg_us": 1339,
+        "max_us": 132482
+      },
+      "led_dt": {
+        "n": 184,
+        "min_us": 435339,
+        "avg_us": 499990,
+        "max_us": 565116
+      },
+      "log_dt": {
+        "n": 184,
+        "min_us": 435364,
+        "avg_us": 499990,
+        "max_us": 565124
+      },
+      "dump_wire": {
+        "n": 160,
+        "min_us": 20114,
+        "avg_us": 392101,
+        "max_us": 10304578
+      }
+    },
+    "resources": [
+      656,
+      0,
+      0,
+      0,
+      201259,
+      95
+    ],
+    "deadlines": [
+      782,
+      12,
+      12,
+      465
+    ]
+  },
+  "log_sha256": "a31d1d96c2e364a044d2e044f6a7fe60a46270f875a7cc1e1cdda405a8878d80"
+}

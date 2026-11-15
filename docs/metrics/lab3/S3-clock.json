@@ -1,0 +1,546 @@
+{
+  "scenario": "S3",
+  "clock_review_required": true,
+  "rejected_uart_panel_records": [
+    {
+      "wire_ns": 12302452025,
+      "text": "PANEL 12500 32 32 -3132 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 15319764100,
+      "text": "PANEL 15500 3POINT 9000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 21254392700,
+      "text": "PANEL 21501 32 32 -3141 CENTER POINT 16500 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 26110166500,
+      "text": "PANEL 26501 32 32 -3141 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 35621004875,
+      "text": "PANEL 36001 32 32 -3POINT 29000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 48854397725,
+      "text": "PANEL 49500 32 32 -3POINT 45001 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 62151289025,
+      "text": "PANEL 63001 32 32 -3141 CPOINT 47500 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 68027668250,
+      "text": "PANEL 69000 32 32 -3141 CENTER LEVELPOINT 58000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 91703131025,
+      "text": "PANEL 93001 32 32 -3POINT 81501 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 122288944575,
+      "text": "PANEL 124000 32 32 -3141 POINT 110501 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 124306785725,
+      "text": "PANEL 126001 32 32 -3141 CENTER LEVE -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 135529732900,
+      "text": "PANEL 137501 32 32 122001 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 149847186725,
+      "text": "PANEL 152000 32 32 -3141 CENTER LEVEL 51 0\rPOINT 137000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 155749881750,
+      "text": "PANEL 158052 32 32 -3141 POINT 142501 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 158711679625,
+      "text": "PANEL 162 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 171512262900,
+      "text": "PANEL 17POINT 163000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 178809175175,
+      "text": "PANEL 181500 32 32 -3141 CENTER LEVEL 51 0POINT 179500 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 186311557875,
+      "text": "PANEL 18183000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 187252899800,
+      "text": "PANEL 19POINT 175000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 199117464825,
+      "text": "PANEL 202000 32 32 -3141 CENTER LEPOINT 195000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 210645607550,
+      "text": "PANEL POINT 202000 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 215017657175,
+      "text": "PANEL 218501POINT 210501 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 234332157300,
+      "text": "PANEL 238002 32 32 -3141 CENTER POINT 233501 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 267234272000,
+      "text": "PANEL 27POINT 259500 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 286838114075,
+      "text": "PANEL 291500 32 32 -3141 CENTER LEV",
+      "reason": "incomplete or malformed record after UART loss"
+    },
+    {
+      "wire_ns": 292006172700,
+      "text": "PANEL 297001 32 32 -3141 POINT 285001 32 32 -3141",
+      "reason": "incomplete or malformed record after UART loss"
+    }
+  ],
+  "wire_clock_check": {
+    "panel_points": 389,
+    "mcu_elapsed_ms": 327998,
+    "wire_elapsed_ms": 322925.14445,
+    "wire_to_mcu_ratio": 0.9845338826761139,
+    "monotonic": true
+  },
+  "framing_errors": 0,
+  "paired_adc": {
+    "same_interval_count": true,
+    "firmware": {
+      "n": 3015,
+      "min_us": 31569,
+      "avg_us": 100033,
+      "max_us": 216016,
+      "jitter_min_us": -68431,
+      "jitter_max_us": 116016
+    },
+    "vcd": {
+      "n": 3015,
+      "min_us": 31584.225,
+      "avg_us": 98352.59641791045,
+      "max_us": 104679.3,
+      "p99_us": 102573.35
+    },
+    "vcd_minus_firmware_us": {
+      "min_us": 15.224999999998545,
+      "avg_us": -1680.4035820895515,
+      "max_us": -111336.7
+    }
+  },
+  "uart_residual_windows": [
+    {
+      "start_mcu_ms": 0,
+      "n": 41,
+      "min_residual_us": -404789.9750000015,
+      "median_residual_us": -178726.375,
+      "max_residual_us": 11713.224999999627
+    },
+    {
+      "start_mcu_ms": 30000,
+      "n": 33,
+      "min_residual_us": -863906.174999997,
+      "median_residual_us": -450472.7749999985,
+      "max_residual_us": -380793.825000003,
+      "min_step_us": -459116.19999999553
+    },
+    {
+      "start_mcu_ms": 60000,
+      "n": 34,
+      "min_residual_us": -1336874.950000003,
+      "median_residual_us": -1113111.5625,
+      "max_residual_us": -846248.1499999985,
+      "min_step_us": -472968.77500000596
+    },
+    {
+      "start_mcu_ms": 90000,
+      "n": 39,
+      "min_residual_us": -1719217.025000006,
+      "median_residual_us": -1436913.575000003,
+      "max_residual_us": -1304786.25,
+      "min_step_us": -382342.075000003
+    },
+    {
+      "start_mcu_ms": 120000,
+      "n": 32,
+      "min_residual_us": -2177918.324999988,
+      "median_residual_us": -1963765.112500012,
+      "max_residual_us": -1697878.875,
+      "min_step_us": -458701.2999999821
+    },
+    {
+      "start_mcu_ms": 150000,
+      "n": 33,
+      "min_residual_us": -2707170.900000006,
+      "median_residual_us": -2434474.550000012,
+      "max_residual_us": -2160865.775000006,
+      "min_step_us": -529252.5750000179
+    },
+    {
+      "start_mcu_ms": 180000,
+      "n": 35,
+      "min_residual_us": -3108594.949999988,
+      "median_residual_us": -2769195.449999988,
+      "max_residual_us": -2691418.099999994,
+      "min_step_us": -401424.0499999821
+    },
+    {
+      "start_mcu_ms": 210000,
+      "n": 26,
+      "min_residual_us": -3744934.675000012,
+      "median_residual_us": -3544122.462499991,
+      "max_residual_us": -3342894.699999988,
+      "min_step_us": -636339.7250000238
+    },
+    {
+      "start_mcu_ms": 240000,
+      "n": 35,
+      "min_residual_us": -4297919.074999988,
+      "median_residual_us": -3904073.525000006,
+      "max_residual_us": -3802996.525000006,
+      "min_step_us": -552984.3999999762
+    },
+    {
+      "start_mcu_ms": 270000,
+      "n": 26,
+      "min_residual_us": -5016307.649999976,
+      "median_residual_us": -4510304.6875,
+      "max_residual_us": -4273916.875,
+      "min_step_us": -718388.5749999881
+    },
+    {
+      "start_mcu_ms": 300000,
+      "n": 55,
+      "min_residual_us": -5062921.425000012,
+      "median_residual_us": -5062486.074999988,
+      "max_residual_us": -4988731.25,
+      "min_step_us": -46613.77500003576
+    }
+  ],
+  "large_residual_steps": [
+    {
+      "start_mcu_ms": 30000,
+      "n": 33,
+      "min_residual_us": -863906.174999997,
+      "median_residual_us": -450472.7749999985,
+      "max_residual_us": -380793.825000003,
+      "min_step_us": -459116.19999999553
+    },
+    {
+      "start_mcu_ms": 60000,
+      "n": 34,
+      "min_residual_us": -1336874.950000003,
+      "median_residual_us": -1113111.5625,
+      "max_residual_us": -846248.1499999985,
+      "min_step_us": -472968.77500000596
+    },
+    {
+      "start_mcu_ms": 90000,
+      "n": 39,
+      "min_residual_us": -1719217.025000006,
+      "median_residual_us": -1436913.575000003,
+      "max_residual_us": -1304786.25,
+      "min_step_us": -382342.075000003
+    },
+    {
+      "start_mcu_ms": 120000,
+      "n": 32,
+      "min_residual_us": -2177918.324999988,
+      "median_residual_us": -1963765.112500012,
+      "max_residual_us": -1697878.875,
+      "min_step_us": -458701.2999999821
+    },
+    {
+      "start_mcu_ms": 150000,
+      "n": 33,
+      "min_residual_us": -2707170.900000006,
+      "median_residual_us": -2434474.550000012,
+      "max_residual_us": -2160865.775000006,
+      "min_step_us": -529252.5750000179
+    },
+    {
+      "start_mcu_ms": 180000,
+      "n": 35,
+      "min_residual_us": -3108594.949999988,
+      "median_residual_us": -2769195.449999988,
+      "max_residual_us": -2691418.099999994,
+      "min_step_us": -401424.0499999821
+    },
+    {
+      "start_mcu_ms": 210000,
+      "n": 26,
+      "min_residual_us": -3744934.675000012,
+      "median_residual_us": -3544122.462499991,
+      "max_residual_us": -3342894.699999988,
+      "min_step_us": -636339.7250000238
+    },
+    {
+      "start_mcu_ms": 240000,
+      "n": 35,
+      "min_residual_us": -4297919.074999988,
+      "median_residual_us": -3904073.525000006,
+      "max_residual_us": -3802996.525000006,
+      "min_step_us": -552984.3999999762
+    },
+    {
+      "start_mcu_ms": 270000,
+      "n": 26,
+      "min_residual_us": -5016307.649999976,
+      "median_residual_us": -4510304.6875,
+      "max_residual_us": -4273916.875,
+      "min_step_us": -718388.5749999881
+    },
+    {
+      "start_mcu_ms": 300000,
+      "n": 55,
+      "min_residual_us": -5062921.425000012,
+      "median_residual_us": -5062486.074999988,
+      "max_residual_us": -4988731.25,
+      "min_step_us": -46613.77500003576
+    }
+  ],
+  "export_us_rollovers": [],
+  "zero_events": [
+    {
+      "sample_us_mod32": 7648450,
+      "accept_us_mod32": 7679149,
+      "count": 1,
+      "wire_ns": 7567816975
+    },
+    {
+      "sample_us_mod32": 8828318,
+      "accept_us_mod32": 8859386,
+      "count": 2,
+      "wire_ns": 8673398075
+    },
+    {
+      "sample_us_mod32": 9863400,
+      "accept_us_mod32": 9894268,
+      "count": 3,
+      "wire_ns": 9715696100
+    },
+    {
+      "sample_us_mod32": 11005116,
+      "accept_us_mod32": 11034819,
+      "count": 4,
+      "wire_ns": 10815872300
+    },
+    {
+      "sample_us_mod32": 11879933,
+      "accept_us_mod32": 11912082,
+      "count": 5,
+      "wire_ns": 11714736725
+    },
+    {
+      "sample_us_mod32": 12795215,
+      "accept_us_mod32": 12826303,
+      "count": 6,
+      "wire_ns": 12618632700
+    },
+    {
+      "sample_us_mod32": 13945916,
+      "accept_us_mod32": 13976937,
+      "count": 7,
+      "wire_ns": 13780411575
+    },
+    {
+      "sample_us_mod32": 16145101,
+      "accept_us_mod32": 16175826,
+      "count": 9,
+      "wire_ns": 15916497700
+    },
+    {
+      "sample_us_mod32": 16934872,
+      "accept_us_mod32": 16965773,
+      "count": 10,
+      "wire_ns": 16692969200
+    },
+    {
+      "sample_us_mod32": 18595906,
+      "accept_us_mod32": 18626497,
+      "count": 11,
+      "wire_ns": 18346647750
+    },
+    {
+      "sample_us_mod32": 19854941,
+      "accept_us_mod32": 19886207,
+      "count": 12,
+      "wire_ns": 19613089400
+    },
+    {
+      "sample_us_mod32": 20813000,
+      "accept_us_mod32": 20842912,
+      "count": 13,
+      "wire_ns": 20564659275
+    },
+    {
+      "sample_us_mod32": 21944739,
+      "accept_us_mod32": 21975217,
+      "count": 14,
+      "wire_ns": 21645737925
+    },
+    {
+      "sample_us_mod32": 24359061,
+      "accept_us_mod32": 24389075,
+      "count": 16,
+      "wire_ns": 23979597050
+    },
+    {
+      "sample_us_mod32": 25400648,
+      "accept_us_mod32": 25430911,
+      "count": 17,
+      "wire_ns": 25019755650
+    },
+    {
+      "sample_us_mod32": 70586276,
+      "accept_us_mod32": 70617123,
+      "count": 22,
+      "wire_ns": 69611304800
+    },
+    {
+      "sample_us_mod32": 72784006,
+      "accept_us_mod32": 72814678,
+      "count": 24,
+      "wire_ns": 71809433500
+    },
+    {
+      "sample_us_mod32": 73608751,
+      "accept_us_mod32": 73639821,
+      "count": 25,
+      "wire_ns": 72638896850
+    },
+    {
+      "sample_us_mod32": 75840252,
+      "accept_us_mod32": 75872218,
+      "count": 27,
+      "wire_ns": 74747451850
+    },
+    {
+      "sample_us_mod32": 76998879,
+      "accept_us_mod32": 77029625,
+      "count": 28,
+      "wire_ns": 75906359500
+    },
+    {
+      "sample_us_mod32": 77760008,
+      "accept_us_mod32": 77790912,
+      "count": 29,
+      "wire_ns": 76684309100
+    },
+    {
+      "sample_us_mod32": 78574748,
+      "accept_us_mod32": 78605549,
+      "count": 30,
+      "wire_ns": 77487215950
+    },
+    {
+      "sample_us_mod32": 80952037,
+      "accept_us_mod32": 80982592,
+      "count": 32,
+      "wire_ns": 79859353600
+    },
+    {
+      "sample_us_mod32": 81893587,
+      "accept_us_mod32": 81924549,
+      "count": 33,
+      "wire_ns": 80796846325
+    },
+    {
+      "sample_us_mod32": 83992849,
+      "accept_us_mod32": 84023297,
+      "count": 35,
+      "wire_ns": 82901125950
+    },
+    {
+      "sample_us_mod32": 93390748,
+      "accept_us_mod32": 93420891,
+      "count": 38,
+      "wire_ns": 92115196550
+    },
+    {
+      "sample_us_mod32": 94498413,
+      "accept_us_mod32": 94529177,
+      "count": 39,
+      "wire_ns": 93212997000
+    },
+    {
+      "sample_us_mod32": 96824213,
+      "accept_us_mod32": 96854868,
+      "count": 41,
+      "wire_ns": 95549961750
+    },
+    {
+      "sample_us_mod32": 99891450,
+      "accept_us_mod32": 99922764,
+      "count": 44,
+      "wire_ns": 98591059325
+    },
+    {
+      "sample_us_mod32": 100956763,
+      "accept_us_mod32": 100987406,
+      "count": 45,
+      "wire_ns": 99671111800
+    },
+    {
+      "sample_us_mod32": 102182429,
+      "accept_us_mod32": 102213842,
+      "count": 46,
+      "wire_ns": 100831154375
+    },
+    {
+      "sample_us_mod32": 104005692,
+      "accept_us_mod32": 104036843,
+      "count": 48,
+      "wire_ns": 102634470725
+    },
+    {
+      "sample_us_mod32": 105965456,
+      "accept_us_mod32": 105995926,
+      "count": 50,
+      "wire_ns": 104539085850
+    },
+    {
+      "sample_us_mod32": 107004991,
+      "accept_us_mod32": 107035943,
+      "count": 51,
+      "wire_ns": 105571253700
+    }
+  ],
+  "interpretation": "Wire residual includes UART queue delay; a step is an observed diagnostic and needs matched GPIO/firmware evidence. No physical oscillator or simulator-root-cause claim."
+}

@@ -1,0 +1,408 @@
+{
+  "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/metrics/lab3/S1.log",
+  "log_sha256": "370a16c040e3dabb9b8ad8c45ed05059f4eefc011cee178d348434075a27554a",
+  "statistics": {
+    "board": {
+      "n": 383729,
+      "min_us": 94,
+      "avg_us": 141,
+      "max_us": 241
+    },
+    "imu": {
+      "n": 383730,
+      "min_us": 13,
+      "avg_us": 19,
+      "max_us": 223
+    },
+    "panel": {
+      "n": 299770,
+      "min_us": 38,
+      "avg_us": 411,
+      "max_us": 838
+    },
+    "led": {
+      "n": 602,
+      "min_us": 11,
+      "avg_us": 18,
+      "max_us": 20
+    },
+    "log": {
+      "n": 602,
+      "min_us": 394,
+      "avg_us": 565,
+      "max_us": 586
+    },
+    "loop": {
+      "n": 383733,
+      "min_us": 251,
+      "avg_us": 783,
+      "max_us": 2463
+    },
+    "command": {
+      "n": 11,
+      "min_us": 62,
+      "avg_us": 362,
+      "max_us": 905
+    },
+    "button": {
+      "n": 0,
+      "min_us": null,
+      "avg_us": null,
+      "max_us": null
+    },
+    "save": {
+      "n": 0,
+      "min_us": null,
+      "avg_us": null,
+      "max_us": null
+    },
+    "imu_dt": {
+      "n": 3004,
+      "min_us": 98150,
+      "avg_us": 100000,
+      "max_us": 101753,
+      "jitter_min_us": -1850,
+      "jitter_max_us": 1753
+    },
+    "adc_dt": {
+      "n": 3005,
+      "min_us": 96925,
+      "avg_us": 99999,
+      "max_us": 103093,
+      "jitter_min_us": -3075,
+      "jitter_max_us": 3093
+    },
+    "panel_dt": {
+      "n": 299778,
+      "min_us": 711,
+      "avg_us": 1002,
+      "max_us": 2428,
+      "jitter_min_us": -289,
+      "jitter_max_us": 1428
+    },
+    "led_dt": {
+      "n": 601,
+      "min_us": 498137,
+      "avg_us": 499997,
+      "max_us": 500374,
+      "jitter_min_us": -1863,
+      "jitter_max_us": 374
+    },
+    "log_dt": {
+      "n": 601,
+      "min_us": 498158,
+      "avg_us": 499997,
+      "max_us": 500376,
+      "jitter_min_us": -1842,
+      "jitter_max_us": 376
+    },
+    "dump_wire": {
+      "n": 0,
+      "min_us": null,
+      "avg_us": null,
+      "max_us": null
+    }
+  },
+  "events": {},
+  "source_id": "src-2cbad8f6d7e5",
+  "resources": [
+    {
+      "stack_used": 596,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 436
+    },
+    {
+      "stack_used": 596,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 437
+    },
+    {
+      "stack_used": 596,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 436
+    },
+    {
+      "stack_used": 600,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 436
+    },
+    {
+      "stack_used": 600,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 437
+    },
+    {
+      "stack_used": 600,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 436
+    },
+    {
+      "stack_used": 624,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 436
+    },
+    {
+      "stack_used": 624,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 436
+    },
+    {
+      "stack_used": 624,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 435
+    },
+    {
+      "stack_used": 624,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 436
+    },
+    {
+      "stack_used": 624,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 0,
+      "service_permille": 444
+    }
+  ],
+  "deadlines": [
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 0,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 1,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 1,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    },
+    {
+      "panel": 1,
+      "led": 0,
+      "log": 0,
+      "command": 0
+    }
+  ],
+  "schedule": [
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 61,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 130,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 200,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 272,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 347,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 421,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 499,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 578,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 665,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 745,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 2,
+      "panel_skips": 760,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    }
+  ],
+  "save_attempts": {
+    "n": 0,
+    "successful": 0,
+    "failed": 0
+  },
+  "evidence_sufficiency": {
+    "zero_events": 0,
+    "periodic_counts": {
+      "imu_dt": 3004,
+      "adc_dt": 3005,
+      "panel_dt": 299778,
+      "led_dt": 601,
+      "log_dt": 601
+    }
+  },
+  "clock": [
+    {
+      "reads": 419641,
+      "wraps": 446,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 828768,
+      "wraps": 904,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 1230899,
+      "wraps": 1362,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 1628905,
+      "wraps": 1820,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 2023846,
+      "wraps": 2278,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 2415698,
+      "wraps": 2735,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 2806032,
+      "wraps": 3193,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 3194895,
+      "wraps": 3651,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 3581272,
+      "wraps": 4109,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 3966590,
+      "wraps": 4567,
+      "max_gap_mod_us": 1168
+    },
+    {
+      "reads": 3981993,
+      "wraps": 4585,
+      "max_gap_mod_us": 1168
+    }
+  ],
+  "clock_review_required": false,
+  "timing_status": "requires TIM3-vs-VCD validation; simulation values are not physical MCU guarantees"
+}

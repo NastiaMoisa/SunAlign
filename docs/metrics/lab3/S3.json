@@ -1,0 +1,350 @@
+{
+  "source": "/Users/pliffdax/Projects/university/Study/People/\u041c\u043e\u0439\u0441\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0456\u044f \u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432\u0456\u0432\u043d\u0430/2026-Fall/SP/Lab01/Work/SunAlign/docs/metrics/lab3/S3.log",
+  "log_sha256": "a41826395b58d8f22ae3fea80314014e34963b2b39958aeb1bca8a2752493153",
+  "statistics": {
+    "board": {
+      "n": 175765,
+      "min_us": 94,
+      "avg_us": 166,
+      "max_us": 65869
+    },
+    "imu": {
+      "n": 175766,
+      "min_us": 13,
+      "avg_us": 29,
+      "max_us": 65624
+    },
+    "panel": {
+      "n": 175152,
+      "min_us": 38,
+      "avg_us": 651,
+      "max_us": 66227
+    },
+    "led": {
+      "n": 584,
+      "min_us": 11,
+      "avg_us": 20,
+      "max_us": 88
+    },
+    "log": {
+      "n": 585,
+      "min_us": 394,
+      "avg_us": 680,
+      "max_us": 827
+    },
+    "loop": {
+      "n": 175981,
+      "min_us": 251,
+      "avg_us": 1659,
+      "max_us": 132896
+    },
+    "command": {
+      "n": 10640,
+      "min_us": 39,
+      "avg_us": 2803,
+      "max_us": 132839
+    },
+    "button": {
+      "n": 51,
+      "min_us": 29703,
+      "avg_us": 30880,
+      "max_us": 32575
+    },
+    "save": {
+      "n": 4210,
+      "min_us": 12,
+      "avg_us": 738,
+      "max_us": 919
+    },
+    "imu_dt": {
+      "n": 2310,
+      "min_us": 33389,
+      "avg_us": 100044,
+      "max_us": 210719,
+      "jitter_min_us": -66611,
+      "jitter_max_us": 110719
+    },
+    "adc_dt": {
+      "n": 3015,
+      "min_us": 31569,
+      "avg_us": 100033,
+      "max_us": 216016,
+      "jitter_min_us": -68431,
+      "jitter_max_us": 116016
+    },
+    "panel_dt": {
+      "n": 180773,
+      "min_us": 518,
+      "avg_us": 1668,
+      "max_us": 132788,
+      "jitter_min_us": -482,
+      "jitter_max_us": 131788
+    },
+    "led_dt": {
+      "n": 603,
+      "min_us": 384617,
+      "avg_us": 499999,
+      "max_us": 615802,
+      "jitter_min_us": -115383,
+      "jitter_max_us": 115802
+    },
+    "log_dt": {
+      "n": 603,
+      "min_us": 384618,
+      "avg_us": 500000,
+      "max_us": 615834,
+      "jitter_min_us": -115382,
+      "jitter_max_us": 115834
+    },
+    "dump_wire": {
+      "n": 153,
+      "min_us": 3139,
+      "avg_us": 30893,
+      "max_us": 210333
+    }
+  },
+  "events": {
+    "zero_sample_to_accept": {
+      "n": 34,
+      "min_us": 29703,
+      "avg_us": 30800.647058823528,
+      "max_us": 32149,
+      "p99_us": 32149
+    }
+  },
+  "source_id": "src-2cbad8f6d7e5",
+  "resources": [
+    {
+      "stack_used": 632,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 25646,
+      "service_permille": 672
+    },
+    {
+      "stack_used": 664,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 372329,
+      "service_permille": 669
+    },
+    {
+      "stack_used": 664,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 544245,
+      "service_permille": 670
+    },
+    {
+      "stack_used": 664,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 729926,
+      "service_permille": 668
+    },
+    {
+      "stack_used": 664,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 914951,
+      "service_permille": 668
+    },
+    {
+      "stack_used": 664,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 1097885,
+      "service_permille": 673
+    },
+    {
+      "stack_used": 680,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 1282229,
+      "service_permille": 628
+    },
+    {
+      "stack_used": 680,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 1459782,
+      "service_permille": 688
+    },
+    {
+      "stack_used": 680,
+      "heap_peak": 0,
+      "rx_lost": 0,
+      "rx_errors": 0,
+      "tx_lost": 1693761,
+      "service_permille": 668
+    }
+  ],
+  "deadlines": [
+    {
+      "panel": 203,
+      "led": 0,
+      "log": 0,
+      "command": 7
+    },
+    {
+      "panel": 934,
+      "led": 4,
+      "log": 3,
+      "command": 24
+    },
+    {
+      "panel": 1293,
+      "led": 5,
+      "log": 4,
+      "command": 30
+    },
+    {
+      "panel": 1665,
+      "led": 5,
+      "log": 4,
+      "command": 39
+    },
+    {
+      "panel": 2385,
+      "led": 10,
+      "log": 9,
+      "command": 62
+    },
+    {
+      "panel": 3093,
+      "led": 11,
+      "log": 10,
+      "command": 93
+    },
+    {
+      "panel": 3468,
+      "led": 11,
+      "log": 10,
+      "command": 107
+    },
+    {
+      "panel": 3573,
+      "led": 12,
+      "log": 11,
+      "command": 112
+    }
+  ],
+  "schedule": [
+    {
+      "panel_late_ms": 67,
+      "panel_skips": 4189,
+      "led_late_ms": 2,
+      "log_late_ms": 2
+    },
+    {
+      "panel_late_ms": 68,
+      "panel_skips": 28125,
+      "led_late_ms": 68,
+      "log_late_ms": 68
+    },
+    {
+      "panel_late_ms": 134,
+      "panel_skips": 40240,
+      "led_late_ms": 116,
+      "log_late_ms": 116
+    },
+    {
+      "panel_late_ms": 134,
+      "panel_skips": 52798,
+      "led_late_ms": 116,
+      "log_late_ms": 116
+    },
+    {
+      "panel_late_ms": 134,
+      "panel_skips": 65452,
+      "led_late_ms": 116,
+      "log_late_ms": 116
+    },
+    {
+      "panel_late_ms": 134,
+      "panel_skips": 78033,
+      "led_late_ms": 116,
+      "log_late_ms": 116
+    },
+    {
+      "panel_late_ms": 134,
+      "panel_skips": 91254,
+      "led_late_ms": 116,
+      "log_late_ms": 116
+    },
+    {
+      "panel_late_ms": 134,
+      "panel_skips": 103890,
+      "led_late_ms": 116,
+      "log_late_ms": 116
+    },
+    {
+      "panel_late_ms": 134,
+      "panel_skips": 120882,
+      "led_late_ms": 116,
+      "log_late_ms": 116
+    }
+  ],
+  "save_attempts": {
+    "n": 3378,
+    "successful": 0,
+    "failed": 3378
+  },
+  "evidence_sufficiency": {
+    "zero_events": 35,
+    "periodic_counts": {
+      "imu_dt": 2310,
+      "adc_dt": 3015,
+      "panel_dt": 180773,
+      "led_dt": 603,
+      "log_dt": 603
+    }
+  },
+  "clock": [
+    {
+      "reads": 575545,
+      "wraps": 1201,
+      "max_gap_mod_us": 65512
+    },
+    {
+      "reads": 780425,
+      "wraps": 1663,
+      "max_gap_mod_us": 65512
+    },
+    {
+      "reads": 983558,
+      "wraps": 2130,
+      "max_gap_mod_us": 65513
+    },
+    {
+      "reads": 1387386,
+      "wraps": 3060,
+      "max_gap_mod_us": 65513
+    },
+    {
+      "reads": 1787371,
+      "wraps": 3995,
+      "max_gap_mod_us": 65513
+    },
+    {
+      "reads": 1989305,
+      "wraps": 4470,
+      "max_gap_mod_us": 65513
+    },
+    {
+      "reads": 2045108,
+      "wraps": 4602,
+      "max_gap_mod_us": 65513
+    }
+  ],
+  "clock_review_required": true,
+  "timing_status": "requires TIM3-vs-VCD validation; simulation values are not physical MCU guarantees"
+}
